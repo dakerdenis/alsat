@@ -104,7 +104,7 @@
 }
 .month_income {
     width: 48%;
-
+    text-align: center;
 }
 .month_income_desc {
 }
@@ -112,16 +112,68 @@
     padding-top: 5px;
 }
 .advertisement__block{
-    background-color: aquamarine;
+
     width: 100%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .advertisement__img {
     margin: 0 auto;
-    width: 36%;
+    width: calc(100% - 54%);
+
     text-align: center;
     background-color: brown;
 }
 .advertisement__img-img {
     width: 100%;
+}
+/************************************/
+/************************************/
+/************************************/
+.four__block__buisness {
+    width: 80%;
+margin: 0 auto;
+margin-top: 45px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+height: 100%;
+background-color: #fff;
+color: rgb(8, 21, 52);
+}
+.four__block_buisness__name {
+
+    display: flex;
+    align-items: center;
+}
+.four__block_buisness__name-img {
+}
+.four__block_buisness__name-p {
+    margin-left: 10px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.four__block_buisness_block {
+    display: flex;
+    flex-direction: column;
+    width: 47.1%;
+
+    flex-wrap: wrap;
+    
+}
+.four__block_buisness_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.sell_find_buisness_button{
+    width: 100%;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.sell_find_buisness_button a{
+    background-color: #FFDE5A;
+    font-size: 20px;
+    padding: 8px 35px;
+    color: rgb(8, 21, 52);
+    border-radius: 25px;
 }
