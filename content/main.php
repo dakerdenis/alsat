@@ -1185,3 +1185,9 @@
 
 
 <!-- Advertisement block 2-->
+
+<div class="advertisement__block2">
+    <div class="advertisement__img2">
+        <img src="https://placehold.jp/3d4070/ffffff/550x300.png" alt="" class="advertisement__img2-img">
+    </div>
+</div>

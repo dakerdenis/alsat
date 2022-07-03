@@ -111,6 +111,9 @@
 .month_income_price {
     padding-top: 5px;
 }
+/***********************************/
+/***********************************/
+/***********************************/
 .advertisement__block{
 
     width: 100%;
@@ -136,7 +139,6 @@ margin-top: 45px;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-height: 100%;
 background-color: #fff;
 color: rgb(8, 21, 52);
 }
@@ -176,4 +178,45 @@ color: rgb(8, 21, 52);
     padding: 8px 35px;
     color: rgb(8, 21, 52);
     border-radius: 25px;
+}
+/***********************************/
+/***********************************/
+/***********************************/
+.advertisement__block2{
+    margin-top: 45px;
+    width: 100%;
+
+}
+.advertisement__img2 {
+    width: 80%;
+    height: 31.25em ;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+.advertisement__img2-img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 429px) {
+    .four__block_buisness {
+        flex-direction: column;
+
+     }
+     .four__block_buisness_block{
+        flex-direction: column;
+        width: 100%;
+     }
+     .four__block_buisness_wrapper{
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+     }
+     .advertisement__block2{
+
+     }
+     .sell_find_buisness_button{
+        width: 100%;
+     }
 }
