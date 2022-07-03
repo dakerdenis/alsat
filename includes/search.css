@@ -1,0 +1,12 @@
+.search__wrapper {
+    margin: 0 auto;
+    width: 93%;
+    height: calc(100vh - 59%);
+    background-color: greenyellow;
+}
+.search__container {
+}
+.search__name {
+}
+.search__form {
+}

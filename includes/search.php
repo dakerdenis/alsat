@@ -1,4 +1,4 @@
-<?php include './includes/search.css' ?>     
+  
      <!--*search  контейнер с формой поиска-->
       <div class="search__wrapper">
         <!--ограничивающий контейнер-->
