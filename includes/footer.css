@@ -15,10 +15,11 @@
     width: 29%;
 }
 .footer__element-logo {
-
+    width: 150px;
+    height: 50px
 }
 .footer__element-logo-img {
-
+    width: 100%;
 }
 .footer__element-contact {
     margin-top: 20px;

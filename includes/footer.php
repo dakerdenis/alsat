@@ -6,7 +6,7 @@
     <div class="footer__element">
       <!--logotype -->
       <div class="footer__element-logo">
-        <img src="https://placehold.jp/3d4070/ffffff/180x50.png" alt="" class="footer__element-logo-img">
+        <img src="./style/imgs/alsat.png" alt="" class="footer__element-logo-img">
       </div>
       <!--contact number -->
       <div class="footer__element-contact">
