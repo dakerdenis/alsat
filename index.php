@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="./includes/search.css">
   <!--main content styles-->
   <link rel="stylesheet" href="./content/style.css">
+  <!-- стили обьявления-->
+  <link rel="stylesheet" href="./style/element.css">
   <!--footer styles-->
   <link rel="stylesheet" href="./includes/footer.css">
   <title>AlBiz</title>
