@@ -10,23 +10,23 @@
       </div>
       <!--contact number -->
       <div class="footer__element-contact">
-        <img src="https://placehold.jp/3d4070/ffffff/70x70.png" alt="" class="footer__element-contact-img">
+        <img src="./style/imgs/live-chat.png" alt="" class="footer__element-contact-img">
         <p class="footer__element-contact-p">
           *0099
         </p>
       </div>
       <!--OTHER information -->
       <div class="footer__element_rest-info">
-        Lorem ipsum Void
+        <a href="#">Lorem ipsum Void</a>
       </div>
       <div class="footer__element_rest-info">
-        Lorem ipsum Void
+      <a href="#">Lorem ipsum Void</a>
       </div>
       <div class="footer__element_rest-info">
-        Lorem ipsum Void
+      <a href="#">Lorem ipsum Void</a>
       </div>
       <div class="footer__element_rest-info">
-        Lorem ipsum Void
+      <a href="#">Lorem ipsum Void</a>
       </div>
 
     </div>

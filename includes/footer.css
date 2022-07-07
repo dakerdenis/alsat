@@ -33,6 +33,9 @@
     font-size: 17px;
     margin-top: 17px;
 }
+.footer__element_rest-info  a {
+    color: #081534;
+}
 .footer__element_districkt {
     font-size: 19px;
     font-weight: 500;
