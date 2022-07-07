@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="./includes/search.css">
   <!--main content styles-->
   <link rel="stylesheet" href="./content/style.css">
+  <!--page стили страницы --->
+  <link rel="stylesheet" href="./content/page.css">
   <!-- стили обьявления-->
   <link rel="stylesheet" href="./style/element.css">
   <!--footer styles-->
@@ -34,8 +36,38 @@
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
-    <?php include './element.php';
-    ?>   
+    <a href="./index.php?source=main">главный контент</a>
+    <a href="./index.php?source=element">Страница элемента</a>
+    <a href="./index.php?source=account">Личный кабинет</a>
+    <a href="./index.php?source=page">Инфо страницп</a>
+  <?php 
+    if (isset($_GET['source'])){
+      $source = $_GET['source'];
+    } else {
+      $source = '';}
+      switch($source){
+        case 'main';
+        include './content/main.php';
+        break;
+
+        case 'element';
+        include './content/element.php';
+        break;
+
+        case 'account';
+        include './content/account.php';
+        break;
+
+        case 'page';
+        include './content/page.php';
+        break;
+
+        default:
+        include './content/content/main.php';
+        break;
+      }
+  ?>
+
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
