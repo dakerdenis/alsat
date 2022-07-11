@@ -24,13 +24,15 @@
 .header__form {
     display: flex;
 
-    width: 29%;
-    justify-content: space-between;
+    width: 50%;
+
+    justify-content: end;
     align-items: center;
 }
 .header__add_buisness{
     height: 40px;
     display: flex;
+    margin-right: 20px;
 }
 .header__add_buisness img {
     margin-right: 8px;
@@ -67,7 +69,7 @@
 }
 .header__form_login {
     height: 40px;
-
+    margin-right: 20px;
 }
 .header__form_login  a {
     display: flex;
@@ -119,4 +121,29 @@
 }
 .header_nav_element:first-child{
 
+}
+@media only screen and (max-width: 429px){
+    .header__wrapper {
+    }
+    .header_container_form {
+    }
+    .header__logo {
+    }
+    .header__form {
+        display: none;
+    }
+    .header__add_buisness {
+    }
+    .header__form_login {
+    }
+    .header__form_language {
+    }
+    .header_container_nav {
+        display: none;
+        visibility: hidden;
+    }
+    .header_nav_wrap {
+    }
+    .header_nav_element {
+    }
 }
