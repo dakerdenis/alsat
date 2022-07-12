@@ -103,7 +103,7 @@
     justify-content: end;
 }
 .verified_img img{
-    width: 50%;
+    width: 20px;
 }
 .top_img- {
     width: 100%;
@@ -111,7 +111,7 @@
     justify-content: end;
 }
 .top_img- img {
-    width: 60%;
+    width: 27px
 }
 .percentage__income {
     background-color: #fff;

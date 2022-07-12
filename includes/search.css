@@ -1,14 +1,17 @@
 .search__wrapper {
     margin: 0 auto;
     width: 93%;
-    height: 50vh;
-    height: calc(100vh - 59%);
+    height: 66.3vh;
+
     background-image: url('../style/imgs/main_background.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+
+
 }
 .search__container {
+    display: block;
 }
 .search__name {
 }

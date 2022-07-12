@@ -36,10 +36,10 @@
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
-    <a href="./index.php?source=main">главный контент</a>
-    <a href="./index.php?source=element">Страница элемента</a>
-    <a href="./index.php?source=account">Личный кабинет</a>
-    <a href="./index.php?source=page">Инфо страницп</a>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=main">главный контент</a>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=element">Страница элемента</a>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=account">Личный кабинет</a>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=page">Инфо страницп</a>
   <?php 
     if (isset($_GET['source'])){
       $source = $_GET['source'];
