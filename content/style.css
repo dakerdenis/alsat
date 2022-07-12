@@ -94,11 +94,24 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: end;
+
+
 }
 .verified_img {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.verified_img img{
+    width: 50%;
 }
 .top_img- {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.top_img- img {
+    width: 60%;
 }
 .percentage__income {
     background-color: #fff;

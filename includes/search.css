@@ -1,12 +1,23 @@
 .search__wrapper {
     margin: 0 auto;
     width: 93%;
+    height: 50vh;
     height: calc(100vh - 59%);
-    background-color: greenyellow;
+    background-image: url('../style/imgs/main_background.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .search__container {
 }
 .search__name {
 }
 .search__form {
+}
+
+
+@media only screen and (max-width: 767px){
+    .search__wrapper{
+        padding-top: 250px;
+    }
 }
