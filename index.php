@@ -8,16 +8,18 @@
 
 
   <link rel="stylesheet" href="./style/style.css" />
-  <!--header styles-->
+  <!--header вход выход styles-->
   <link rel="stylesheet" href="./includes/header.css">
-  <!--search styles--->
+  <!--search styles форма поиска--->
   <link rel="stylesheet" href="./includes/search.css">
-  <!--main content styles-->
+  <!--main content styles главная страница-->
   <link rel="stylesheet" href="./content/style.css">
-  <!--page стили страницы --->
+  <!--page стили страницы разное --->
   <link rel="stylesheet" href="./content/page.css">
-  <!-- стили обьявления-->
+  <!-- стили обьявления одного обьекта-->
   <link rel="stylesheet" href="./style/element.css">
+  <!--стили личного кабинета--->
+  <link rel="stylesheet" href="./content/account.css">
   <!--footer styles-->
   <link rel="stylesheet" href="./includes/footer.css">
   <title>AlBiz</title>
