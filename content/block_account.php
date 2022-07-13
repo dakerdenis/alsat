@@ -7,7 +7,8 @@
                             <!--element image-->
                             <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
                             <!--Bookmark -->
-                            <div class="element__bookmark">
+                            <div class=" element_status">
+                                <img src="./style/imgs/active.svg" alt="">
                             </div>
                         </div>
                         <!--element content -->
