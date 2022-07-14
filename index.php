@@ -15,8 +15,7 @@
 
 
 
-  <!--стили личного кабинета--->
-  <link rel="stylesheet" href="./content/account.css">
+
   <!--footer styles-->
   <link rel="stylesheet" href="./includes/footer.css">
   <title>AlBiz</title>

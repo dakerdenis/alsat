@@ -1,5 +1,7 @@
 <style>
+        <?php include './content/block.css'; ?>
     <?php include './style/element.css'; ?>
+
 </style>
 
 <div class="product_wrapper">

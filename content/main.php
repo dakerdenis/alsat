@@ -1,10 +1,6 @@
     <!--стили главной страницы-->
     <style>
-        <?php include './content/main.css' ?>
-    </style>
-    <!--стили элемента-->
-    <style>
-        <?php include './content/element.css' ?>
+        <?php include './content/block.css'; ?><?php include './content/main.css'; ?>
     </style>
 
     <div class="content__wrapper">
@@ -179,7 +175,7 @@
     <!--Advertisement block -->
     <div class="advertisement__block">
         <div class="advertisement__img">
-            <img class="advertisement__img-img" src="../style/imgs/big_element_back.png" alt="">
+            <img class="advertisement__img-img" src="./style/imgs/advertisement_samll.png" alt="">
         </div>
     </div>
 
