@@ -1,3 +1,7 @@
+<style>
+    <?php include './content/page.css'; ?>
+</style>
+
 <div class="page__wrapper">
     <!--описание страницы и навигация назад-->
     <div class="page__desc">

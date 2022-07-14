@@ -12,12 +12,9 @@
   <link rel="stylesheet" href="./includes/header.css">
   <!--search styles форма поиска--->
   <link rel="stylesheet" href="./includes/search.css">
-  <!--main content styles главная страница-->
-  <link rel="stylesheet" href="./content/main.css">
-  <!--page стили страницы разное --->
-  <link rel="stylesheet" href="./content/page.css">
-  <!-- стили обьявления одного обьекта-->
-  <link rel="stylesheet" href="./style/element.css">
+
+
+
   <!--стили личного кабинета--->
   <link rel="stylesheet" href="./content/account.css">
   <!--footer styles-->

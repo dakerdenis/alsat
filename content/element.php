@@ -1,3 +1,7 @@
+<style>
+    <?php include './style/element.css'; ?>
+</style>
+
 <div class="product_wrapper">
     <!-- навигация и номер обьявления--->
     <div class="product__desc">
