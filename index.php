@@ -13,7 +13,7 @@
   <!--search styles форма поиска--->
   <link rel="stylesheet" href="./includes/search.css">
   <!--main content styles главная страница-->
-  <link rel="stylesheet" href="./content/style.css">
+  <link rel="stylesheet" href="./content/main.css">
   <!--page стили страницы разное --->
   <link rel="stylesheet" href="./content/page.css">
   <!-- стили обьявления одного обьекта-->
@@ -38,9 +38,9 @@
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
-    <a style="color:red; padding-left: 15px;" href="./index.php?source=main">главный контент</a>
-    <a style="color:red; padding-left: 15px;" href="./index.php?source=element">Страница элемента</a>
-    <a style="color:red; padding-left: 15px;" href="./index.php?source=account">Личный кабинет</a>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=main">главный контент</a> <br>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=element">Страница элемента</a> <br>
+    <a style="color:red; padding-left: 15px;" href="./index.php?source=account">Личный кабинет</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=page">Инфо страницп</a>
   <?php 
     if (isset($_GET['source'])){

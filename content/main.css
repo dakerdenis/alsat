@@ -362,11 +362,14 @@
 }
 @media only screen and (max-width: 1285px){}
 @media only screen and (max-width: 429px) {
+    .content__wrapper{
+        width: 95%;
+    }
     .elelement__block {
 
         margin-top: 25px;
         height: calc(32.75em - 15%);
-        width: 48%;
+        width: 150px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;

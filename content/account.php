@@ -54,7 +54,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -87,7 +87,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -120,7 +120,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -153,7 +153,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -186,7 +186,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -219,7 +219,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -252,7 +252,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">
@@ -285,7 +285,7 @@
                             <div class="favorite__element_desc_block">
                                 <!----prive -->
                                 <div class="favorite__element_price">
-                                    99 000 000 AZN
+                                    99 000 000 ₼
                                 </div>
                                 <!-- Type -->
                                 <div class="favorite__element_type">

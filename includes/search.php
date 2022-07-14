@@ -28,5 +28,7 @@
       </div>
     </div>
 
-
+    <div class="search_container">
+      
+    </div>
   </div>
