@@ -35,7 +35,7 @@
 
   <div class="search_container">
     <div class="search_name_desc">
-      Hazır biznes almaq və satmaq | Satış üçün biznes təklifi
+      Hazır biznes almaq və satmaq &nbsp; | &nbsp; Satış üçün biznes təklifi
     </div>
     <form class="searc_form" action="">
       <div class="search_block_wrapper">

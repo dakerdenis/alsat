@@ -12,7 +12,7 @@
 }
 
 .search_container{
-    background-color: aquamarine;
+    background-color: #fff;
     width: 75%;
     margin-left: 7%;
     padding: 26px;
@@ -23,9 +23,10 @@
     border-radius: 25px;
 
 }
-.search_container {
-}
+
 .search_name_desc {
+    font-size: 23px;
+    color: #081534;
 }
 .searc_form {
 }
