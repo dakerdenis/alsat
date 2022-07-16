@@ -37,7 +37,7 @@
     <div class="search_name_desc">
       Hazır biznes almaq və satmaq | Satış üçün biznes təklifi
     </div>
-    <form action="">
+    <form class="searc_form" action="">
       <div class="search_block_wrapper">
         <!--Стандартный блок на 2 элемента--->
         <div class="search__block_block">
