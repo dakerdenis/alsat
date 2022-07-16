@@ -2,7 +2,7 @@
     margin: 0 auto;
     width: 93%;
     height: 66.3vh;
-
+    position: relative;
     background-image: url('../style/imgs/main_background.png');
     background-position: center;
     background-size: contain;
@@ -11,7 +11,18 @@
 
 }
 
+.search_container{
+    background-color: aquamarine;
+    width: 75%;
+    margin-left: 7%;
+    padding: 26px;
+    position: absolute;
+    top: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: 40%;
+    border-radius: 25px;
 
+}
 
 @media only screen and (max-width: 767px){
     .search__wrapper{

@@ -1,4 +1,9 @@
-  <!--*search  контейнер с формой поиска-->
+<style>
+  <?php
+    include './search.css'
+  ?>
+</style>
+<!--*search  контейнер с формой поиска-->
   <div class="search__wrapper">
 
 
@@ -29,6 +34,8 @@
     </div>
 
     <div class="search_container">
-      
+      <div class="search_name_desc">
+        Hazır biznes almaq və satmaq | Satış üçün biznes təklifi
+      </div>
     </div>
   </div>
