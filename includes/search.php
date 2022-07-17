@@ -43,7 +43,7 @@
           <!--Стандартный блок на 2 элемента--->
           <div class="search__block_block">
             <div class="serach__block__almaq">
-              Almaq
+              <p>Almaq</p>
             </div>
             <div class="serach__block__category">
               Kateqoriyalar

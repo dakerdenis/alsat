@@ -49,13 +49,40 @@
 }
 .search__block_block {
     display: flex;
+    justify-content: space-between;
+    width: 30%;
+    background-color: burlywood;
+
+
 }
 .serach__block__almaq {
+    border: 2px solid #47A8E5;
+    border-radius: 30px;
+    padding: 8px 15px 8px 15px;
+    font-size: 21px;
+    color: #081534;
+    width: 35%;
+    text-align: center;
+
 }
 .serach__block__category {
+    border: 2px solid #47A8E5;
+    border-radius: 30px;
+    padding: 8px 15px 8px 15px;
+    font-size: 21px;
+    color: #081534;
+    width: 56%;
+    text-align: center;
+
 }
 .search__block_block2 {
+    width: 68%;
+    background-color: chocolate;
+    border: 1px solid #47A8E5;
 }
+
+
+
 .serach__block__buy {
 }
 .search__block_block2-2 {
