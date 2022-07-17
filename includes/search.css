@@ -29,10 +29,26 @@
     color: #081534;
 }
 .searc_form {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 26px;
 }
 .search_block_wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.search__block_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #e3e3e3;
 }
 .search__block_block {
+    display: flex;
 }
 .serach__block__almaq {
 }

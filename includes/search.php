@@ -39,36 +39,25 @@
     </div>
     <form class="searc_form" action="">
       <div class="search_block_wrapper">
-        <!--Стандартный блок на 2 элемента--->
-        <div class="search__block_block">
-          <div class="serach__block__almaq">
-            Almaq
+        <div class="search__block_container">
+          <!--Стандартный блок на 2 элемента--->
+          <div class="search__block_block">
+            <div class="serach__block__almaq">
+              Almaq
+            </div>
+            <div class="serach__block__category">
+              Kateqoriyalar
+            </div>
           </div>
-          <div class="serach__block__category">
-            Kateqoriyalar
+          <!--Стандартный блок на 1 элемент--->
+          <div class="search__block_block2">
+            Metro Rayon Küçə
           </div>
-        </div>
-        <!--Стандартный блок на 1 элемент--->
-        <div class="search__block_block2">
-          Metro Rayon Küçə
         </div>
 
 
-        <!--Стандартный блок на 2 элемента--->
-        <div class="search__block_block">
-          <div class="serach__block__buy">
-            Sahə
-          </div>
-        </div>
-        <!--Стандартный блок на 2 элементa 2--->
-        <div class="search__block_block2-2">
-          <div class="serach__block__price">
-            Qiymət
-          </div>
-          <div class="serach__block__status">
-            Status
-          </div>
-        </div>
+
+
         <!--Блок с вариантами локацией и кнопкой поиска -->
         <div class="search__block__map_button">
           <!---доп поиск все обнулить запомнить поиск--->
@@ -88,7 +77,7 @@
           <div class="search__block__map_button">
             <!---локация на карте--->
             <div class="search__block__map">
-              <img src="./style/imgs/location.png" alt="#" >
+              <img src="./style/imgs/location.png" alt="#">
               Xətirə baxın
             </div>
             <!-----кнопка поиска-->
