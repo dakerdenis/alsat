@@ -43,10 +43,11 @@
           <!--Стандартный блок на 2 элемента--->
           <div class="search__block_block">
             <div class="serach__block__almaq">
-              <p>Almaq</p>
+              <div>Almaq <img src="./style/imgs/arrow-down.svg" alt="" srcset=""></div>
             </div>
             <div class="serach__block__category">
-              Kateqoriyalar
+              
+              <div>Kateqoriyalar <img src="./style/imgs/arrow-down.svg" alt="" srcset=""></div>
             </div>
           </div>
           <!--Стандартный блок на 1 элемент--->
