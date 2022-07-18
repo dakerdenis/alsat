@@ -80,6 +80,6 @@
   <!--самый нижний блок с копирайтом-->
   <div class="footer__bottom_container">© Albiz 2022</div>
   <!----THIS SITE WAS CREATED BY "DAKER CREATIVE STUDIO" https://daker.website
-
+    BACK END & ADMIN PANEL BY MURAT ALIBEKOV https://alibekov.dev 
   ---->
 </div>
