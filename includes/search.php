@@ -124,15 +124,15 @@
             <!---Наличие --->
             <div class="search__block__active">
               <p>Status</p>
-            <div class="custom-select3">
-              <select>
-                <option value="0">Aktiv</option>
-                <option value="0">Aktiv</option>
-                <option value="0">Baglidir</option>
-                <option value="1">Planda</option>
-                <option value="2">Snos</option>
-              </select>
-            </div>
+              <div class="custom-select3">
+                <select>
+                  <option value="0">Aktiv</option>
+                  <option value="0">Aktiv</option>
+                  <option value="0">Baglidir</option>
+                  <option value="1">Planda</option>
+                  <option value="2">Snos</option>
+                </select>
+              </div>
             </div>
           </div>
         </div>
@@ -453,4 +453,15 @@
     // If no option is the default, select first or none as appropriate
     selectElement.selectedIndex = 0; // or -1 for no option selected
   });
+
+
+
+  /************Динамическое изменение размера INPUT************** */
+  var input = document.querySelector('input'); // get the input element
+input.addEventListener('input', resizeInput); // bind the "resizeInput" callback on "input" event
+resizeInput.call(input); // immediately call the function
+
+function resizeInput() {
+  this.style.width = this.value.length + "1ch" + "ch";
+}
 </script>
