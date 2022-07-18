@@ -252,11 +252,17 @@ font-size: 21px;
 }
 
 .search__block__active{
-    border: 2px solid #47A8E5;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     border-radius: 30px;
-    padding: 8px 15px 8px 15px;
+
     font-size: 21px;
     width: 42%;
+}
+.search__block__active p {
+    display: block;
+    margin-right: 15px;
 }
 
 
@@ -517,7 +523,94 @@ font-size: 21px;
     display: none;
   }
   
-  .select-items2 div:hover, .same-as-selected1 {
+  .select-items2 div:hover, .same-as-selected2 {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/*the container must be positioned relative:*/
+.custom-select3 {
+    position: relative;
+    font-family: Arial;
+        border-radius: 30px;
+        width: 37%;
+        height: 100%;
+        border: 2px solid #47A8E5;
+  }
+  
+  .custom-select3 select {
+    display: none; /*hide original SELECT element:*/
+      border-radius: 30px;
+      border: 2px solid #47A8E5;
+
+  }
+  
+  .select-selected3 {
+
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 20px;
+      color: #081534;
+      background-color: #fff;
+      border: 2px solid #47A8E5;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected3:after {
+    position: absolute;
+    content: "";
+    top: 19px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #081534 transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected3.select-arrow-active3:after {
+    border-color: transparent transparent #081534 transparent;
+    top: 13px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items3 div,.select-selected3 {
+
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items3 {
+    position: absolute;
+    background-color: #fff;
+    color: #081534;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    font-size: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide3 {
+    display: none;
+  }
+  
+  .select-items23div:hover, .same-as-selected3 {
     background-color: rgba(0, 0, 0, 0.1);
   }
 
