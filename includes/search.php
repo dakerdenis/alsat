@@ -42,13 +42,36 @@
         <div class="search__block_container">
           <!--Стандартный блок на 2 элемента--->
           <div class="search__block_block">
-            <div class="serach__block__almaq">
-              <div>Almaq <img src="./style/imgs/arrow-down.svg" alt="" srcset=""></div>
+
+
+            <!--Варианты покупки полные---->
+            <div class="custom-select1">
+              <select>
+                <option value="0">Almaq</option>
+                <option value="0">Almaq</option>
+                <option value="0">Satmaq</option>
+                <option value="1">Arenda</option>
+                <option value="2">Snos</option>
+
+
+              </select>
             </div>
-            <div class="serach__block__category">
-              
-              <div>Kateqoriyalar <img src="./style/imgs/arrow-down.svg" alt="" srcset=""></div>
+
+            <!--Варианты категорий полные---->
+            <div class="custom-select2">
+              <select>
+                <option value="0">Kategoriyalar</option>
+                <option value="0">Kategoriyalar</option>
+                <option value="1">Restoran</option>
+                <option value="2">Kafe</option>
+                <option value="3">Studia</option>
+                <option value="4">Zavod</option>
+
+              </select>
             </div>
+
+
+
           </div>
           <!--Стандартный блок на 1 элемент--->
           <div class="search__block_block2">
@@ -104,9 +127,6 @@
             </div>
           </div>
         </div>
-
-
-
         <!--Блок с вариантами локацией и кнопкой поиска -->
         <div class="search__block__map_button">
           <!---доп поиск все обнулить запомнить поиск--->
@@ -141,11 +161,202 @@
   </div>
 </div>
 <script>
+  /**********Скрипт для выбора варианта покупки ************** */
+  /**********Скрипт для выбора варианта покупки ************** */
+  /**********Скрипт для выбора варианта покупки ************** */
+  /**********Скрипт для выбора варианта покупки ************** */
+  /**********Скрипт для выбора варианта покупки ************** */
+  var x, i, j, l, ll, selElmnt, a, b, c;
+  /*look for any elements with the class "custom-select":*/
+  x = document.getElementsByClassName("custom-select1");
+  l = x.length;
+  for (i = 0; i < l; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+    ll = selElmnt.length;
+    /*for each element, create a new DIV that will act as the selected item:*/
+    a = document.createElement("DIV");
+    a.setAttribute("class", "select-selected1");
+    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    x[i].appendChild(a);
+    /*for each element, create a new DIV that will contain the option list:*/
+    b = document.createElement("DIV");
+    b.setAttribute("class", "select-items1 select-hide1");
+    for (j = 1; j < ll; j++) {
+      /*for each option in the original select element,
+      create a new DIV that will act as an option item:*/
+      c = document.createElement("DIV");
+      c.innerHTML = selElmnt.options[j].innerHTML;
+      c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected1");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected1");
+            break;
+          }
+        }
+        h.click();
+      });
+      b.appendChild(c);
+    }
+    x[i].appendChild(b);
+    a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide1");
+      this.classList.toggle("select-arrow-active1");
+    });
+  }
+
+  function closeAllSelect(elmnt) {
+    /*a function that will close all select boxes in the document,
+    except the current select box:*/
+    var x, y, i, xl, yl, arrNo = [];
+    x = document.getElementsByClassName("select-items1");
+    y = document.getElementsByClassName("select-selected1");
+    xl = x.length;
+    yl = y.length;
+    for (i = 0; i < yl; i++) {
+      if (elmnt == y[i]) {
+        arrNo.push(i)
+      } else {
+        y[i].classList.remove("select-arrow-active1");
+      }
+    }
+    for (i = 0; i < xl; i++) {
+      if (arrNo.indexOf(i)) {
+        x[i].classList.add("select-hide1");
+      }
+    }
+  }
+  /*if the user clicks anywhere outside the select box,
+  then close all select boxes:*/
+  document.addEventListener("click", closeAllSelect);
+
+  /**********Скрипт для выбора варианта категорий ************** */
+  /**********Скрипт для выбора варианта категорий ************** */
+  /**********Скрипт для выбора варианта категорий ************** */
+  /**********Скрипт для выбора варианта категорий ************** */
+  /**********Скрипт для выбора варианта категорий ************** */
+  var x, i, j, l, ll, selElmnt, a, b, c;
+  /*look for any elements with the class "custom-select":*/
+  x = document.getElementsByClassName("custom-select2");
+  l = x.length;
+  for (i = 0; i < l; i++) {
+    selElmnt = x[i].getElementsByTagName("select")[0];
+    ll = selElmnt.length;
+    /*for each element, create a new DIV that will act as the selected item:*/
+    a = document.createElement("DIV");
+    a.setAttribute("class", "select-selected2");
+    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    x[i].appendChild(a);
+    /*for each element, create a new DIV that will contain the option list:*/
+    b = document.createElement("DIV");
+    b.setAttribute("class", "select-items2 select-hide2");
+    for (j = 1; j < ll; j++) {
+      /*for each option in the original select element,
+      create a new DIV that will act as an option item:*/
+      c = document.createElement("DIV");
+      c.innerHTML = selElmnt.options[j].innerHTML;
+      c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected2");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected2");
+            break;
+          }
+        }
+        h.click();
+      });
+      b.appendChild(c);
+    }
+    x[i].appendChild(b);
+    a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide2");
+      this.classList.toggle("select-arrow-active2");
+    });
+  }
+
+  function closeAllSelect(elmnt) {
+    /*a function that will close all select boxes in the document,
+    except the current select box:*/
+    var x, y, i, xl, yl, arrNo = [];
+    x = document.getElementsByClassName("select-items2");
+    y = document.getElementsByClassName("select-selected2");
+    xl = x.length;
+    yl = y.length;
+    for (i = 0; i < yl; i++) {
+      if (elmnt == y[i]) {
+        arrNo.push(i)
+      } else {
+        y[i].classList.remove("select-arrow-active2");
+      }
+    }
+    for (i = 0; i < xl; i++) {
+      if (arrNo.indexOf(i)) {
+        x[i].classList.add("select-hide2");
+      }
+    }
+  }
+  /*if the user clicks anywhere outside the select box,
+  then close all select boxes:*/
+  document.addEventListener("click", closeAllSelect);
+
+
+
+
+
+
+
+
+
+
+
+
   /************Скрипт очищающий форму от надписей**************** */
   let btnClear = document.querySelector('.clear_form');
   let form = document.querySelector('form');
 
   btnClear.addEventListener('click', function() {
     form.reset();
+    // Look for a default selected option
+    //  for (var i = 0, iLen = options.length; i < iLen; i++) {
+    //
+    //    if (options[i].defaultSelected) {
+    //      selectElement.selectedIndex = i;
+    //      return;
+    //    }
+    //  }
+    // If no option is the default, select first or none as appropriate
+    selectElement.selectedIndex = 0; // or -1 for no option selected
   });
 </script>
