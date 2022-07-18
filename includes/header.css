@@ -101,10 +101,12 @@ body._lock{
 }
 .header_nav_wrap {
     display: flex;
+    padding-left: 7.5%;
 }
 .header_nav_element {
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 .header_nav_element{
     margin-right: 25px;
