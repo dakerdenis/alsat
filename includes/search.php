@@ -215,13 +215,13 @@
       /*when the select box is clicked, close any other select boxes,
       and open/close the current select box:*/
       e.stopPropagation();
-      closeAllSelect(this);
+      closeAllSelect1(this);
       this.nextSibling.classList.toggle("select-hide1");
       this.classList.toggle("select-arrow-active1");
     });
   }
 
-  function closeAllSelect(elmnt) {
+  function closeAllSelect1(elmnt) {
     /*a function that will close all select boxes in the document,
     except the current select box:*/
     var x, y, i, xl, yl, arrNo = [];
@@ -244,7 +244,7 @@
   }
   /*if the user clicks anywhere outside the select box,
   then close all select boxes:*/
-  document.addEventListener("click", closeAllSelect);
+  document.addEventListener("click", closeAllSelect1);
 
   /**********Скрипт для выбора варианта категорий ************** */
   /**********Скрипт для выбора варианта категорий ************** */
