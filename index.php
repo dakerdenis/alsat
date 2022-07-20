@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="./includes/footer.css">
   <title>AlBiz</title>
 </head>
-
+  <!--------->
 <body>
   <!--!Общий шаблон для всех страниц ,тут единый для всех footer,поиск форма, главный контейнер и header-->
   <div class="main__wrapper">
