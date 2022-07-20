@@ -100,12 +100,28 @@
 .advertisement__img2-img {
     width: 100%;
 }
+@media only screen and (max-width:1620px){
+    .element_image{
+        height: 17em;
+    }
+    .elelement__block {
+
+        margin-top: 55px;
+        height: calc(32.75em - 5%);
+        width: 48%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 18px;
+        overflow: hidden;
+        margin-bottom: 35px;
+    
+    }
+}
 @media only screen and (max-width: 1450px) {
     .elelement__block {
 
         margin-top: 55px;
         height: calc(32.75em - 9%);
-
+        width: 48%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;
