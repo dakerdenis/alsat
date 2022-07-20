@@ -1,6 +1,7 @@
     <!--стили главной страницы-->
     <style>
-        <?php include './content/block.css'; ?><?php include './content/main.css'; ?>
+        <?php include './content/block.css'; 
+        ?><?php include './content/main.css'; ?>
     </style>
 
     <div class="content__wrapper">
@@ -22,7 +23,7 @@
         </div>
 
         <div class="content_wrapper_4elements">
-                        <!-- 2 элемента контейнер -->
+            <!-- 2 элемента контейнер -->
             <div class="content_wrapper_2elements">
                 <!--element block -->
                 <div class="elelement__block">
@@ -163,7 +164,7 @@
                     </a>
                 </div>
             </div>
-                        <!-- 2 элемента контейнер -->
+            <!-- 2 элемента контейнер -->
             <div class="content_wrapper_2elements">
                 <!--element block -->
                 <?php include './content/block.php'; ?>
