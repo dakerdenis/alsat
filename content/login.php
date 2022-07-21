@@ -51,6 +51,7 @@
             </div>
             <!--контейнер регистрации--->
             <div class="registration__container_form">
+                <!--только для телефона-->
             <div class="login_onlymobile_name">
             Qeydiyyatdan keçmək
                 </div>
