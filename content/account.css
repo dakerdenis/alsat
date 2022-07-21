@@ -297,6 +297,7 @@
     }
     .elelement__block{
         height: 390px;
+        width: 18em;
     }
 .favorite__element {
     margin-top: 25px;
@@ -372,8 +373,14 @@
     height: 15em;
 }
 }
-@media only screen and (max-width: 1200px){
-    
+@media only screen and (max-width: 1211px){
+   .account__elements_block{
+    flex: 0 0 48%;
+   } 
+   .accont_favorite_container{
+    flex: 0 0 50%;
+   }
+
 }
 @media only screen and (max-width: 769px){
     .account__cotainer{
@@ -589,5 +596,22 @@
     }
 }
 @media only screen and (max-width: 376px){
+    .favorite__element{
+        width: 100%;
+       }
+       .favorite__element_price{
+        font-size: 18px;
+       }
+       .favorite__element_type{
+        font-size: 16px;
+       }
+       .favorite__element_size{
+        font-size: 16px;
+       }
+       .favorite__element__data{
+        font-size: 12px;
+       }
+}
+@media only screen and (max-width:321px){
 
 }
