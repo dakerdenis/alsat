@@ -18,6 +18,9 @@
         <div class="login__registration_wrapper">
             <!--контейнер логина-->
             <div class="login__container_form">
+                <div class="login_onlymobile_name">
+                Şəxsi hesaba giriş
+                </div>
                 <form class="login__container_form-form" action="">
                     <!--emaiL-->
                     <div class="log_reg_element__wrapper">
@@ -48,6 +51,9 @@
             </div>
             <!--контейнер регистрации--->
             <div class="registration__container_form">
+            <div class="login_onlymobile_name">
+            Qeydiyyatdan keçmək
+                </div>
                 <form class="registration__container_form-form" action="">
                     <!--name-->
                     <div class="log_reg_element__wrapper">

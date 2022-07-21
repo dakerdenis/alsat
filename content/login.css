@@ -91,6 +91,10 @@
 }
 .registration__container_form-form {
 }
+.login_onlymobile_name{
+    display: none;
+    visibility: hidden;
+}
 @media only screen and (max-width: 1368px){
     .log_reg_element_wraper_input{
         width: 60%;
@@ -110,5 +114,54 @@
     .submit_login_container {
         width: 100%;
     }
+    .login__container_form{
+        width: 48%;
+    }
+    .registration__container_form{
+        width: 48%;
+    }
 }
+@media only screen and (max-width: 426px){
+    .login_onlymobile_name{
+        display: block;
+        visibility: visible;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 18px;
+    }
+        .login__registration_pc_name{
+            display: none;
+            visibility: hidden;
+        }
+        .login__registration_wrapper{
+            flex-direction: column;
+        }
+        .log_reg_element__wrapper{
+            flex-direction: column;
+        }
+        .log_reg_element_wraper_desc{
+            width: 100%;
+                margin-bottom: 5px;
+        }
+        .log_reg_element_wraper_input{
+            width: 100%;
+        }
+        .submit_login_container {
+            width: 100%;
+        }
+        .login__container_form{
+            width: 100%;
+        }
+        .registration__container_form{
+            margin-top: 25px;
+            width: 100%;
+        }
+}
+@media only screen and (max-width: 376px){
+    .login_registration_mainwrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
 
