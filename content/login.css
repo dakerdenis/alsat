@@ -91,3 +91,24 @@
 }
 .registration__container_form-form {
 }
+@media only screen and (max-width: 1368px){
+    .log_reg_element_wraper_input{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 769px){
+    .log_reg_element__wrapper{
+        flex-direction: column;
+    }
+    .log_reg_element_wraper_desc{
+        width: 100%;
+            margin-bottom: 5px;
+    }
+    .log_reg_element_wraper_input{
+        width: 100%;
+    }
+    .submit_login_container {
+        width: 100%;
+    }
+}
+
