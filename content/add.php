@@ -118,7 +118,15 @@
                             </div>
                         </div>
                     </div>
-
+                    <!--Площадь-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Sahə(m <sub>2</sub> )
+                        </div>
+                        <div class="add_buisness__element-input">
+                            <input type="text">
+                        </div>
+                    </div>
 
 
                 </div>
