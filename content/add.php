@@ -71,9 +71,20 @@
                         </div>
                     </div>
                     <!--КАРТА--->
-
+                    <div class="add_buisness__element add_buisness__element-mapblock">
+                        <div class="add_buisness__element-desc">
+                            Xetirede Goster
+                        </div>
+                        <div class="add_buisness__element-map">
+                            
+                        </div>
+                    </div>
                     <!---Добавление изображения-->
-
+                    <div class="add_buisnes_element">
+                    <div class="add_buisness__element-desc">
+                            Sekilleri elave et*
+                        </div>
+                    </div>
                 </div>
                 <!-----2й контейнер --->
                 <!-----2й контейнер --->
@@ -183,10 +194,14 @@
                             Ətraflı məlumat*
                         </div>
                         <div class="add_buisness__element-input">
-                            <textarea ></textarea>
+                            <textarea style="resize:none"></textarea>
                         </div>
                     </div>
                 </div>
+            </div>
+            <!---INfo text--->
+            <div class="add_buisness_container_text">
+                *Elan yerlesdirerek, Siz saytin Istifadeci razilasmasi ile razi oldugunuzu tesdig edirsiz.
             </div>
             <!--submit-->
             <div class="add_buisness_container-button">

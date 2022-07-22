@@ -9,6 +9,7 @@
     font-size: 22px;
     font-weight: 500;
     color: #081534;
+    margin-bottom: 25px;
 }
 .add_buisness_container {
     width: 100%;
@@ -34,6 +35,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.add_buisness__element{
+
+}
 .add_buisness__element-desc {
     width:30%;
 
@@ -55,12 +59,26 @@
     border: 2px solid #47A8E5;
     padding: 8px 16px;
 }
+.add_buisness__element-mapblock{
+    align-items: flex-start;
+}
+.add_buisness__element-map{
+    border-radius: 18px;
+    height: 180px;
+    width: 60%;
+    background-color: blue;
+}
 .add_buisness__element-input textarea{
     max-width: 100%;
     min-width: 100%;
     border: 2px solid #47A8E5;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 5px;
     border-radius: 18px;
+    height: 180px;
+}
+.add_buisness_container_1:last-child .add_buisness__element:last-child{
+    align-items: flex-start;
 }
 .custom-select_city {
 }
@@ -70,8 +88,20 @@
 }
 .custom-select_fealliet {
 }
-.add_buisness_container-button {
-
+.add_buisness_container-button{
+    width: 100%;
+    text-align: center;
+}
+.add_buisness_container_text{
+    font-weight: 500;
+}
+.add_buisness_container-button button{
+    background-color: #FFDE5A;
+    height: 100%; 
+    font-size: 20px;   
+    padding: 9px 65px 9px 65px;
+    border-radius: 30px;
+    font-weight: 500;
     
 }
 /**************Стили варианта выбора города*****************/
