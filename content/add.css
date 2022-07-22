@@ -82,6 +82,37 @@
 }
 .custom-select_city {
 }
+.add_buisness_photo_add{
+    width: 60%;
+    display: flex;
+}
+.add_buisness_photo_add1{
+    width: 25%;
+    position: relative;
+}
+.add_buisness_photo_add1 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.add_buisness_photo_add-input{
+    display: block;
+    width: 99.9%;
+    height: 80px;
+    background-image: url('./style/imgs/add.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: none;
+    border: none;
+    color: rgba(0, 0, 0, 0);
+    appearance: initial;
+    text-indent: -999em;
+        outline: none;
+}
 .custom-select_goal {
 }
 .custom-select_category {
