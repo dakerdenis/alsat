@@ -63,6 +63,10 @@
         case'login';
         include './content/login.php';
         break;
+
+        case'add';
+        include './content/add.php';
+        break;
         
         default:
         include './content/content/main.php';

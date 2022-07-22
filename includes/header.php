@@ -125,7 +125,7 @@
     <div class="header__form">
       <!-- Add buisness -->
       <div class="header__add_buisness">
-        <a href="#">
+        <a href="index.php?source=add">
           <img src="./style/imgs/add.png" alt="" srcset="">
 
           <p>Biznesi elave edin</p>
