@@ -1,5 +1,79 @@
 
+.add_buisness_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.add_buisness_name {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #081534;
+}
+.add_buisness_container {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25px;
+    padding: 30px 10px 30px 10px;
+}
+.add_buisness_container form {
+    width: 100%;
+}
+.add_buisness_container_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+.add_buisness_container_1 {
+    width: 45%;
 
+}
+.add_buisness__element {
+    margin-bottom: 21px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_buisness__element-desc {
+    width:30%;
+
+    font-size: 20px;
+    color: #081534;
+    font-weight: 500;
+}
+.add_buisness__element-input {
+    width: 60%;
+}
+.add_buisness__element-input input{
+    width: 100%;
+    border-radius: 30px;
+    height: 100%;
+    border: 2px solid #47A8E5;
+    font-size: 20px;
+    color: #081534;
+    background-color: #fff;
+    border: 2px solid #47A8E5;
+    padding: 8px 16px;
+}
+.add_buisness__element-input textarea{
+    max-width: 100%;
+    min-width: 100%;
+    border: 2px solid #47A8E5;
+    font-size: 20px;
+    border-radius: 18px;
+}
+.custom-select_city {
+}
+.custom-select_goal {
+}
+.custom-select_category {
+}
+.custom-select_fealliet {
+}
+.add_buisness_container-button {
+
+    
+}
 /**************Стили варианта выбора города*****************/
 /**************Стили варианта выбора города*****************/
 /**************Стили варианта выбора города*****************/
@@ -10,7 +84,7 @@
     position: relative;
     font-family: Arial;
         border-radius: 30px;
-        width: 40%;
+        width: 100%;
         height: 100%;
         border: 2px solid #47A8E5;
   }
@@ -99,7 +173,7 @@
     position: relative;
     font-family: Arial;
         border-radius: 30px;
-        width: 40%;
+        width: 100%;
         height: 100%;
         border: 2px solid #47A8E5;
   }
@@ -188,7 +262,7 @@
     position: relative;
     font-family: Arial;
         border-radius: 30px;
-        width: 40%;
+        width: 100%;
         height: 100%;
         border: 2px solid #47A8E5;
   }
@@ -262,4 +336,91 @@
   .select-items_category div:hover, .same-as-selected_category {
     background-color: rgba(0, 0, 0, 0.1);
   }
+
+
+/**************Стили цели fealliyet******************/
+/**************Стили цели fealliyet******************/
+/**************Стили цели fealliyet******************/
+/**************Стили цели fealliyet******************/
+/**************Стили цели fealliyet******************/
+/*the container must be positioned relative:*/
+.custom-select_fealliet {
+    position: relative;
+    font-family: Arial;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #47A8E5;
+  }
+  
+  .custom-select_fealliet select {
+    display: none; /*hide original SELECT element:*/
+      border-radius: 30px;
+      border: 2px solid #47A8E5;
+
+  }
+  
+  .select-selected_fealliet {
+
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 20px;
+      color: #081534;
+      background-color: #fff;
+      border: 2px solid #47A8E5;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected_fealliet:after {
+    position: absolute;
+    content: "";
+    top: 19px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #081534 transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected_fealliet.select-arrow-active_fealliet:after {
+    border-color: transparent transparent #081534 transparent;
+    top: 13px;
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items_fealliet div,.select-selected_fealliet {
+
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /*style items (options):*/
+  .select-items_fealliet {
+    background-color: #fff;
+    color: #081534;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    font-size: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide_fealliet {
+    display: none;
+  }
+  
+  .select-items_fealliet div:hover, .same-as-selected_fealliet {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
 

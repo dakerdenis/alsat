@@ -121,14 +121,71 @@
                     <!--Площадь-->
                     <div class="add_buisness__element">
                         <div class="add_buisness__element-desc">
-                            Sahə(m <sub>2</sub> )
+                            Sahə(m<sub>2</sub>)*
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">
                         </div>
                     </div>
 
+                    <!--Fealliyet-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Fealliyet*
+                        </div>
+                        <div class="add_buisness__element-input">
+                            <div class="custom-select_fealliet">
+                                <select>
+                                    <option value="0">Seher</option>
+                                    <option value="0">Seher</option>
+                                    <option value="1">Baku</option>
+                                    <option value="2">Novigrad</option>
+                                    <option value="3">Oxenfurt</option>
+                                    <option value="4">Ard-Skellige</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
 
+
+                    <!--Цена-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Qiymet (azn)*
+                        </div>
+                        <div class="add_buisness__element-input">
+                            <input type="number">
+                        </div>
+                    </div>
+
+                    <!--Месячный доход-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Ayliq qelir (azn)*
+                        </div>
+                        <div class="add_buisness__element-input">
+                            <input type="number">
+                        </div>
+                    </div>
+                    <!--ПРоцент бизнеса-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Biznes& (serik)*
+                        </div>
+                        <div class="add_buisness__element-input">
+                            <input type="number">
+                        </div>
+                    </div>
+
+                    <!--Дополнительная информация-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Ətraflı məlumat*
+                        </div>
+                        <div class="add_buisness__element-input">
+                            <textarea ></textarea>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--submit-->
@@ -405,6 +462,92 @@
         for (i = 0; i < xl; i++) {
             if (arrNo.indexOf(i)) {
                 x[i].classList.add("select-hide_category");
+            }
+        }
+    }
+    /*if the user clicks anywhere outside the select box,
+    then close all select boxes:*/
+    document.addEventListener("click", closeAllSelect1);
+
+
+
+    /**********Скрипт для выбора fealliyet ************** */
+    /**********Скрипт для выбора fealliyet ************** */
+    /**********Скрипт для выбора fealliyet ************** */
+    /**********Скрипт для выбора fealliyet ************** */
+    var x, i, j, l, ll, selElmnt, a, b, c;
+    /*look for any elements with the class "custom-select":*/
+    x = document.getElementsByClassName("custom-select_fealliet");
+    l = x.length;
+    for (i = 0; i < l; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        ll = selElmnt.length;
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected_fealliet");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items_goal select-hide_fealliet");
+        for (j = 1; j < ll; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function(e) {
+                /*when an item is clicked, update the original select box,
+                and the selected item:*/
+                var y, i, k, s, h, sl, yl;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                sl = s.length;
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < sl; i++) {
+                    if (s.options[i].innerHTML == this.innerHTML) {
+                        s.selectedIndex = i;
+                        h.innerHTML = this.innerHTML;
+                        y = this.parentNode.getElementsByClassName("same-as-selected_fealliet");
+                        yl = y.length;
+                        for (k = 0; k < yl; k++) {
+                            y[k].removeAttribute("class");
+                        }
+                        this.setAttribute("class", "same-as-selected_fealliet");
+                        break;
+                    }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function(e) {
+            /*when the select box is clicked, close any other select boxes,
+            and open/close the current select box:*/
+            e.stopPropagation();
+            closeAllSelect1(this);
+            this.nextSibling.classList.toggle("select-hide_fealliet");
+            this.classList.toggle("select-arrow-active_fealliet");
+        });
+    }
+
+    function closeAllSelect1(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, xl, yl, arrNo = [];
+        x = document.getElementsByClassName("select-items_fealliet");
+        y = document.getElementsByClassName("select-selected_fealliet");
+        xl = x.length;
+        yl = y.length;
+        for (i = 0; i < yl; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } else {
+                y[i].classList.remove("select-arrow-active_fealliet");
+            }
+        }
+        for (i = 0; i < xl; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide_fealliet");
             }
         }
     }
