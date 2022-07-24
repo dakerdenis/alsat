@@ -672,6 +672,9 @@ font-size: 21px;
     .search__block__additional{
         width: 50%;
     }
+    .search_buy_input{
+        width: 50%;
+    }
 }
 @media only screen and (max-width: 1530px) {
     .search__block__button button{
