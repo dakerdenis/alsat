@@ -484,4 +484,41 @@
     background-color: rgba(0, 0, 0, 0.1);
   }
 
-
+  @media only screen and (max-width: 1201px){
+    .add_buisness__element-input{
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 1001px){
+    .add_buisness_container{
+      padding: 15px 10px 15px 10px;
+    }
+  }
+  @media only screen and (max-width: 769px){
+    .add_buisness_wrapper{
+      width: 95%;
+    }
+    .add_buisness__element-desc{
+      font-size: 18px;
+    }
+    .add_buisness_container{
+      padding: 15px 10px 15px 10px;
+    }
+    .add_buisness__element-map{
+      width: 70%;
+    }
+    .add_buisness_container_text{
+      margin-bottom: 15px;
+    }
+  }
+  @media only screen and (max-width: 426px){
+    .add_buisness_container_wrapper{
+      flex-direction: column;
+    }
+    .add_buisness_container_1{
+      width: 100%;
+    }
+    .add_buisness_container{
+      padding: 20px 15px 20px 15px;
+    }
+  }
