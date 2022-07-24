@@ -910,5 +910,118 @@ font-size: 21px;
     transform: rotate(180deg);
 }
 
+@media only screen and (max-width: 426px) {
+    .search__wrapper{
+        height: 50vh;
+        background-size: cover;
+    }
+    .search_container{
+        top: 25%;
+    }
+    .search__block__additional{
 
+    }
+    .additional__show_hide{
+        margin-top: 20px;
+    }
+.show__search{
+    width: 100%;
+    display: initial ;
+    visibility: visible;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.show__search .search__block_block{
+    margin-top: 15px;
+    width: 100%;
+}
+.show__search .search__block_block3{
+    width: 100%;
+    flex-direction: column;
+}
+.show__search .search__block__price{
+    width: 100%;
+}
+.show__search .search__block__active{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+.show__search .search__block__active p{
+    display: block;
+    width: 38%;
+}
+.show__search .custom-select3{
+    width: 100%;
+}
+.show__search2{
+    display: initial ;
+    visibility: visible ;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.show__search2 .search_buy_input{
+    width: 100%;
+}
+.show__search3{
+    display: initial ;
+    visibility: visible ;
+}
 
+.show__search5{
+    display: flex ;
+    visibility: visible ;
+    
+}
+.show__search5 p{
+    display: none;
+    visibility: hidden;
+}
+.show__search5 img{
+
+}
+
+.search__block__map_button1{
+    flex-direction: column;
+}
+/***************/
+/***************/
+/***************/
+.searc__block_container_2_changed{
+    flex-wrap: wrap;
+}
+.search__block__additional_changed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+.additional_show__image_changed{
+    transform: rotate(180deg);
+}
+.search__block__map_button1{
+    width: 100%;
+    flex-direction: column-reverse;
+}
+.search__block__map_button{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 376px) {
+    .search__block_block{
+        flex-direction: column;
+    }
+    .custom-select1{
+        width: 100%;
+
+    }
+    .custom-select2{
+        margin-top: 10px;
+        width: 100%;
+        
+    }
+}
