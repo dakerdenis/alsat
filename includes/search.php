@@ -137,7 +137,7 @@
           </div>
         </div>
         <!--Блок с вариантами локацией и кнопкой поиска -->
-        <div class="search__block__map_button">
+        <div class="search__block__map_button1">
           <!---доп поиск все обнулить запомнить поиск--->
           <div class="search__block__additional">
             <div class=" additional__show_hide">
