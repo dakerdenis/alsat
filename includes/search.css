@@ -771,6 +771,9 @@ font-size: 21px;
     }
 }
 @media only screen and (max-width: 768px) {
+    .search_name_desc{
+        font-size: 18px;
+    }
     .search__wrapper{
         background-image: url('../style/imgs/768.png');
         background-size: cover;
@@ -831,12 +834,41 @@ font-size: 21px;
         justify-content: center
     }
 }.show__search{
+    width: 100%;
     display: initial ;
     visibility: visible;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.show__search .search__block_block{
+    margin-top: 15px;
+    width: 50%;
+}
+.show__search .search__block_block3{
+    width: 100%;
+}
+.show__search .search__block__price{
+    width: 50%;
+}
+.show__search .search__block__active{
+    width: 38%;
+    display: flex;
+}
+.show__search .search__block__active p{
+    display: block;
+    width: 38%;
+}
+.show__search .custom-select3{
+    width: 100%;
 }
 .show__search2{
     display: initial ;
     visibility: visible ;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.show__search2 .search_buy_input{
     width: 100%;
 }
 .show__search3{
