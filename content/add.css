@@ -513,12 +513,24 @@
   }
   @media only screen and (max-width: 426px){
     .add_buisness_container_wrapper{
-      flex-direction: column;
+      flex-direction: column-reverse;
+
     }
     .add_buisness_container_1{
       width: 100%;
+
     }
     .add_buisness_container{
       padding: 20px 15px 20px 15px;
     }
+
+  }
+  @media only screen and (max-width: 326px){
+    .add_buisness__element-desc{
+      font-size: 16px;
+    }
+    .custom-select_category option{
+      font-size: 16px;
+    }
+
   }

@@ -30,7 +30,7 @@ input[type=number] {
     position: absolute;
     top: 50%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    height: 40%;
+    height: auto;
     border-radius: 25px;
 
 }
@@ -43,7 +43,7 @@ input[type=number] {
     margin-top: 15px;
     width: 100%;
     height: 100%;
-    padding-bottom: 26px;
+
 }
 .search_block_wrapper {
     width: 100%;
@@ -59,9 +59,19 @@ input[type=number] {
     justify-content: space-between;
 
 }
-.search__block_container2{
-    margin-top: 20px;
+.search__block_square_price{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
 }
+.search__block_container_2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
 .search__block_block {
     display: flex;
     justify-content: space-between;
@@ -272,7 +282,12 @@ font-size: 21px;
     justify-content: space-between;
     width: 42%;
 }
-.search__block__additional_element {
+.additional__show_hide{
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+.remember_search{
     font-size: 19px;
 }
 .search__block__map_button {
@@ -316,6 +331,7 @@ font-size: 21px;
     font-weight: 500;
 }
 .clear_form{
+    font-size: 19px;
     cursor: pointer;
 
 }
@@ -615,20 +631,41 @@ font-size: 21px;
     background-color: rgba(0, 0, 0, 0.1);
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 767px){
-    .search__wrapper{
-        padding-top: 250px;
-    }
+.search__block__additional_element{
+    cursor: pointer;
 }
+
+
+
+
+.show__search{
+    display: none ;
+    visibility: hidden;
+}
+.show__search2{
+    display: none ;
+    visibility: hidden ;
+}
+.show__search3{
+    display: none ;
+    visibility: hidden ;
+}
+.show__search4{
+    display: none ;
+    visibility: hidden ;
+}
+.show__search5{
+    display: none ;
+    visibility: hidden ;
+}
+.change_width{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+
+
+
+
+

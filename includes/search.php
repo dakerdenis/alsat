@@ -39,7 +39,7 @@
     </div>
     <form class="searc_form" id="my-form" action="">
       <div class="search_block_wrapper">
-        <div class="search__block_container">
+        <div class="search__block_container_2">
           <!--Стандартный блок на 2 элемента--->
           <div class="search__block_block">
 
@@ -87,7 +87,7 @@
             </div>
           </div>
         </div>
-        <div class="search__block_container search__block_container2">
+        <div class="search__block_square_price">
           <!-- Площадь -->
           <div class="search__block_block">
             <div class="search__block__square">
@@ -140,13 +140,13 @@
         <div class="search__block__map_button">
           <!---доп поиск все обнулить запомнить поиск--->
           <div class="search__block__additional">
-            <div class="search__block__additional_element">
-              Ətraflı axtarış
+            <div class=" additional__show_hide">
+              <p>Ətraflı axtarış</p> <img src="" alt="">
             </div>
-            <div class="search__block__additional_element clear_form" style="color: #EB1B3D;">
+            <div class="clear_form" style="color: #EB1B3D;">
               Hamısını sıfırla
             </div>
-            <div class="search__block__additional_element">
+            <div class="remember_search">
               Axtarışı yadda saxla
             </div>
           </div>
