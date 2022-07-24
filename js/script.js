@@ -52,7 +52,7 @@ const closeMenu = document.querySelector('.header_button');
 closeMenu.addEventListener('click', function onClick2() {
 
     menuBody.classList.remove('_active');
-    
+
     document.body.classList.remove('_lock');
 });
 
@@ -76,24 +76,26 @@ closeMenu.addEventListener('click', function onClick2() {
 
 
 /************************скрыть показать больше в панели поиска*************************** */
- const search_buy = document.querySelector('.search__block_block2');
+const search_buy = document.querySelector('.search__block_block2');
 const search_square = document.querySelector('.search__block_square_price');
 const clear_form = document.querySelector('.clear_form');
 const remember_search = document.querySelector('.remember_search');
 const search__block__map = document.querySelector('.search__block__map');
 
+/*******изменение стилей для полного поиска*****/
+const search__block_container_2 = document.querySelector('.search__block_container_2');
 
-const search__block_container_2 = document.querySelector('.search__block_block');
 
 const showSearch = document.querySelector('.additional__show_hide');
 showSearch.addEventListener('click', function onClick() {
     search_square.classList.toggle('show__search');
-    search_buy.classList.toggle('show__search2');    
+    search_buy.classList.toggle('show__search2');
     clear_form.classList.toggle('show__search3');
     remember_search.classList.toggle('show__search4');
     search__block__map.classList.toggle('show__search5');
 
-    
-    search__block_container_2.classList.toggle('change_width');
+    /*******изменение стилей для полного поиска*****/
+
+    search__block_container_2.classList.toggle('searc__block_container_2_changed');
 });
 

@@ -647,33 +647,12 @@ font-size: 21px;
 }
 
 
-
-
-.show__search{
-    display: none ;
+.additional__show_hide{
+    display: none;
     visibility: hidden;
 }
-.show__search2{
-    display: none ;
-    visibility: hidden ;
-}
-.show__search3{
-    display: none ;
-    visibility: hidden ;
-}
-.show__search4{
-    display: none ;
-    visibility: hidden ;
-}
-.show__search5{
-    display: none ;
-    visibility: hidden ;
-}
-.change_width{
-    width: 100%;
-    display: flex;
-    justify-content: space-between !important;
-}
+
+
 
 @media only screen and (max-width: 1601px) {
     .search__square__min{
@@ -716,6 +695,10 @@ font-size: 21px;
     }
 }
 @media only screen and (max-width: 1368px) {
+    .custom-select1{}
+    .select-selected1{
+
+    }
     .search_buy_destination{
         display: flex;
         align-items: center;
@@ -724,11 +707,28 @@ font-size: 21px;
     .search__block__square p{
         font-size: 17px;
     }
+    .search__price__min{
+        align-items: center;
+    }
     .search__square__min input{
         font-size: 17px;
     }
+    .search__price__min p {
+        font-size: 17px;
+    }
+    .search__price__max{
+        align-items: center;
+    }
+    .search__price__max p{
+        font-size: 17px;
+    }
+
     .search__square__max input{
         font-size: 17px;
+    }
+    .search__square__max {
+        display: flex;
+        align-items: center;
     }
     .select-selected1{
         font-size: 17px;
@@ -739,6 +739,120 @@ font-size: 21px;
     .search_buy_input-input{
         font-size: 17px;
     }
+    .search_container{
+        padding: 15px;
+    }
+    .price__name_search{
+        font-size: 17px;
+    }
+    .search__block__active{
+        font-size: 17px;
+    }
+    .select-selected3{
+        font-size: 17px;
+    }
+    .clear_form{
+        font-size: 17px;
+    }
+    .remember_search{
+        font-size: 17px;
+    }
+    .additional__show_hide p{
+        font-size: 17px;
+    }
+    .search__block__map p{
+        font-size: 17px;
+    }
+    .search__block__map img {
+        height: 23px;
+    }
+    .search__block__button button{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .search__wrapper{
+        background-image: url('../style/imgs/768.png');
+        background-size: cover;
+        width: 100%;
+    }
+    .search_container{
+        width: 90%;
+        right: 5%;
+    }
+    .additional__show_hide{
+        display: flex;
+        visibility: visible;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .search__block_block2{
+        display: none;
+        visibility: hidden;
+    }
+    .search__block_square_price{
+        display: none;
+        visibility: hidden;
+    }
+    .clear_form{
+        display: none;
+        visibility: hidden;
+    }
+    .remember_search{
+        display: none;
+        visibility: hidden;
+    }
+    .search__block__map{
+        display: none;
+        visibility: hidden;
+    }
+    .search__block_block{
+        width: 100%;
+    }
+    .search__block__additional{
+        width: 48%;
+    }
+    .custom-select1{
+        width: 48%;
+    }
+    .custom-select2{
+        width: 48%;
+    }
+    .search__block__map_button{
+        width: 48%;
+    }
+    .search__block__button{
+        width: 100%;
+    }
+    .search__block__additional{
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+}.show__search{
+    display: initial ;
+    visibility: visible;
+}
+.show__search2{
+    display: initial ;
+    visibility: visible ;
+    width: 100%;
+}
+.show__search3{
+    display: initial ;
+    visibility: visible ;
+}
+.show__search4{
+    display: initial ;
+    visibility: visible ;
+}
+.show__search5{
+    display: initial ;
+    visibility: visible ;
+}
+.searc__block_container_2_changed{
+    flex-wrap: wrap;
 }
 
 
