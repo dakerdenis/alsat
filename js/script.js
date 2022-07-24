@@ -84,6 +84,8 @@ const search__block__map = document.querySelector('.search__block__map');
 
 /*******изменение стилей для полного поиска*****/
 const search__block_container_2 = document.querySelector('.search__block_container_2');
+const search__block__additional = document.querySelector('.search__block__additional');
+const additional_show__image = document.querySelector('.additional_show__image');
 
 
 const showSearch = document.querySelector('.additional__show_hide');
@@ -97,5 +99,7 @@ showSearch.addEventListener('click', function onClick() {
     /*******изменение стилей для полного поиска*****/
 
     search__block_container_2.classList.toggle('searc__block_container_2_changed');
+    search__block__additional.classList.toggle('search__block__additional_changed');
+    additional_show__image.classList.toggle('additional_show__image_changed');
 });
 

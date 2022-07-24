@@ -141,7 +141,7 @@
           <!---доп поиск все обнулить запомнить поиск--->
           <div class="search__block__additional">
             <div class=" additional__show_hide">
-              <p>Ətraflı axtarış</p> <img src="" alt="">
+              <p>Ətraflı axtarış</p> <img class="additional_show__image" src="./style/imgs/arrow-down.svg" alt="">
             </div>
             <div class="clear_form" style="color: #EB1B3D;">
               Hamısını sıfırla

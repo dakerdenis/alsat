@@ -783,12 +783,18 @@ font-size: 21px;
         width: 90%;
         right: 5%;
     }
+    .additional_show__image{
+        width: 15px;
+        margin-left: 5px;
+        padding: 1px;
+    }
     .additional__show_hide{
         display: flex;
         visibility: visible;
         height: 100%;
         align-items: center;
         justify-content: center;
+        font-weight: 500;
     }
     .search__block_block2{
         display: none;
@@ -875,18 +881,34 @@ font-size: 21px;
     display: initial ;
     visibility: visible ;
 }
-.show__search4{
-    display: initial ;
-    visibility: visible ;
-}
+
 .show__search5{
-    display: initial ;
+    display: flex ;
     visibility: visible ;
+    
 }
+.show__search5 p{
+    display: none;
+    visibility: hidden;
+}
+.show__search5 img{
+
+}
+
+
+/***************/
+/***************/
+/***************/
 .searc__block_container_2_changed{
     flex-wrap: wrap;
 }
-
+.search__block__additional_changed{
+    justify-content: space-between;
+    width: 50%;
+}
+.additional_show__image_changed{
+    transform: rotate(180deg);
+}
 
 
 
