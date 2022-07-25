@@ -1,6 +1,5 @@
             <!--element block -->
             <div class="elelement__block">
-                <a href="../index.php?tag=element">
                     <div class="element_wrapper">
                         <!-- image block-->
                         <div class="element_image">
@@ -38,7 +37,9 @@
                                         <!--Top -->
 
                                             <div class="top_img-">
-                                                <img src="./style/imgs/top.png" alt="">
+                                                <a style="width:100%;height:100%;" href="#popup__make_top1">
+                                                    <img src="./style/imgs/top.png" alt="">
+                                                </a>
                                             </div>
                                     </div>
                                 </div>
@@ -67,5 +68,4 @@
                             </div>
                         </div>
                     </div>
-                </a>
             </div>
