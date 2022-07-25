@@ -355,6 +355,12 @@
         </div>
     </div>
 </div>
-<div class="popup__make_top">
-    
+<div id="popup__make_top" class="popup__make_top">
+    <div class="popup__make_top_body">
+        <div class="popup__make_top_content">
+            <a href="" class="popup__make_top_close"></a>
+            <div class="popup__make_top_desc">Test name</div>
+
+        </div>
+    </div>
 </div>
