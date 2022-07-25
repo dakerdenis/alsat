@@ -33,12 +33,13 @@
                                     <div class="verified_top">
                                         <!--verified-->
                                         <div class="verified_img customize_svg">
-                                           <img src="./style/imgs/customize.svg" alt="" srcset="">
+                                            <img src="./style/imgs/customize.svg" alt="" srcset="">
                                         </div>
                                         <!--Top -->
-                                        <div class="top_img-">
-                                            <img src="./style/imgs/top.png" alt="">
-                                        </div>
+
+                                            <div class="top_img-">
+                                                <img src="./style/imgs/top.png" alt="">
+                                            </div>
                                     </div>
                                 </div>
 
