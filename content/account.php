@@ -351,6 +351,9 @@
         </div>
     </div>
 </div>
+
+<!-- у элемента выше есть ссылка а в которой есть id  popup__make_top1 - последнее число номер элемента и popupa,
+    взяв id с элемента выше после убирания # с помощью JS тут с id-шником открывается необходимый блок popupa --->
 <div id="popup__make_top1" class="popup__make_top">
     <a class="popup__make_top_area" href="#">
         <div class="popup__make_top_body">

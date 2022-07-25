@@ -226,11 +226,11 @@
     top: 0;
     left:0;
 }
-.popup__make_top:target{
+.popup__make_top.open{
     opacity: 1;
     visibility: visible;
 }
-.popup__make_top:target .popup__make_top_content{
+.popup__make_top.open .popup__make_top_content{
     transform: translateX(0%);
     opacity: 1;
     visibility: visible;

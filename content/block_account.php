@@ -35,9 +35,10 @@
                                             <img src="./style/imgs/customize.svg" alt="" srcset="">
                                         </div>
                                         <!--Top -->
-
-                                            <div class="top_img-">
-                                                <a style="width:100%;height:100%;" href="#popup__make_top1">
+                                            <!--#popup__make_top`1` (1 - номер элемента)   через JS с него убрирается # и берется чистое имя
+                                            ,в соотвествиий с которым открывается нужный тот или иной блок для нужного нам Элемента--->
+                                            <div class="top_img- ">
+                                                <a class="popup-link" style="width:100%;height:100%;" href="#popup__make_top1">
                                                     <img src="./style/imgs/top.png" alt="">
                                                 </a>
                                             </div>
