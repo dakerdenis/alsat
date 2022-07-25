@@ -216,6 +216,8 @@
     left:0;
     opacity: 0;
     visibility: hidden;
+    overflow-x: hidden;
+    transition: all 0.4s ease-in-out;
 }
 .popup__make_top_area{
     position: absolute;
@@ -228,6 +230,12 @@
     opacity: 1;
     visibility: visible;
 }
+.popup__make_top:target .popup__make_top_content{
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+}
+
 .popup__make_top_body {
     min-height:100%;
     display: flex;
@@ -240,6 +248,10 @@
     max-width: 30%;
     background-color: #fff;
     position: relative;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(-100%);
+
 }
 .popup__make_top_close {
     position: absolute;
