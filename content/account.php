@@ -358,7 +358,7 @@
 <div id="popup__make_top" class="popup__make_top">
     <div class="popup__make_top_body">
         <div class="popup__make_top_content">
-            <a href="" class="popup__make_top_close"></a>
+            <a href="" class="popup__make_top_close">X</a>
             <div class="popup__make_top_desc">Test name</div>
             <div class="popup__make_top_text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum explicabo enim minus aperiam qui odit, in culpa itaque obcaecati natus quae ex fugit dicta cumque laborum voluptatum, mollitia veniam neque.
