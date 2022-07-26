@@ -78,10 +78,22 @@
 .advertisement__img-img {
 }
 @media only screen and(max-width: 769px){
-    .page__content_container{
+    .page__content_container {
         flex-direction: column;
     }
-    .page__content_wrapper{
+    .page__content_1 {
+        flex-wrap: no-wrap;
+        width: 100%;
+        height: 100%;
+        display: flex;
         flex-direction: column;
+    }
+    .page__content_text {
+        width: 100%;
+    }
+    .page__content_img {
+        width: 100%;
+    }
+    .page__content_img-img {
     }
 }
