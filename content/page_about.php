@@ -5,10 +5,11 @@
 <div class="page_about_wrapper">
     <div class="page_about_desc">
         Bizim Haqqimizda
+
     </div>
 
     <div class="page_about_container">
-        
+
     </div>
 </div>
           <!--Advertisement block -->
