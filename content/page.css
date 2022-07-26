@@ -33,12 +33,18 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
+    height: 26em;
+    margin-bottom: 45px;
 }
 .page__content_text {
-    width: 49%;
+    width: 48%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 28px;
 }
 .page__content_img {
-    width: 49%;
+    width: 48%;
     overflow: hidden;
     border-radius: 15px;
 }
@@ -53,7 +59,7 @@
     width: 100%;
 
     text-align: center;
-    margin-top: 35px;
+    margin-top: 10px;
 
 }
 .page__content_button-a {
@@ -62,6 +68,14 @@
     font-size: 25px;
     padding: 15px 35px; 
     border-radius: 35px;
+}
+.advertisement__block {
+
+    text-align: center;
+}
+.advertisement__img {
+}
+.advertisement__img-img {
 }
 @media only screen and(max-width: 769px){
     .page__content_container{
