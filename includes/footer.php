@@ -16,17 +16,23 @@
         </p>
       </div>
       <!--OTHER information -->
-      <div class="footer__element_rest-info">
-        <a href="index.php?source=about">Bizim haqqimizda</a>
-      </div>
-      <div class="footer__element_rest-info">
-      <a href="#">Bizimle elaqe</a>
-      </div>
-      <div class="footer__element_rest-info">
-      <a href="#">Lorem ipsum Void</a>
-      </div>
-      <div class="footer__element_rest-info">
-      <a href="#">Lorem ipsum Void</a>
+      <div class="footer__other__information_wrapper">
+        <div class="footer__element_rest-info">
+          <a href="index.php?source=about">Bizim haqqimizda</a>
+        </div>
+        <div class="footer__element_rest-info">
+          <a href="index.php?source=contact">Bizimle elaqe</a>
+        </div>
+        <div class="footer__element_rest-info">
+          <a href="#">Mexfilik siyaseti</a>
+        </div>
+        <div class="footer__element_rest-info">
+          <a href="#">Saytin Xeritesi</a>
+        </div>
+        <div class="footer__element_rest-info">
+          <a href="#">Istifadeci Razilasma</a>
+        </div>
+
       </div>
 
     </div>
@@ -56,8 +62,8 @@
     </div>
     <!--категории-->
     <div class="footer__element">
-            <!-- category name -->
-            <div class="footer__element_category">Kategoriyalar</div>
+      <!-- category name -->
+      <div class="footer__element_category">Kategoriyalar</div>
       <!--category LIST-->
       <div class="footer__element_list">
         <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>

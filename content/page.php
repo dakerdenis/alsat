@@ -33,7 +33,7 @@
 
         </div>
         <div class="page__content_button">
-            <a href="#" class="page__content_button-a">Заказ Аудита для бизнеса</a>
+            <a href="index.php?source=contact" class="page__content_button-a">Заказ Аудита для бизнеса</a>
         </div>
     </div>
 

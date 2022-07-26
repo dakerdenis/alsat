@@ -73,6 +73,10 @@
         case'add';
         include './content/add.php';
         break;
+
+        case'contact';
+        include './content/contact.php';
+        break;
         
         default:
         include './content/content/main.php';

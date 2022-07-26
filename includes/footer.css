@@ -29,13 +29,7 @@
 .footer__element-contact-img {
 }
 
-.footer__element_rest-info {
-    font-size: 17px;
-    margin-top: 17px;
-}
-.footer__element_rest-info  a {
-    color: #081534;
-}
+
 .footer__element_districkt {
     font-size: 19px;
     font-weight: 500;
@@ -75,6 +69,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer__other__information_wrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__element_rest-info {
+    width: 40%;
+    font-size: 17px;
+    margin-top: 17px;
+}
+.footer__element_rest-info  a {
+    color: #081534;
 }
 @media only screen and (max-width: 767px) {
     .footer__container {
