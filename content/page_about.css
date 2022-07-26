@@ -1,0 +1,10 @@
+.page_about_wrapper {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.page_about_desc {
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(8, 21, 52);
+}
