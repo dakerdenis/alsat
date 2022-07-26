@@ -11,41 +11,26 @@
     </div>
     <!-- Контент на странице -->
     <div class="page__content_container">
-        <div class="page__content_wrapper">
-            <!--- FLEX Блоки страницы с информацией--->
-            <div class="page_content_block">
-                <!---Текст на странице-->
-                <div class="page_content_block-text">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolore ab perferendis, maiores placeat eaque, mollitia sapiente ratione unde et? Fugit odit et illum quisquam, est iusto illo quam.
-                    Dolor tempora Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum laborum quaerat adipisci, nihil fugit delectus blanditiis reprehenderit cum voluptate reiciendis, exercitationem voluptatibus necessitatibus Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae impedit porro expedita nobis animi voluptatum quisquam nostrum cum, minima eos nesciunt ab atque optio beatae neque dicta obcaecati dolorum itaque. beatae recusandae ex tenetur quae totam soluta? porro in facere sit nisi facilis rerum accusamus dicta atque voluptatem cupiditate aliquid ipsam a ipsum reprehenderit fuga ut unde dolores suscipit, debitis nesciunt iure. Consequatur, libero doloribus.
-                    </p>
+        <!--Блок с контентом--->
+            <div class="page__content_1">
+                <div class="page__content_text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit mollitia reiciendis cumque veritatis illo, doloribus illum dolore ullam at eos dolores voluptatem sint tempora ducimus corporis quod voluptates sequi? Eveniet?
+                    Ea, quas rerum? Placeat, hic voluptate maxime suscipit quasi eius itaque molestiae eveniet corrupti quis, rem, beatae reprehenderit in sequi. Necessitatibus tenetur dignissimos explicabo minus, laborum ut vitae nesciunt officia.
                 </div>
-
-                <!--- Картинка на странице---->
-                <div class="page_content_block-image">
-                    <img class="page_content_block-image-img" src="https://placehold.jp/750x350.png" alt="" srcset="">
+                <div class="page__content_img">
+                    <img src="./style/imgs/768.png" alt="" class="page__content_img-img">
                 </div>
             </div>
-
-
-
-            <div class="page_content_block">
-                <!--- Картинка на странице---->
-                <div class="page_content_block-image">
-                    <img class="page_content_block-image-img" src="https://placehold.jp/750x350.png" alt="" srcset="">
+                    <!--Блок с контентом--->
+                    <div class="page__content_1">
+                <div class="page__content_text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit mollitia reiciendis cumque veritatis illo, doloribus illum dolore ullam at eos dolores voluptatem sint tempora ducimus corporis quod voluptates sequi? Eveniet?
+                    Ea, quas rerum? Placeat, hic voluptate maxime suscipit quasi eius itaque molestiae eveniet corrupti quis, rem, beatae reprehenderit in sequi. Necessitatibus tenetur dignissimos explicabo minus, laborum ut vitae nesciunt officia.
                 </div>
-                <!---Текст на странице-->
-                <div class="page_content_block-text">
-                    <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus dolore ab perferendis, maiores placeat eaque, mollitia sapiente ratione unde et? Fugit odit et illum quisquam, est iusto illo quam.
-                    Dolor tempora porro in facere sit nisi facilis rerum accusamus dicta atque voluptatem cupiditate aliquid ipsam a ipsum reprehenderit fuga ut unde dolores suscipit, debitis nesciunt iure. Consequatur, libero doloribus.
-                    </p>
+                <div class="page__content_img">
+                    <img src="./style/imgs/768.png" alt="" class="page__content_img-img">
                 </div>
-
             </div>
-
-        </div>
         <div class="page__content_button">
             <a href="#" class="page__content_button-a">Заказ Аудита для бизнеса</a>
         </div>
