@@ -18,13 +18,13 @@
                 Ea, quas rerum? Placeat, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quaerat illo fugit incidunt, voluptatem ut obcaecati veniam accusamus eveniet nemo itaque inventore non cum omnis, dignissimos fugiat dolorem, tempore beatae. hic voluptate maxime suscipit quasi eius itaque molestiae eveniet corrupti quis, rem, beatae reprehenderit in sequi. Necessitatibus tenetur dignissimos explicabo minus, laborum ut vitae nesciunt officia.
             </div>
             <div class="page__content_img">
-                <img src="./style/imgs/768.png" alt="" class="page__content_img-img">
+                <img src="./style/imgs/about-2.jpg" alt="" class="page__content_img-img">
             </div>
         </div>
         <!--Блок с контентом--->
         <div class="page__content_1">
             <div class="page__content_img">
-                <img src="./style/imgs/768.png" alt="" class="page__content_img-img">
+                <img src="./style/imgs/about-1.jpg" alt="" class="page__content_img-img">
             </div>
             <div class="page__content_text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit mollitia reiciendis cumque veritatis illo, doloribus illum dolore ullam at eos dolores voluptatem sint tempora ducimus corporis quod voluptates sequi? Eveniet?
