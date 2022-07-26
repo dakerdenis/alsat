@@ -17,7 +17,7 @@
       </div>
       <!--OTHER information -->
       <div class="footer__element_rest-info">
-        <a href="#">Lorem ipsum Void</a>
+        <a href="index.php?source=about">Bizim haqqimizda</a>
       </div>
       <div class="footer__element_rest-info">
       <a href="#">Lorem ipsum Void</a>

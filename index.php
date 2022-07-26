@@ -34,10 +34,12 @@
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
     <!----!----------тут контент на сайте----------------------->
+    <div style="display: flex;">
     <a style="color:red; padding-left: 15px;" href="./index.php?source=main">главный контент</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=element">Страница элемента</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=account">Личный кабинет</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=page">Инфо страницп</a>
+    </div>
   <?php 
     if (isset($_GET['source'])){
       $source = $_GET['source'];
@@ -62,6 +64,10 @@
 
         case'login';
         include './content/login.php';
+        break;
+
+        case'about';
+        include './content/page_about.php';
         break;
 
         case'add';
