@@ -96,3 +96,14 @@
     }
     
 }
+@media only screen and (max-width: 426px){
+    .page__content_block{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .page__content_button {
+    }
+    .page__content_button-a {
+        font-size: 17px;
+    }
+}
