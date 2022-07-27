@@ -14,3 +14,39 @@
     font-weight: 500;
     color: rgb(8, 21, 52);
 }
+.contact__text {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: justify;
+}
+.contact__info__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contact__info__wrapper_block {
+    width: 25%;
+}
+.contact__info__wrapper_block_name {
+    color: #47A8E5;
+}
+.contact__number__p {
+}
+.contact__adress__p {
+}
+.contact__social_symbols {
+}
+.contact__form_container {
+}
+.two_elements__from_container{
+
+}
+
+.form__textarea__container{
+
+}
+
+.contact__form__button__submit {
+}
