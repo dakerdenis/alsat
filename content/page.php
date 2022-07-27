@@ -2,31 +2,31 @@
     <?php include './content/page.css'; ?>
 </style>
 
-<div class="page__wrapper">
+<div class="page__wrapper_">
     <!--описание страницы и навигация назад-->
-    <div class="page__desc">
-        <div class="page_desc-p">
+    <div class="page__desc_">
+        <div class="page_desc-p_">
             <a href="#">Услуги</a> > Аудит
         </div>
     </div>
     <!-- Контент на странице -->
-    <div class="page__content_container">
+    <div class="page__content_container_">
         <!--Блок с контентом--->
         <div class="page__content_1">
-            <div class="page__content_text">
+            <div class="page__content_block">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit mollitia reiciendis cumque veritatis illo, doloribus illum dolore ullam at eos dolores voluptatem sint tempora ducimus corporis quod voluptates sequi? Eveniet?
                 Ea, quas rerum? Placeat, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quaerat illo fugit incidunt, voluptatem ut obcaecati veniam accusamus eveniet nemo itaque inventore non cum omnis, dignissimos fugiat dolorem, tempore beatae. hic voluptate maxime suscipit quasi eius itaque molestiae eveniet corrupti quis, rem, beatae reprehenderit in sequi. Necessitatibus tenetur dignissimos explicabo minus, laborum ut vitae nesciunt officia.
             </div>
-            <div class="page__content_img">
+            <div class="page__content_block page__content_block_img">
                 <img src="./style/imgs/768.png" alt="" class="page__content_img-img">
             </div>
         </div>
         <!--Блок с контентом--->
         <div class="page__content_1">
-            <div class="page__content_img">
+            <div class="page__content_block page__content_block_img">
                 <img src="./style/imgs/768.png" alt="" class="page__content_img-img">
             </div>
-            <div class="page__content_text">
+            <div class="page__content_block">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit mollitia reiciendis cumque veritatis illo, doloribus illum dolore ullam at eos dolores voluptatem sint tempora ducimus corporis quod voluptates sequi? Eveniet?
                 Ea, quas rerum? Placeat, hic voluptate maxime suscipit quasi eius itaque molestiae eveniet corrupti quis, rem, beatae reprehenderit in sequi. Necessitatibus tenetur dignissimos explicabo minus, laborum ut vitae nesciunt officia.
             </div>
