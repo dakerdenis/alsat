@@ -1,7 +1,5 @@
 <style>
-        <?php include './content/block.css'; ?>
-    <?php include './style/element.css'; ?>
-
+    <?php include './content/block.css'; ?><?php include './content/element.css'; ?>
 </style>
 
 <div class="product_wrapper">
@@ -19,31 +17,69 @@
     </div>
     <!-- Галлерея и описание товара--->
     <div class="product__content_wrapper">
-        <!--галлерея товара -->
-        <div class="product_gallery_wrapper">
-            <!--фото товара -->
-            <div class="product__image"></div>
-            <!--цена товара и его площадь-->
-            <div class="product_price">
+        <!-----галлерея часть 1 --->
+        <div class="photo-gallery-part1">
+            <div class="gallery-part1-image">
+                <img id="img-Box" src="./content/images/img1.jpg" alt="">
+                <i id="zoom" class="fa-solid fa-magnifying-glass-plus"></i>
 
             </div>
-            <!--кол во просмотров и дата обновления/добавления--->
-            <div class="product__date_views">
-                <p>Baxışlanın sayı: 10621</p>
-                <p>Yeniləndi: 29 Aprel 2022</p>
-            </div>
-            <!-- карта и адрес--->
-            <div class="product_map_adress">
-
-            </div>
-            <!---номер для связи с обьектом--->
-            <div class="product__number">
-                <p>Ətraflı məlumat (+994 50) 750 69 01</p>
+            <div class="gallery-part1-text">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    explicabo eius dolorum saepe, quaerat velit numquam maxime facere
+                    nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
+                    magni est provident tenetur nam accusamus? Exercitationem incidunt
+                    voluptatem distinctio quia, dicta similique in! Quas quisquam porro
+                    provident voluptatem unde totam qui!
+                </p>
             </div>
         </div>
-        <!--описание товара -->
-        <div class="product_desc_wrapper">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reiciendis sequi aut hic consequuntur error distinctio dicta rerum quod, placeat odio quam tenetur alias, ut similique minus facere deleniti saepe.
+
+        <!--Галлерея часть 2-->
+        <div class="photo-gallery-part2">
+            <div class="gallery-part2-photos">
+                <div class="photos-1">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+
+                </div>
+                <!-- <div class="photos-2">
+            
+          </div> -->
+            </div>
+
+
+            <div class="gallery-part2-text-extension">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    explicabo eius dolorum saepe, quaerat velit numquam maxime facere
+                    nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
+                    magni est provident tenetur nam accusamus? Exercitationem incidunt
+                    voluptatem distinctio quia, dicta similique in! Quas quisquam porro
+                    provident voluptatem unde totam qui!
+                </p>
+            </div>
+            <div class="gallery-part2-text">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    explicabo eius dolorum saepe, quaerat velit numquam maxime facere
+                    nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
+                    magni est provident tenetur nam accusamus? Exercitationem incidunt
+                    voluptatem distinctio quia, dicta similique in! Quas quisquam porro
+                    provident voluptatem unde totam qui!
+                </p>
+            </div>
         </div>
     </div>
 </div>
@@ -53,16 +89,23 @@
     <div class="content_wrapper_4elements">
         <!-- 2 элемента контейнер -->
         <div class="content_wrapper_2elements">
-                <!--element block -->
-                <?php include './content/block.php'; ?>
-                <!--element block -->
-                <?php include './content/block.php'; ?>
+            <!--element block -->
+            <?php include './content/block.php'; ?>
+            <!--element block -->
+            <?php include './content/block.php'; ?>
         </div>
         <div class="content_wrapper_2elements">
-                <!--element block -->
-                <?php include './content/block.php'; ?>
-                <!--element block -->
-                <?php include './content/block.php'; ?>
+            <!--element block -->
+            <?php include './content/block.php'; ?>
+            <!--element block -->
+            <?php include './content/block.php'; ?>
         </div>
     </div>
 </div>
+
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+</div>
+
