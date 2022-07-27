@@ -21,10 +21,10 @@
             <div class="contact__info__wrapper_block_name">
                 Nomreler
             </div>
-            <p class="contact__bumber__p">
+            <p class="contact__number__p">
                 моб: +55 (855) 845 - 55 - 55
             </p>
-            <p class="contact__bumber__p">
+            <p class="contact__number__p">
                 дом: +55 (915) 888 - 58 - 87
             </p>
         </div>
