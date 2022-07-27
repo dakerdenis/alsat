@@ -92,8 +92,18 @@
         </div>
         <!-----Описание товара + его название +его доход--->
         <div class="product__desc__name">
+            <!----имя этого обьекта---->
             <div class="product__desc__name_block">
                 Spa Salon, ela veziyyetde
+            </div>
+
+            <!---Описание полное от клиента--->
+            <div class="product__fulldesc__block">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit exercitationem nobis recusandae id qui, vitae adipisci et delectus dolorem quisquam? Vero unde soluta, dolorum quidem cupiditate quaerat alias et ea?
+                    Fugiat laboriosam et expedita. Ratione corporis itaque delectus vitae unde possimus sed corrupti sit in id reiciendis illo nulla molestiae temporibus aperiam ipsum magnam repellendus, ipsa soluta. Dolore, ducimus. Corrupti!
+                    Itaque, sed quasi! Tempora accusamus deserunt expedita ipsam, quo excepturi sint iste. Ratione placeat obcaecati autem, dolore fugit, voluptate eveniet ullam porro nobis ad, explicabo omnis. Eos necessitatibus quidem doloremque!
+                </p>
             </div>
         </div>
     </div>
