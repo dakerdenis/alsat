@@ -1,9 +1,10 @@
 <style>
-    <?php include './content/contact.css'; ?>
-</style>
-<style>
     <?php include './content/login.css'; ?>
 </style>
+<style>
+    <?php include './content/contact.css'; ?>
+</style>
+
 
 <div class="contact__wrapper">
     <div class="contact__desc">
@@ -34,7 +35,7 @@
                 Adresler
             </div>
             <p class="contact__adress__p">
-                Lorem Ipsum is simply dummy text of 
+                Lorem Ipsum is simply dummy text of
             </p>
             <p class="contact__adress__p">
                 Lorem Ipsum is simply dummy text of
@@ -108,10 +109,12 @@
                     </div>
                 </div>
             </div>
-            <textarea class="form__textarea__container"></textarea>
+            <div class="form__block__textarea">
+                <textarea class="form__textarea__container"></textarea>
+            </div>
 
             <div class="contact__form__button__submit">
-                <button>Send MEssage</button>
+                <button>Send Message</button>
             </div>
         </form>
     </div>
