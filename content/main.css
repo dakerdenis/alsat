@@ -292,7 +292,7 @@
     
     }
     .element_image {
-        height: calc(19.625em - 40%);
+        height: calc(15.625em - 40%);
         overflow: hidden;
     }
     .element_image-img {
