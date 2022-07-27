@@ -54,6 +54,49 @@
     </div>
 
     <!---Описание товара ПК---->
+    <div class="product__content__desc">
+        <!-------карта тип цена даьа и категории ---->
+        <div class="product__price__map">
+            <!--Цена и площадь + кол во просмотров и дата добавления--->
+            <div class="product__price_square">
+                <div class="product__price__block">
+                    <div class="product__price__block">
+                        2 000 000 AZN
+                    </div>
+                    <div class="product__square__block">
+                        300m<sup>2</sup>
+                    </div>
+                </div>
+                <!--кол во просмотров и дата--->
+                <div class="product__views_data">
+                    <div class="product__views_block">
+                        Baxislarin sayi: 10621
+                    </div>
+                    <div class="product__data_block">
+                        Yenlendi: 29 Aprel 2022
+                    </div>
+                </div>
+            </div>
+            <!---Раздел и категория товара + карта--->
+            <div class="product__type__map">
+                <!--описание и категория--->
+                <div class="product__type_block"></div>
+                <!--карта-->
+                <div class="product__map_block"></div>
+            </div>
+
+            <!--связь с обьектом-->
+            <div class="product__contact__block">
+                Etrafli melumat: +994 50 555 55 55
+            </div>
+        </div>
+        <!-----Описание товара + его название +его доход--->
+        <div class="product__desc__name">
+            <div class="product__desc__name_block">
+                Spa Salon, ela veziyyetde
+            </div>
+        </div>
+    </div>
 </div>
 
 <!---4 похожие рекомендации--->
