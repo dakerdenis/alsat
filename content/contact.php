@@ -34,7 +34,10 @@
                 Adresler
             </div>
             <p class="contact__adress__p">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of 
+            </p>
+            <p class="contact__adress__p">
+                Lorem Ipsum is simply dummy text of
             </p>
         </div>
         <!----Social networks--->

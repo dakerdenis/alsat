@@ -6,6 +6,7 @@
     margin: 0 auto;
     width: 80%;
     color: rgb(8, 21, 52);
+    margin-bottom: 45px;
 }
 .contact__desc {
     width: 100%;
@@ -26,6 +27,7 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 257x;
 }
 .contact__info__wrapper_block {
     width: 25%;
@@ -41,12 +43,25 @@
     margin-bottom: 15px;
 }
 .contact__adress__p {
+    display: block;
+    margin-bottom: 15px;
 }
 .contact__social_symbols {
+    display: flex;
+    width: 100%;
+
+} 
+.contact__social_symbols a:not(:first-child){
+    margin-left: 15px;
 }
 .contact__form_container {
+    display: flex;
+    flex-direction: column;
 }
 .two_elements__from_container{
+
+    width: 100%;
+    display: flex;
 
 }
 
@@ -55,4 +70,13 @@
 }
 
 .contact__form__button__submit {
+    width: 100%;
+    text-align: center;
+}
+.contact__form__button__submit button {
+    background-color: #FFDE5A;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 7px 45px 7px 45px;
+    border-radius: 30px;
 }
