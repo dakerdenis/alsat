@@ -1,7 +1,8 @@
     <!--стили главной страницы-->
     <style>
-        <?php include './content/block.css'; 
-        ?><?php include './content/main.css'; ?>
+<?php include './content/main.css'; ?>
+<?php include './content/block.css'; 
+        ?>
     </style>
 
     <div class="content__wrapper">

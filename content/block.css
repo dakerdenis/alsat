@@ -27,6 +27,8 @@
 }
 .element_image-img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .element__bookmark {
 }
@@ -159,7 +161,7 @@
     
     }
     .element_image {
-        height: calc(19.625em - 7%);
+        height: calc(19.625em - 15%);
         overflow: hidden;
     }
     .element_image-img {
@@ -273,10 +275,232 @@
     }
 }
 @media only screen and (max-width: 769px){
-    .element_image {
-        border-radius: 18px 18px 0px 0px;
-        height: 15.625em;
+    .elelement__block {
+
+        margin-top: 25px;
+        height: calc(32.75em - 15%);
+        width: 48%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 18px;
         overflow: hidden;
+        margin-bottom: 25px;
+    
+    }
+    .elelement__block a {
+        color: rgb(8, 21, 52);
+        height: 100%;
+    }
+    .element_wrapper {
+        height: 90%;
+        width: 100%;
+
+    
+    }
+    .element_image {
+        height: calc(15.625em - 40%);
+        overflow: hidden;
+    }
+    .element_image-img {
+        width: 100%;
+    }
+    .element__bookmark {
+    }
+    .element__content {
+    
+        height: calc(13.1em - 3.5%);
+        width: 100%;
+    }
+    .element__content_wrapper {
+        width: 100%;
+        height: 100%;
+    
+        padding: 12px 15px 12px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .element__price_additional_wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .element_type_price {
+    
+    }
+    .element__price {
+        font-size: calc(24px - 40%);
+        font-weight: 600;
+    }
+    .element__type {
+        padding-top: 5px;
+        font-size: calc(20px - 40%);
+        color: rgb(80, 89, 111);
+    }
+    .element__date {
+        padding-top: 4px;
+        font-size: calc(15px - 40%);
+        color: rgb(193, 193, 193);
+    }
+    .verified_top {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .verified_img{
+        width: 18px;
+        height: 18px;
+        margin-left: 21px;
+    }
+    .verified_img img{
+        width: 100%;
+    }
+    .verified_img img {
+
+    }
+    .top_img- img {
+        width: 50%;
+    }
+    .percentage__income {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        color: rgb(8, 21, 52);
+        font-size: calc(20px - 40%);
+        font-weight: 500;
+        margin-top: 8px;
+    }
+    .percentage_block {
+        width: 40%;
+        border-right: 2px solid rgb(71, 168, 229);
+        font-size: 15px;
+    }
+    .percentage_block_type {
+        font-size: 13px;
+    }
+    .percentage_block_percent {
+        padding-top: 5px;
+    }
+    .month_income {
+        width: 52%;
+        text-align: center;
+    }
+    .month_income_desc {
+    }
+    .month_income_price {
+        padding-top: 5px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .elelement__block {
+
+        margin-top: 25px;
+        height: calc(32.75em - 15%);
+        width: calc(22.5em - 85%);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 18px;
+        overflow: hidden;
+        margin-bottom: 25px;
+    
+    }
+    .elelement__block a {
+        color: rgb(8, 21, 52);
+        height: 100%;
+    }
+    .element_wrapper {
+        height: 90%;
+        width: 100%;
+
+    
+    }
+    .element_image {
+        height: calc(19.625em - 40%);
+        overflow: hidden;
+    }
+    .element_image-img {
+        width: 100%;
+    }
+    .element__bookmark {
+    }
+    .element__content {
+    
+        height: calc(13.1em - 3.5%);
+        width: 100%;
+    }
+    .element__content_wrapper {
+        width: 100%;
+        height: 100%;
+    
+        padding: 8px 10px 8px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .element__price_additional_wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .element_type_price {
+    
+    }
+    .element__price {
+        font-size: calc(24px - 40%);
+        font-weight: 600;
+    }
+    .element__type {
+        padding-top: 5px;
+        font-size: calc(20px - 40%);
+        color: rgb(80, 89, 111);
+    }
+    .element__date {
+        padding-top: 4px;
+        font-size: calc(15px - 40%);
+        color: rgb(193, 193, 193);
+    }
+    .verified_top {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .verified_img img {
+        width: 70%;
+    }
+    .top_img- img {
+        width: 70%;
+    }
+    .percentage__income {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        color: rgb(8, 21, 52);
+        font-size: calc(20px - 40%);
+        font-weight: 500;
+        margin-top: 8px;
+    }
+    .percentage_block {
+        width: 40%;
+        border-right: 2px solid rgb(71, 168, 229);
+    }
+    .percentage_block_type {
+    
+    }
+    .percentage_block_percent {
+        padding-top: 5px;
+    }
+    .month_income {
+        width: 48%;
+        text-align: center;
+    }
+    .month_income_desc {
+    }
+    .month_income_price {
+        padding-top: 5px;
     }
 }
 @media only screen and (max-width: 355px){
