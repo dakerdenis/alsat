@@ -9,8 +9,9 @@
     <div class="contact__desc">
         Bizimle Elage
     </div>
+    <form action="">
     <div class="contact__container">
-        <form action="">
+
             <!--Связаться с  нами описание--->
             <div class="contact__block__desc">
                 <div class="contact__block__desc_name">
@@ -50,9 +51,21 @@
                         </div>
                     </div>
                     <!---message--->
+                    <div class="log_reg_element__wrapper">
+                        <div class="log_reg_element_wraper_desc">
+                            Mesaj
+                        </div>
+                        <div class="log_reg_element_wraper_input">
+                            <textarea></textarea>
+                        </div>
+                    </div>
             </div>
-        </form>
+
     </div>
+    <div class="contact__block_form_button">
+        <button type="submit">Göndər</button>
+    </div>
+    </form>
 </div>
 
 
