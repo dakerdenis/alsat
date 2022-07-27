@@ -22,66 +22,38 @@
             <div class="gallery-part1-image">
                 <img id="img-Box" src="./content/images/img1.jpg" alt="">
                 <i id="zoom" class="fa-solid fa-magnifying-glass-plus"></i>
-
-            </div>
-            <div class="gallery-part1-text">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-                    explicabo eius dolorum saepe, quaerat velit numquam maxime facere
-                    nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
-                    magni est provident tenetur nam accusamus? Exercitationem incidunt
-                    voluptatem distinctio quia, dicta similique in! Quas quisquam porro
-                    provident voluptatem unde totam qui!
-                </p>
             </div>
         </div>
-
         <!--Галлерея часть 2-->
         <div class="photo-gallery-part2">
-            <div class="gallery-part2-photos">
-                <div class="photos-1">
-                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
-                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-
-                </div>
-                <!-- <div class="photos-2">
-            
-          </div> -->
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
             </div>
-
-
-            <div class="gallery-part2-text-extension">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-                    explicabo eius dolorum saepe, quaerat velit numquam maxime facere
-                    nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
-                    magni est provident tenetur nam accusamus? Exercitationem incidunt
-                    voluptatem distinctio quia, dicta similique in! Quas quisquam porro
-                    provident voluptatem unde totam qui!
-                </p>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
             </div>
-            <div class="gallery-part2-text">
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
-                    explicabo eius dolorum saepe, quaerat velit numquam maxime facere
-                    nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
-                    magni est provident tenetur nam accusamus? Exercitationem incidunt
-                    voluptatem distinctio quia, dicta similique in! Quas quisquam porro
-                    provident voluptatem unde totam qui!
-                </p>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+            </div>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+            </div>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+            </div>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+            </div>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+            </div>
+            <div class="gallery-part2-blocks">
+                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
             </div>
         </div>
     </div>
+
+    <!---Описание товара ПК---->
 </div>
 
 <!---4 похожие рекомендации--->
@@ -108,4 +80,3 @@
     <span class="close">&times;</span>
     <img class="modal-content" id="img01">
 </div>
-
