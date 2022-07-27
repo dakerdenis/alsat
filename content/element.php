@@ -105,6 +105,7 @@
                     Itaque, sed quasi! Tempora accusamus deserunt expedita ipsam, quo excepturi sint iste. Ratione placeat obcaecati autem, dolore fugit, voluptate eveniet ullam porro nobis ad, explicabo omnis. Eos necessitatibus quidem doloremque!
                 </p>
             </div>
+            <!--его доходность маржа и прибыль--->
         </div>
     </div>
 </div>
