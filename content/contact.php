@@ -93,7 +93,7 @@
                 <!--name-->
                 <div class="log_reg_element__wrapper">
                     <div class="log_reg_element_wraper_desc">
-                        Ad soyad*
+                        Meqsed
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="text">
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="form__block__textarea">
-                <textarea class="form__textarea__container"></textarea>
+                <textarea class="form__textarea__container" placeholder="Sizin messaji yazin"></textarea>
             </div>
 
             <div class="contact__form__button__submit">
@@ -125,6 +125,6 @@
 <!--Advertisement block -->
 <div class="advertisement__block ">
     <div class="advertisement__img">
-        <img class="advertisement__img-img" src="https://placehold.jp/3d4070/ffffff/550x100.png" alt="">
+
     </div>
 </div>

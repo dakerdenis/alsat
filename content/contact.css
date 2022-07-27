@@ -1,7 +1,4 @@
-.advertisement__block {
 
-    text-align: center;
-}
 .contact__wrapper{
     margin: 0 auto;
     width: 80%;
@@ -76,7 +73,7 @@
     width: 100%;
     height: 100%;
     resize: none;
-
+    font-size: 18px;
 }
 
 .contact__form__button__submit {
@@ -94,4 +91,35 @@
 .log_reg_element__wrapper{
     margin-top: 0px;
     width: 47%;
+}
+@media only screen and (max-width: 769px){
+    .contact__info__wrapper{
+        flex-wrap: wrap;
+    }
+    .contact__info__wrapper_block {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 525px){
+    .contact__info__wrapper{
+        flex-direction: column;
+
+    }
+    .contact__info__wrapper_block {
+        width: 100%;
+    }
+    .two_elements__from_container{
+        flex-direction: column;
+    }
+    .log_reg_element__wrapper{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 376px){
+    .contact__wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
