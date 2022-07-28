@@ -92,33 +92,33 @@
                     </div>
                     <div class="produkt__category_block_wrap">
                         <div class="produkt__category_block_type">
-                            Kategoriya:
+                            Seher:
                         </div>
                         <div class="produkt__category_block_type">
-                            SPA SALON
-                        </div>
-                    </div>
-                    <div class="produkt__category_block_wrap">
-                        <div class="produkt__category_block_type">
-                            Kategoriya:
-                        </div>
-                        <div class="produkt__category_block_type">
-                            SPA SALON
+                            Baki
                         </div>
                     </div>
                     <div class="produkt__category_block_wrap">
                         <div class="produkt__category_block_type">
-                            Kategoriya:
+                            Unvan:
                         </div>
                         <div class="produkt__category_block_type">
-                            SPA SALON
+                            Neftciler pr-ti 115
+                        </div>
+                    </div>
+                    <div class="produkt__category_block_wrap">
+                        <div class="produkt__category_block_type">
+                            Rayon:
+                        </div>
+                        <div class="produkt__category_block_type">
+                            Sebayil (m/s Sahil)
                         </div>
                     </div>
                 </div>
                 <!--карта-->
                 <div class="product__map_block">
                     <div class="product__map_block-map">
-                        
+
                     </div>
                 </div>
             </div>
