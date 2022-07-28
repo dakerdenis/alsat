@@ -1,6 +1,6 @@
             <!--element block -->
             <div class="elelement__block">
-                <a href="../index.php?tag=element">
+                <a href="./index.php?source=element">
                     <div class="element_wrapper">
                         <!-- image block-->
                         <div class="element_image">

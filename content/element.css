@@ -165,6 +165,88 @@
   }
 
 
+
+  .product__content__desc {
+    display: flex;
+    justify-content: space-between
+}
+.product__price__map {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product__price_square {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.product__price__wrap1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product__price__block{
+    background-color: red;
+    width: 50%;
+}
+.product__square__block {
+    background-color: green;
+    width: 50%;
+}
+.product__views_data {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product__views_block {
+    background-color: red;
+}
+.product__data_block {
+    background-color: greenyellow;
+}
+.product__type__map {
+    display: flex;
+    justify-content: space-between;
+}
+.product__type_block {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.produkt__category_block_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.produkt__category_block_type {
+    width: 50%;
+}
+.product__map_block {
+    width: 49%;
+}
+.product__contact__block {
+}
+.product__desc__name {
+    width: 49%;
+}
+.product__desc__name_block {
+}
+.product__fulldesc__block {
+}
+.product__price__money {
+}
+.product__openclose_block {
+}
+.product__monthincome_block {
+}
+.product__percentage {
+}
+
+
  @media only screen and (max-device-width: 480px) and (min-width: 314px) {
     .photo-gallery{
         display: flex;

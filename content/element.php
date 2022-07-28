@@ -59,7 +59,8 @@
         <div class="product__price__map">
             <!--Цена и площадь + кол во просмотров и дата добавления--->
             <div class="product__price_square">
-                <div class="product__price__block">
+                <!---Цена и площадь---->
+                <div class="product__price__wrap1">
                     <div class="product__price__block">
                         2 000 000 AZN
                     </div>
@@ -80,7 +81,40 @@
             <!---Раздел и категория товара + карта--->
             <div class="product__type__map">
                 <!--описание и категория--->
-                <div class="product__type_block"></div>
+                <div class="product__type_block">
+                    <div class="produkt__category_block_wrap">
+                        <div class="produkt__category_block_type">
+                            Kategoriya:
+                        </div>
+                        <div class="produkt__category_block_type">
+                            SPA SALON
+                        </div>
+                    </div>
+                    <div class="produkt__category_block_wrap">
+                        <div class="produkt__category_block_type">
+                            Kategoriya:
+                        </div>
+                        <div class="produkt__category_block_type">
+                            SPA SALON
+                        </div>
+                    </div>
+                    <div class="produkt__category_block_wrap">
+                        <div class="produkt__category_block_type">
+                            Kategoriya:
+                        </div>
+                        <div class="produkt__category_block_type">
+                            SPA SALON
+                        </div>
+                    </div>
+                    <div class="produkt__category_block_wrap">
+                        <div class="produkt__category_block_type">
+                            Kategoriya:
+                        </div>
+                        <div class="produkt__category_block_type">
+                            SPA SALON
+                        </div>
+                    </div>
+                </div>
                 <!--карта-->
                 <div class="product__map_block"></div>
             </div>
