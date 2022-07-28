@@ -286,18 +286,40 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    color: rgb(8, 21, 52);
 }
 .product__desc__name_block {
+    font-size: 27px;
+    font-weight: 500;
 }
+
 .product__fulldesc__block {
+    margin-top: 20px;
+}
+.product__fulldesc__block p{
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
 }
 .product__price__money {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
 }
 .product__openclose_block {
+    width: 50%;
+
+
 }
 .product__monthincome_block {
+    width: 50%;
+
 }
 .product__percentage {
+    width: 50%;
+    margin-top: 15px;
+
 }
 
 
