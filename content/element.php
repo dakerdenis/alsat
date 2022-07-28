@@ -116,7 +116,11 @@
                     </div>
                 </div>
                 <!--карта-->
-                <div class="product__map_block"></div>
+                <div class="product__map_block">
+                    <div class="product__map_block-map">
+                        
+                    </div>
+                </div>
             </div>
 
             <!--связь с обьектом-->
