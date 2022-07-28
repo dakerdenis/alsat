@@ -106,6 +106,17 @@
                 </p>
             </div>
             <!--его доходность маржа и прибыль--->
+            <div class="product__price__money">
+                <div class="product__openclose_block">
+                    Fealliyet: Aktiv
+                </div>
+                <div class="product__monthincome_block">
+                    Ayliq gelir: 10 000 azn
+                </div>
+                <div class="product__percentage">
+                    Biznes% (serik): Tam 100%
+                </div>
+            </div>
         </div>
     </div>
 </div>
