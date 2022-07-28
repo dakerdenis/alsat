@@ -306,22 +306,31 @@
     flex-wrap: wrap;
     width: 100%;
     margin-top: 20px;
+    font-size: 20px;
 }
 .product__openclose_block {
     width: 50%;
-
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
 
 }
 .product__monthincome_block {
     width: 50%;
-
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
 }
 .product__percentage {
     width: 50%;
     margin-top: 15px;
-
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
 }
-
+.product__price__money-div{
+    font-weight: 500;
+}
 
  @media only screen and (max-device-width: 480px) and (min-width: 314px) {
     .photo-gallery{
