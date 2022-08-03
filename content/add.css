@@ -187,6 +187,7 @@
   .select-selected_city.select-arrow-active_city:after {
     border-color: transparent transparent #081534 transparent;
     top: 13px;
+    border-radius: 15px;
   }
   
   /*style the items (options), including the selected item:*/
@@ -197,6 +198,7 @@
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
     user-select: none;
+
   }
   
   /*style items (options):*/
@@ -210,6 +212,7 @@
     z-index: 99;
     font-size: 18px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 15px;
   }
   
   /*hide the items when the select box is closed:*/
@@ -299,6 +302,7 @@
     z-index: 99;
     font-size: 18px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 15px;
   }
   
   /*hide the items when the select box is closed:*/
@@ -387,6 +391,7 @@
     z-index: 99;
     font-size: 18px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 15px;
   }
   
   /*hide the items when the select box is closed:*/
@@ -473,6 +478,7 @@
     z-index: 99;
     font-size: 18px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 15px;
   }
   
   /*hide the items when the select box is closed:*/
