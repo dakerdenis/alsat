@@ -30,6 +30,7 @@ input[type="number"] {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   height: auto;
   border-radius: 25px;
+  z-index: 50;
 }
 
 .search_name_desc {
@@ -858,6 +859,7 @@ input[type="number"] {
   .search_container {
     width: 90%;
     right: 5%;
+    box-shadow: 0 10px 15px -2px rgba(0, 0, 0, 0.8);
   }
   .additional_show__image {
     width: 15px;
