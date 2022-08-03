@@ -30,6 +30,14 @@
         <img src="./style/imgs/equip.svg" alt="" srcset="">
         <a href="#">Avadanliqlarin satisi</a>
       </div>
+
+
+      <!--navigation element-->
+      <div class="header_nav_element">
+        <img src="./style/imgs/equip.svg" alt="" srcset="">
+        <a href="#">Əlavə Xidmətlər</a>
+      </div>
+
     </div>
   </div>
 
@@ -99,8 +107,8 @@
               </div>
               <!--максимальная площадь-->
               <div class="search__square__max">
-                <input type="number" placeholder="max">
-                <p>m<sup>2</sup></p>
+                <input type="number" placeholder="max"> 
+                <p>m<sup>2</sup> </p>
               </div>
             </div>
           </div>
