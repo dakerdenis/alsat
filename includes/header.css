@@ -209,7 +209,7 @@ body._lock{
         padding: 0px 10px 0px 10px;
         position: fixed;
         background-color: #fff;
-        z-index: 20;
+        z-index: 60;
         height: 60px;
         display: flex;
         justify-content: center;
@@ -286,7 +286,7 @@ body._lock{
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 100%;
+        width: 80%;
         height: 100vh;
 
         transform: translateX(-155%);

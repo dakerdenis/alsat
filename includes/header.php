@@ -84,7 +84,7 @@
             <p>HR</p>
           </a>
           <!---Блок информативный 2--->
-          <a href="#" class="header__desc_block-small">
+          <a href="index.php?source=page" class="header__desc_block-small">
             <img src="./style/imgs/arrow_right.svg" alt="">
             <p>Audit</p>
           </a>
