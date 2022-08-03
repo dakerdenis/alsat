@@ -11,7 +11,7 @@
       <!--//////////////////////////////////-->
       <!--//////////////////////////////////-->
       <!--//////////////////////////////////-->
-      <a href="#" class="header__logo-burger">
+      <a class="header__logo-burger">
         <div class="menu-burger_icon">
           <span></span>
         </div>
@@ -44,7 +44,7 @@
               <p>Aleksey Navalniy</p>
           </a>
           <!---Блок Новое обьявление--->
-          <a href="#" class="header__desc_block header__desc_block-new">
+          <a href="index.php?source=add" class="header__desc_block header__desc_block-new">
             <img src="./style/imgs/add_white.png" alt="">
             <p>Yeni elan</p>
           </a>
@@ -102,7 +102,7 @@
             <p>Layihə haqda</p>
           </a>
           <!---Блок информативный--->
-          <a href="#" class="header__desc_block">
+          <a href="index.php?source=contact" class="header__desc_block">
             <img src="" alt="">
             <p>Əlaqə</p>
           </a>

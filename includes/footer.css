@@ -100,4 +100,9 @@
     .footer__element:last-child{
         margin-bottom: 25px;
     }
+    .footer__element_rest-info {
+        width: 50%;
+        font-size: 16px;
+        margin-top: 27px;
+    }
  }
