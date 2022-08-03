@@ -26,10 +26,10 @@
             <!--Сортировка по чему либо--->
             <div class="custom-selectfilter">
                 <select>
-                  <option value="0">Aktiv</option>
-                  <option value="0">Aktiv</option>
-                  <option value="0">Baglidir</option>
-                  <option value="1">Planda</option>
+                  <option value="0">Bahadan Ucuza</option>
+                  <option value="0">Ucuzdan Baha</option>
+                  <option value="0">По возрастанию популярности</option>
+                  <option value="1">По убыванию популярности</option>
                   <option value="2">Snos</option>
                 </select>
               </div>
@@ -38,7 +38,7 @@
 
 
 
-    
+
     <div class="content__wrapper">
         <!-- контейнер -->
         <div class="content_wrapper_4elements">
