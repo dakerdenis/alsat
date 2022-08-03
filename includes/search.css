@@ -710,7 +710,7 @@ input[type="number"] {
     width: 50%;
   }
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1441px) {
     .search_name_desc{
         font-size: 19.5px;
       }
@@ -722,6 +722,9 @@ input[type="number"] {
       }
       .select-selected3{
         font-size: 17px;
+      }
+      .select-selected3{
+        padding: 6px 12px;
       }
       .search_buy_destination span{
         font-size: 17px;
@@ -740,6 +743,7 @@ input[type="number"] {
       }
       .search__block__button button{
         font-size: 17.5px;
+        height: 92%;
       }
       .remember_search{
         font-size: 17px;
@@ -755,6 +759,15 @@ input[type="number"] {
       }
       .search__block__map img {
             height: 27px;
+      }
+      .search__block_block2{
+        padding: 6px 12px 6px 12px;
+      }
+      .search__block__square{
+        padding: 6px 12px 6px 12px;
+      }
+      .search__block__price{
+        padding: 6px 12px 6px 12px;
       }
 }
 @media only screen and (max-width: 1368px) {
