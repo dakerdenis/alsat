@@ -710,6 +710,53 @@ input[type="number"] {
     width: 50%;
   }
 }
+@media only screen and (max-width: 1440px) {
+    .search_name_desc{
+        font-size: 19.5px;
+      }
+      .select-selected1{
+        font-size: 17px;
+      }
+      .select-selected2{
+        font-size: 17px;
+      }
+      .select-selected3{
+        font-size: 17px;
+      }
+      .search_buy_destination span{
+        font-size: 17px;
+      }
+      .search__block__square p{
+        font-size: 17px;
+      }
+      .search__block__price p{
+        font-size: 17px;
+      }
+      .search__block__active{
+        font-size: 17px;
+      }
+      .search__block__map p {
+        font-size: 17.5px;
+      }
+      .search__block__button button{
+        font-size: 17.5px;
+      }
+      .remember_search{
+        font-size: 17px;
+      }
+      .clear_form{
+        font-size: 17px;
+      }
+      .search_container{
+        padding: 20px;
+      }
+      .search__block__map{
+        height: 40px;
+      }
+      .search__block__map img {
+            height: 27px;
+      }
+}
 @media only screen and (max-width: 1368px) {
   .custom-select1 {
   }
