@@ -26,30 +26,32 @@
         </div>
         <!--Галлерея часть 2-->
         <div class="photo-gallery-part2">
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
+
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+
         </div>
     </div>
 
@@ -146,13 +148,16 @@
             <!--его доходность маржа и прибыль--->
             <div class="product__price__money">
                 <div class="product__openclose_block">
-                    <div class="product__desc__addstyle">Fealliyet:</div> <div class="product__price__money-div">Aktiv</div>
+                    <div class="product__desc__addstyle">Fealliyet:</div>
+                    <div class="product__price__money-div">Aktiv</div>
                 </div>
                 <div class="product__monthincome_block">
-                    <div class="product__desc__addstyle">Ayliq gelir:</div> <div class="product__price__money-div">10 000 azn</div>
+                    <div class="product__desc__addstyle">Ayliq gelir:</div>
+                    <div class="product__price__money-div">10 000 azn</div>
                 </div>
                 <div class="product__percentage">
-                    <div class="product__desc__addstyle">Biznes% (serik):</div> <div class="product__price__money-div">Tam 100%</div>
+                    <div class="product__desc__addstyle">Biznes% (serik):</div>
+                    <div class="product__price__money-div">Tam 100%</div>
                 </div>
             </div>
         </div>
