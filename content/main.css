@@ -375,6 +375,30 @@
 }
 @media only screen and (max-width: 1285px) {
 }
+@media only screen and (max-width: 1090px){
+  
+  .filter__wrapper {
+    font-size: 16px;
+  }
+  .filter__container {
+  }
+  .filter__desc {
+  }
+  .filter__element {
+    font-size: 16px;
+    padding: 6px 8px 6px 8px;
+  }
+  .custom-selectfilter {
+    width: 20%;
+  }
+  .select-itemsfilter div, .select-selectedfilter{
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  .select-selectedfilter.select-arrow-activefilter:after{
+    top: 6px;
+  }
+}
 @media only screen and (max-width: 769px) {
   .content__wrapper {
     width: 95%;
