@@ -532,17 +532,22 @@
   }
   .filter__container {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: start;
   }
   .filter__desc {
-    display: none;
-    visibility: hidden;
+    margin-top: 9px;
   }
   .filter__element {
     padding: 4px 6px;
     font-size: 14px;
+    width: 30%;
+    margin-top: 9px;
   }
   .custom-selectfilter {
-    width: 20%;
+    width: 40%;
+    margin-top: 9px;
   }
   .select-itemsfilter div, .select-selectedfilter{
     font-size: 14px;
