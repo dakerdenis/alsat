@@ -107,7 +107,7 @@
 .modal {
     display: none; 
     position: fixed; 
-    z-index: 1;
+    z-index: 60;
     padding-top: 100px; 
     left: 0;
     top: 0;
@@ -314,6 +314,7 @@
     justify-content: space-between;
     padding-right: 35px;
 
+
 }
 .product__monthincome_block {
     width: 50%;
@@ -330,9 +331,48 @@
 }
 .product__price__money-div{
     font-weight: 500;
+    border-right: 2px solid #47a8e5;
+    padding-right: 8px;
 }
-
- @media only screen and (max-device-width: 480px) and (min-width: 314px) {
+.product__desc__addstyle{
+    color: #808080;
+}
+.recomendation__wrapper{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (max-device-width: 1368px){
+    .product__openclose_block{
+        align-items: center;
+    }
+    .product__monthincome_block{
+        align-items: center;
+    }
+    .product__percentage{
+        align-items: center;
+    }
+    .product__desc__addstyle{
+        font-size: 16px;
+    }
+    .product__price__money-div{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-device-width: 769px){
+    .product__content_wrapper{
+        flex-direction: column;
+    }
+    .photo-gallery-part1{
+        width: 100%;
+    }
+    .photo-gallery-part2{
+        width: 100%;
+    }
+}
+@media only screen and (max-device-width: 480px) and (min-width: 314px) {
     .photo-gallery{
         display: flex;
         flex-direction: column;

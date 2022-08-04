@@ -146,13 +146,13 @@
             <!--его доходность маржа и прибыль--->
             <div class="product__price__money">
                 <div class="product__openclose_block">
-                    <div>Fealliyet:</div> <div class="product__price__money-div">Aktiv</div>
+                    <div class="product__desc__addstyle">Fealliyet:</div> <div class="product__price__money-div">Aktiv</div>
                 </div>
                 <div class="product__monthincome_block">
-                    <div>Ayliq gelir:</div> <div class="product__price__money-div">10 000 azn</div>
+                    <div class="product__desc__addstyle">Ayliq gelir:</div> <div class="product__price__money-div">10 000 azn</div>
                 </div>
                 <div class="product__percentage">
-                    <div>Biznes% (serik):</div> <div class="product__price__money-div">Tam 100%</div>
+                    <div class="product__desc__addstyle">Biznes% (serik):</div> <div class="product__price__money-div">Tam 100%</div>
                 </div>
             </div>
         </div>
@@ -160,23 +160,7 @@
 </div>
 
 <!---4 похожие рекомендации--->
-<div class="recomendation__wrapper">
-    <div class="content_wrapper_4elements">
-        <!-- 2 элемента контейнер -->
-        <div class="content_wrapper_2elements">
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-        </div>
-        <div class="content_wrapper_2elements">
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-        </div>
-    </div>
-</div>
+
 
 
 <div id="myModal" class="modal">
