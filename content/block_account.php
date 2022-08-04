@@ -66,7 +66,12 @@
                                         </p>
                                     </div>
                                 </div>
+                                
+                            </div>
+                            <div class="block__verification">
+                                suka
                             </div>
                         </div>
+                        
                     </div>
             </div>
