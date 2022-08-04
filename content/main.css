@@ -177,7 +177,7 @@
 
 /********************/
 .filter__wrapper {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     color: #081534;
 }
@@ -285,6 +285,30 @@
   }
   .sell_find_buisness_button {
     margin-top: 70px;
+  }
+
+
+
+
+  .filter__wrapper {
+    font-size: 16px;
+  }
+  .filter__container {
+  }
+  .filter__desc {
+  }
+  .filter__element {
+    font-size: 16px;
+    padding: 6px 14px 6px 14px;
+  }
+  .custom-selectfilter {
+    width: 23%;
+  }
+  .select-itemsfilter div, .select-selectedfilter{
+    font-size: 16px;
+  }
+  .select-selectedfilter.select-arrow-activefilter:after{
+    top: 7px;
   }
 }
 @media only screen and (max-width: 1368px) {

@@ -1162,6 +1162,9 @@ input[type="number"] {
   .select-selected2:after{
     top: 14px;
   }
+  .select-selected3:after {
+    top: 14px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
