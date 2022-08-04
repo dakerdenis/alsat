@@ -1,20 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     border: 0;
 }
-*,*:before, *:after{
+
+*,
+*:before,
+*:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-:focus, :active{outline: none;}
-a:focus, a:active{outline: none;}
 
-nav,footer,header,aside{display:block;}
+:focus,
+:active {
+    outline: none;
+}
 
-html,body{
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
     height: 100%;
     width: 100%;
     font-size: 100%;
@@ -28,36 +46,83 @@ html,body{
 
 }
 
-input,button,textarea{
+input,
+button,
+textarea {
     font-family: inherit;
 }
 
-input::-ms-clear{display:none}
-button{cursor: pointer;}
-button::-ms-focus-inner{
-    padding: 0; border: 0;
+input::-ms-clear {
+    display: none
 }
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
+
+button {
+    cursor: pointer;
+}
+
+button::-ms-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 ul li {
     list-style: none;
 }
-img{
-    vertical-align:top;
+
+img {
+    vertical-align: top;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-size: inherit;font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
 }
-.main__wrapper{
+
+.main__wrapper {
     width: 100%;
     overflow: hidden;
 }
 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
 
-@media only screen and (max-width: 767px){
-    .main__wrapper{
-        margin-top: 
-        0px;
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(8, 21, 52);
+    background-image: -webkit-linear-gradient(45deg,
+            rgba(71, 168, 229, .4) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(71, 168, 229, .4) 50%,
+            rgba(71, 168, 229, .5) 75%,
+            transparent 50%,
+            transparent)
+}
+
+
+@media only screen and (max-width: 767px) {
+    .main__wrapper {
+        margin-top:
+            0px;
     }
 }

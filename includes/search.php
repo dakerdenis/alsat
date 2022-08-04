@@ -29,7 +29,6 @@
       <div class="header_nav_element ">
         <img src="./style/imgs/equip.svg" alt="" srcset="">
         <a href="#">Avadanliqlarin satisi</a>
-
       </div>
 
 
