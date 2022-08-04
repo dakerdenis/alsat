@@ -1156,6 +1156,12 @@ input[type="number"] {
   .search__block__map_button {
     width: 100%;
   }
+  .select-selected1:after{
+    top: 14px;
+  }
+  .select-selected2:after{
+    top: 14px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
