@@ -20,6 +20,80 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+
+
+
+.header_container_nav {
+  width: 100%;
+  height: 100%;
+  margin-top: 45px;
+
+}
+.header_nav_wrap {
+  display: flex;
+  padding-left: 7.5%;
+}
+.header_nav_element {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.header_nav_element{
+  margin-right: 25px;
+}
+.header_nav_element img{
+  margin-right: 5px;
+  margin-bottom: 9px;
+}
+.header_nav_element a{
+  color: #081534;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  transition: ease-in-out 0.1s;
+}
+.header_nav_element a:hover {
+  border-bottom: 2px solid #47a8e5;
+}
+.header_nav_element:first-child{
+
+}
+/**********************/
+/**********************/
+.header_nav_element_dropdown{
+  position: relative;
+  width: 15%;
+}
+
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: auto;
+  background-color: #f1f0f0;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 a {
+  font-size: 16px;
+  color: #081534;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #d8d8d8;
+
+}
+.header_nav_element_dropdown:hover .dropdown-content1 {display: block;}
+/**********************/
+/**********************/
+
 .search_container {
   background-color: #fff;
   width: 75%;
@@ -622,6 +696,73 @@ input[type="number"] {
   display: none;
   visibility: hidden;
 }
+.show__search {
+  width: 100%;
+  display: initial;
+  visibility: visible;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.show__search .search__block_block {
+  margin-top: 15px;
+  width: 50%;
+}
+.show__search .search__block_block3 {
+  width: 100%;
+}
+.show__search .search__block__price {
+  width: 50%;
+}
+.show__search .search__block__active {
+  width: 38%;
+  display: flex;
+}
+.show__search .search__block__active p {
+  display: block;
+  width: 38%;
+}
+.show__search .custom-select3 {
+  width: 100%;
+}
+.show__search2 {
+  display: initial;
+  visibility: visible;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.show__search2 .search_buy_input {
+  width: 100%;
+}
+.show__search3 {
+  display: initial;
+  visibility: visible;
+}
+
+.show__search5 {
+  display: flex;
+  visibility: visible;
+}
+.show__search5 p {
+  display: none;
+  visibility: hidden;
+}
+.show__search5 img {
+}
+
+/***************/
+/***************/
+/***************/
+.searc__block_container_2_changed {
+  flex-wrap: wrap;
+}
+.search__block__additional_changed {
+  justify-content: space-between;
+  width: 50%;
+}
+.additional_show__image_changed {
+  transform: rotate(180deg);
+}
 
 @media only screen and (max-width: 1601px) {
   .search__square__min {
@@ -917,73 +1058,6 @@ input[type="number"] {
     align-items: center;
     justify-content: center;
   }
-}
-.show__search {
-  width: 100%;
-  display: initial;
-  visibility: visible;
-  display: flex;
-  flex-direction: column-reverse;
-}
-.show__search .search__block_block {
-  margin-top: 15px;
-  width: 50%;
-}
-.show__search .search__block_block3 {
-  width: 100%;
-}
-.show__search .search__block__price {
-  width: 50%;
-}
-.show__search .search__block__active {
-  width: 38%;
-  display: flex;
-}
-.show__search .search__block__active p {
-  display: block;
-  width: 38%;
-}
-.show__search .custom-select3 {
-  width: 100%;
-}
-.show__search2 {
-  display: initial;
-  visibility: visible;
-  display: flex;
-  width: 100%;
-  margin-top: 10px;
-}
-.show__search2 .search_buy_input {
-  width: 100%;
-}
-.show__search3 {
-  display: initial;
-  visibility: visible;
-}
-
-.show__search5 {
-  display: flex;
-  visibility: visible;
-}
-.show__search5 p {
-  display: none;
-  visibility: hidden;
-}
-.show__search5 img {
-}
-
-/***************/
-/***************/
-/***************/
-.searc__block_container_2_changed {
-  flex-wrap: wrap;
-}
-.search__block__additional_changed {
-  justify-content: space-between;
-  width: 50%;
-}
-.additional_show__image_changed {
-  transform: rotate(180deg);
 }
 
 @media only screen and (max-width: 426px) {

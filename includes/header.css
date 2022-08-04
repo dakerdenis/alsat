@@ -91,43 +91,6 @@ body._lock{
 
 
 
-
-
-.header_container_nav {
-    width: 100%;
-    height: 100%;
-    margin-top: 45px;
-
-}
-.header_nav_wrap {
-    display: flex;
-    padding-left: 7.5%;
-}
-.header_nav_element {
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-}
-.header_nav_element{
-    margin-right: 25px;
-}
-.header_nav_element img{
-    margin-right: 5px;
-    margin-bottom: 9px;
-}
-.header_nav_element a{
-    color: #081534;
-    padding-bottom: 4px;
-    margin-bottom: 4px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0);
-    transition: ease-in-out 0.1s;
-}
-.header_nav_element a:hover {
-    border-bottom: 2px solid #47a8e5;
-}
-.header_nav_element:first-child{
-
-}
 .burger__mobile{
     display: none;
     visibility: hidden;
