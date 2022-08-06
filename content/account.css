@@ -277,9 +277,7 @@
     .account__elements_block{
         flex: 0 0 58%;
     }
-    .elelement__block{
-        height: 400px;
-    }
+
 .favorite__element {
     margin-top: 25px;
     display: flex;
@@ -340,15 +338,7 @@
     right: 15px;
     top: 10px;
 }
-.elelement__block{
-    height: 420px;
-}
-.element_image{
-    height: 16em;
-}
-.elelement__block{
-    width: 20em;
-}
+
 }
 @media only screen and (max-width: 1368px){
     .account__cotainer{
@@ -360,10 +350,7 @@
     .account__elements_block{
         flex: 0 0 58%;
     }
-    .elelement__block{
-        height: 390px;
-        width: 18em;
-    }
+
 .favorite__element {
     margin-top: 25px;
     display: flex;
@@ -424,19 +411,7 @@
     right: 15px;
     top: 10px;
 }
-.elelement__block {}
-.element__price{
-    font-size: 20px;
-}
-.percentage_block{
-    font-size: 17px;
-}
-.month_income{
-    font-size: 17px;
-}
-.element_image{
-    height: 15em;
-}
+
 }
 @media only screen and (max-width: 1211px){
    .account__elements_block{
@@ -621,26 +596,7 @@
         right: 15px;
         top: 10px;
     }
-    /**************************/
-    .elelement__block{
-        width: 250px;
-        height: 350px;
-    }
-    .element_wrapper{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .element_image{
-        height: auto;
-    }
-    .top_img-{
-        margin-top: 7px;
-    }
-    .top_img- img{
-        width: 50%;
-    }
+
     .account__elements_desc-name{
         font-size: 19px;
     }

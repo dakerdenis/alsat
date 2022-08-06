@@ -1,5 +1,6 @@
 <style>
-    <?php include './content/block.css'; ?><?php include './content/account.css"' ?>
+    <?php include './content/account.css"' ?>
+    <?php include './content/account_block.css"' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
@@ -338,14 +339,11 @@
             </div>
             <!-- my elements wrapper -->
             <div class="account__elements__wrapper">
-                <!---Element --->
-                <?php include 'block_account.php' ?>
-                <!---Element --->
-                <?php include 'block_account.php' ?>
-                <!---Element --->
-                <?php include 'block_account.php' ?>
-                <!---Element --->
-                <?php include 'block_account.php' ?>
+            <?php include './content/account_block.php' ?>
+            <?php include './content/account_block.php' ?>
+            <?php include './content/account_block.php' ?>
+            <?php include './content/account_block.php' ?>
+            <?php include './content/account_block.php' ?>
 
             </div>
         </div>

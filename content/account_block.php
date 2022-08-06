@@ -1,14 +1,20 @@
             <!--element block -->
             <div class="elelement__block">
+                <a href="./index.php?source=element">
                     <div class="element_wrapper">
                         <!-- image block-->
                         <div class="element_image">
                             <!--element image-->
                             <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
                             <!--Bookmark -->
-                            <div class=" element_status">
-                                <img src="./style/imgs/active.svg" alt="">
+                            <div class="element__bookmark">
                             </div>
+
+                            <div class="account__element__status">
+                                    <img src="./style/imgs/active.svg" alt="" class="account__element__status-img">
+                            </div>
+
+                            
                         </div>
                         <!--element content -->
                         <div class="element__content">
@@ -31,17 +37,13 @@
                                     <!--verified and top-->
                                     <div class="verified_top">
                                         <!--verified-->
-                                        <div class="verified_img customize_svg">
-                                            <img src="./style/imgs/customize.svg" alt="" srcset="">
+                                        <div class="verified_img">
+                                            <img src="./style/imgs/verified.png" alt="" srcset="">
                                         </div>
                                         <!--Top -->
-                                            <!--#popup__make_top`1` (1 - номер элемента)   через JS с него убрирается # и берется чистое имя
-                                            ,в соотвествиий с которым открывается нужный тот или иной блок для нужного нам Элемента--->
-                                            <div class="top_img- ">
-                                                <a class="popup-link" style="width:100%;height:100%;" href="#popup__make_top1">
-                                                    <img src="./style/imgs/top.png" alt="">
-                                                </a>
-                                            </div>
+                                        <div class="top_img-">
+                                            <img src="./style/imgs/top.png" alt="">
+                                        </div>
                                     </div>
                                 </div>
 
@@ -66,12 +68,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                
-                            </div>
-                            <div class="block__verification">
-                                suka
                             </div>
                         </div>
-                        
                     </div>
+                </a>
             </div>
