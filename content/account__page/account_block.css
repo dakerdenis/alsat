@@ -151,10 +151,14 @@
     cursor: pointer;
 }
 .account__verification__block_verificate a {
-    display: block;
+
+    display: flex;
+    align-items: center;
 }
 .account__verification__block__maketop a {
-    display: block;
+
+    display: flex;
+    align-items: center;
 }
 .account__verification__block__maketop{
     display: flex;
