@@ -337,7 +337,7 @@
                 </div>
             </div>
             <!-- my elements wrapper -->
-            <div class="account__elements__wrapper">
+            <div class="account__elements__wrapper lock-padding">
                 <!----Верифицированный блок  одобренный----->
                 <?php include './content/account__page/account_block_verified.php' ?>
                 <!----Верифицированный блок  одобренный----->
@@ -356,4 +356,46 @@
     </div>
 </div>
 
+
+
+
+
+   <!------popup тело-->
+   <div id="popup" class="popup">
+      <div class="popup__body">
+         <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">&#10006;</a>
+            <div class="popup__title">Languages</div>
+            <div class="popup__text">
+               ipsum dolor sit amet consectetur adipisicing elit. Aut
+            </div>
+         </div>
+      </div>
+   </div>
+
+      <!------popup тело-->
+      <div id="popup_2" class="popup">
+         <div class="popup__body">
+            <div class="popup__content">
+               <a href="#header" class="popup__close close-popup">&#10006;</a>
+               <div class="popup__title">asdasd</div>
+               <div class="popup__text">
+                  asdasdas
+               </div>
+            </div>
+         </div>
+      </div>
+
+            <!------popup тело-->
+            <div id="popup_3" class="popup">
+               <div class="popup__body">
+                  <div class="popup__content">
+                     <a href="#header" class="popup__close close-popup">&#10006;</a>
+                     <div class="popup__title">asdasd</div>
+                     <div class="popup__text">
+                        asdфывфывфывфывфывasdas
+                     </div>
+                  </div>
+               </div>
+            </div>
 
