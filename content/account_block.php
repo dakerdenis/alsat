@@ -14,7 +14,7 @@
                                     <img src="./style/imgs/active.svg" alt="" class="account__element__status-img">
                             </div>
 
-                            
+
                         </div>
                         <!--element content -->
                         <div class="element__content">
@@ -68,8 +68,12 @@
                                         </p>
                                     </div>
                                 </div>
+                                    
+                            </div>
+                            <div class="account__verification__block">
+                                saDAS
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </div>                    
+                </a>                
             </div>
