@@ -59,7 +59,7 @@
         break;
 
         case 'account';
-        include './content/account.php';
+        include './content/account__page/account.php';
         break;
 
         case 'page';

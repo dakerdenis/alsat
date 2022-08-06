@@ -1,6 +1,6 @@
 <style>
-    <?php include './content/account.css"' ?>
-    <?php include './content/account_block.css"' ?>
+    <?php include './content/account__page/account.css"' ?>
+    <?php include './content/account__page/account_block.css"' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
@@ -339,9 +339,17 @@
             </div>
             <!-- my elements wrapper -->
             <div class="account__elements__wrapper">
-                <!----Верифицированный блок с одобренный----->
-                <?php include './content/account_block_verified.php' ?>
+                <!----Верифицированный блок  одобренный----->
+                <?php include './content/account__page/account_block_verified.php' ?>
 
+                <!---Отклоненная не одобренная публикация--->
+                <?php include './content/account__page/account_block_rejekted.php' ?>
+
+                <!---Публикация на рассмотрений-------->
+                <?php include './content/account__page/account_block_checking.php' ?>
+                
+                <!---Публикация не активная---->
+                <?php include './content/account__page/account_block_passive.php' ?>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
 /**********Блок элемента на странице*************/
 
 .elelement__block {
-    margin-top: 45px;
+    margin-top: 85px;
     height: 32.75em;
     width: 22em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -121,21 +121,54 @@
 }
 .account__element__status {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     top: 2%;
     right: 2%;
 }
 .account__element__status-img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 .account__verification__block{
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     display: flex;
     border-radius: 0px 0px 18px 18px ;
-    padding: 5px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.account__verification__block_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.account__verification__block_verificate {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+}
+.account__verification__block__maketop{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.account__verification__block_verificate img{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+.account__verification__block__maketop img{
+    width: 17px;
+    height: 24px;
+    margin-right: 7px;
+}
+.account__verification__block__change {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
 }
 /***********************************/
 /***********************************/
