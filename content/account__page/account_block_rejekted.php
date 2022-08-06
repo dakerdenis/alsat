@@ -66,21 +66,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="account__verification__block">
-                            <div class="account__verification__block_wrapper">
-                                <div class="account__verification__block_verificate">
-                                    <img src="./style/imgs/verified.png" alt="" srcset="">
-                                    <a class="popup-link" href="#popup"> Верифицировать</a>
-                                </div>
-                                <div class="account__verification__block__maketop">
-                                    <img src="./style/imgs/top.png" alt="">
-                                    <a class="popup-link" href="#popup_2">Поднять в топ</a>
-                                </div>
-                            </div>
-                            <div class="account__verification__block__change">
-                                <a class="popup-link" href="#popup_3">Редактировать</a>
-                            </div>
-                        </div>
+                        <?php include './content/account__page/verified.php' ?>
                     </div>
                 </div>
             </div>

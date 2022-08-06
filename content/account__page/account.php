@@ -365,9 +365,9 @@
       <div class="popup__body">
          <div class="popup__content">
             <a href="#header" class="popup__close close-popup">&#10006;</a>
-            <div class="popup__title">Languages</div>
+            <div class="popup__title">Вывести в топ</div>
             <div class="popup__text">
-               ipsum dolor sit amet consectetur adipisicing elit. Aut
+               Вывести в топ публикацию
             </div>
          </div>
       </div>
@@ -378,24 +378,13 @@
          <div class="popup__body">
             <div class="popup__content">
                <a href="#header" class="popup__close close-popup">&#10006;</a>
-               <div class="popup__title">asdasd</div>
+               <div class="popup__title">Верифицировать</div>
                <div class="popup__text">
-                  asdasdas
+               Верифицировать публикацию
                </div>
             </div>
          </div>
       </div>
 
-            <!------popup тело-->
-            <div id="popup_3" class="popup">
-               <div class="popup__body">
-                  <div class="popup__content">
-                     <a href="#header" class="popup__close close-popup">&#10006;</a>
-                     <div class="popup__title">asdasd</div>
-                     <div class="popup__text">
-                        asdфывфывфывфывфывasdas
-                     </div>
-                  </div>
-               </div>
-            </div>
+
 

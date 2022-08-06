@@ -150,6 +150,12 @@
     font-weight: 500;
     cursor: pointer;
 }
+.account__verification__block_verificate a {
+    display: block;
+}
+.account__verification__block__maketop a {
+    display: block;
+}
 .account__verification__block__maketop{
     display: flex;
     align-items: center;

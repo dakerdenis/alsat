@@ -145,7 +145,7 @@ function popupClose(popupActive, doUnlock = true) {
 }
 
 function bodyLock() {
-   const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper').offsetWidth + 'px';
+   const lockPaddingValue = window.innerWidth - document.querySelector('.main__wrapper').offsetWidth + 'px';
 
    if (lockPadding.length > 0) {
       for (let index = 0; index < lockPadding.length; index++) {
