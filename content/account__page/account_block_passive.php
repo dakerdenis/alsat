@@ -70,15 +70,15 @@
                             <div class="account__verification__block_wrapper">
                                 <div class="account__verification__block_verificate">
                                   <img src="./style/imgs/verified.png" alt="" srcset=""> 
-                                  <p> Верифицировать</p>
+                                  <a class="popup-link" href="#popup"> Верифицировать</a>
                                 </div>
                                 <div class="account__verification__block__maketop">
                                     <img src="./style/imgs/top.png" alt=""> 
-                                    <p>Поднять в топ</p>
+                                    <a class="popup-link" href="#popup_2">Поднять в топ</a>
                                 </div>
                             </div>
                             <div class="account__verification__block__change">
-                            &#8901; Редактировать &#8901;
+                            <a class="popup-link" href="#popup_3">Редактировать</a>
                             </div>
                         </div>
                     </div>

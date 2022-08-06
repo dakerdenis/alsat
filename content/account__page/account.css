@@ -206,67 +206,11 @@
 /****************************/
 /****************************/
 /****************************/
-.popup__make_top {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.55);
-    top: 0;
-    left:0;
-    opacity: 0;
-    visibility: hidden;
-    overflow-x: hidden;
-    transition: all 0.4s ease-in-out;
-}
-.popup__make_top_area{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left:0;
-}
-.popup__make_top.open{
-    opacity: 1;
-    visibility: visible;
-}
-.popup__make_top.open .popup__make_top_content{
-    transform: translateX(0%);
-    opacity: 1;
-    visibility: visible;
-}
 
-.popup__make_top_body {
-    min-height:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-.popup__make_top_content {
-    padding:30px 18px;
-    max-width: 30%;
-    background-color: #fff;
-    position: relative;
-    transition: all 0.4s ease-in-out;
-    opacity: 0;
-    transform: translateY(-100%);
 
-}
-.popup__make_top_close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 18px;
-    color: #000;
-}
-.popup__make_top_desc {
-    margin-bottom: 15px;
-}
-.popup__make_top_text {
-}
-.block__verification{
-    width: 100%;
-}
+
+
 @media only screen and (max-width: 1500px){
     .account__cotainer{
         height: 100%;

@@ -1,6 +1,5 @@
 <style>
-    <?php include './content/account__page/account.css"' ?>
-    <?php include './content/account__page/account_block.css"' ?>
+    <?php include './content/account__page/account.css"' ?><?php include './content/account__page/account_block.css"' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
@@ -341,15 +340,15 @@
             <div class="account__elements__wrapper">
                 <!----Верифицированный блок  одобренный----->
                 <?php include './content/account__page/account_block_verified.php' ?>
-                                <!----Верифицированный блок  одобренный----->
-                                <?php include './content/account__page/account_block_verified.php' ?>
+                <!----Верифицированный блок  одобренный----->
+                <?php include './content/account__page/account_block_verified.php' ?>
 
                 <!---Отклоненная не одобренная публикация--->
                 <?php include './content/account__page/account_block_rejekted.php' ?>
 
                 <!---Публикация на рассмотрений-------->
                 <?php include './content/account__page/account_block_checking.php' ?>
-                
+
                 <!---Публикация не активная---->
                 <?php include './content/account__page/account_block_passive.php' ?>
             </div>
@@ -357,18 +356,4 @@
     </div>
 </div>
 
-<!-- у элемента выше есть ссылка а в которой есть id  #popup__make_top`1` - последнее число номер элемента и popupa,
-    взяв id с элемента выше после убирания # с помощью JS тут с id-шником открывается необходимый блок popupa --->
-<div id="popup__make_top1" class="popup__make_top"><!--необходимый блок который нужно открыть согласно id-->
-    <a class="popup__make_top_area" href="#">
-        <div class="popup__make_top_body">
-            <div class="popup__make_top_content">
-                <a href="#" class="popup__make_top_close close-popup">X</a>
-                <div class="popup__make_top_desc">Test name</div>
-                <div class="popup__make_top_text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum explicabo enim minus aperiam qui odit, in culpa itaque obcaecati natus quae ex fugit dicta cumque laborum voluptatum, mollitia veniam neque.
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
+
