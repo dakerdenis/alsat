@@ -339,11 +339,8 @@
             </div>
             <!-- my elements wrapper -->
             <div class="account__elements__wrapper">
-            <?php include './content/account_block.php' ?>
-            <?php include './content/account_block.php' ?>
-            <?php include './content/account_block.php' ?>
-            <?php include './content/account_block.php' ?>
-            <?php include './content/account_block.php' ?>
+                <!----Верифицированный блок с одобренный----->
+                <?php include './content/account_block_verified.php' ?>
 
             </div>
         </div>

@@ -33,7 +33,6 @@
                                             Baku, 04 may 2022
                                         </p>
                                     </div>
-
                                     <!--verified and top-->
                                     <div class="verified_top">
                                         <!--verified-->
@@ -46,7 +45,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <!--percentage and month income -->
                                 <div class="percentage__income">
                                     <!--percentage-->
@@ -67,8 +65,7 @@
                                             6000 AZN
                                         </p>
                                     </div>
-                                </div>
-                                    
+                                </div>                                    
                             </div>
                             <div class="account__verification__block">
                                 <div class="account__verification__block_verificate">
