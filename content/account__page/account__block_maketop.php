@@ -4,7 +4,7 @@
                     <!-- image block-->
                     <div class="element_image" style="background-color: rgba(0, 0, 0, 0.0);">
                         <!--element image-->
-                        <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
+                        <img style="background-color: rgba(0, 0, 0, 0.0);" class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
                         <!--Bookmark -->
                         <div class="element__bookmark">
                         </div>

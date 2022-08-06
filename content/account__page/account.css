@@ -206,9 +206,37 @@
 /****************************/
 /****************************/
 /****************************/
-
-
-
+.popup__wrapper_content{
+    background-color: red;
+    display: flex;
+}
+.popup__wrapper_block{
+    width: 40%;
+}
+.popup__content__container {
+    width: 60%;
+}
+.popup__content__block {
+}
+.popup__content__block_container {
+}
+.popup__content__block-icon {
+}
+.popup__content__block-block {
+}
+.popup__content__block__title {
+}
+.popup__content__block_buttons {
+}
+.popup__content__block-button {
+}
+.popup__content__block-daysp {
+}
+.popup__content__block-ammountp {
+}
+/****************************/
+/****************************/
+/****************************/
 
 
 @media only screen and (max-width: 1500px){

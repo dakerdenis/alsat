@@ -234,7 +234,7 @@
  .popup__content {
     background-color: #fff;
     color: #000;
-    max-width: 800px;
+    width: 50%;
     padding: 30px;
     position: relative;
     transition: all 0.8s ease 0s;

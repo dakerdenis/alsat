@@ -1,21 +1,113 @@
-
-      <!------popup тело-->
-      <div id="popup_2" class="popup">
-         <div class="popup__body">
-            <div class="popup__content">
-               <a href="#header" class="popup__close close-popup">&#10006;</a>
-                <div class="popup__wrapper_content">
-                    <!---публикация нужная-->
-                    <div class="popup__wrapper_block">
-                        <?php include './content/account__page/account__block_maketop.php'?>
+<!------popup тело-->
+<div id="popup_2" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <a href="#header" class="popup__close close-popup">&#10006;</a>
+            <div class="popup__wrapper_content">
+                <!---публикация нужная-->
+                <div class="popup__wrapper_block">
+                    <?php include './content/account__page/account__block_maketop.php' ?>
+                </div>
+                <!----блок с кнопками где выводится цена------>
+                <div class="popup__content__container">
+                    <!---Поднять в общий топ---->
+                    <div class="popup__content__block">
+                        <div class="popup__content__block_container">
+                            <!---иконка вывода в топ--->
+                            <div class="popup__content__block-icon"></div>
+                            <!---контент с кнопками выбора--->
+                            <div class="popup__content__block-block">
+                                <!--название категории вывода в топ--->
+                                <div class="popup__content__block__title">
+                                    Поднять в топ
+                                </div>
+                                <!---Кнопки с выбором суммы--->
+                                <div class="popup__content__block_buttons">
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!----блок с кнопками где выводится цена------>
-                    <div class="popup__content__container">
-                        <div class="popup__content__block"></div>
-                        <div class="popup__content__block"></div>
-                        <div class="popup__content__block"></div>
+                    <!---Поднять в топ категории---->
+                    <div class="popup__content__block">
+                        <div class="popup__content__block_container">
+                            <!---иконка вывода в топ--->
+                            <div class="popup__content__block-icon"></div>
+                            <!---контент с кнопками выбора--->
+                            <div class="popup__content__block-block">
+                                <!--название категории вывода в топ--->
+                                <div class="popup__content__block__title">
+                                    Поднять в топ
+                                </div>
+                                <!---Кнопки с выбором суммы--->
+                                <div class="popup__content__block_buttons">
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---Поднять выше---->
+                    <div class="popup__content__block">
+                        <div class="popup__content__block_container">
+                            <!---иконка вывода в топ--->
+                            <div class="popup__content__block-icon"></div>
+                            <!---контент с кнопками выбора--->
+                            <div class="popup__content__block-block">
+                                <!--название категории вывода в топ--->
+                                <div class="popup__content__block__title">
+                                    Поднять в топ
+                                </div>
+                                <!---Кнопки с выбором суммы--->
+                                <div class="popup__content__block_buttons">
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
+                                        <p class="popup__content__block-daysp">x1 день</p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-         </div>
-      </div>
+        </div>
+    </div>
+</div>
