@@ -341,6 +341,8 @@
             <div class="account__elements__wrapper">
                 <!----Верифицированный блок  одобренный----->
                 <?php include './content/account__page/account_block_verified.php' ?>
+                                <!----Верифицированный блок  одобренный----->
+                                <?php include './content/account__page/account_block_verified.php' ?>
 
                 <!---Отклоненная не одобренная публикация--->
                 <?php include './content/account__page/account_block_rejekted.php' ?>
