@@ -208,12 +208,20 @@
 /****************************/
 .popup__wrapper_content{
     display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
 }
 .popup__wrapper_block{
     width: 40%;
 }
+.popup__content__block2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .popup__content__container {
     width: 60%;
+    height: 100%;
     background-color: green;
     display: flex;
     flex-direction: column;
@@ -234,10 +242,18 @@
 }
 .popup__content__block-block {
     width: 80%;
+    background-color: bisque
 }
 .popup__content__block__title {
+    background-color: red;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
+.popup__content__block__title-desc{}
 .popup__content__block_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .popup__content__block-button {
 }
