@@ -71,7 +71,12 @@
                                     
                             </div>
                             <div class="account__verification__block">
-                                saDAS
+                                <div class="account__verification__block_verificate">
+                                    верифицировать
+                                </div>
+                                <div class="account__verification__block__maketop">
+                                    Поднять в топ
+                                </div>
                             </div>
                         </div>
                     </div>                    
