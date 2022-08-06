@@ -207,7 +207,6 @@
 /****************************/
 /****************************/
 .popup__wrapper_content{
-    background-color: red;
     display: flex;
 }
 .popup__wrapper_block{
@@ -215,14 +214,26 @@
 }
 .popup__content__container {
     width: 60%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .popup__content__block {
+    background-color: blue;
+
 }
 .popup__content__block_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .popup__content__block-icon {
+    width: 20%;
 }
 .popup__content__block-block {
+    width: 80%;
 }
 .popup__content__block__title {
 }
