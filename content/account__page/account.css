@@ -367,7 +367,7 @@
   .popup__block__container_payment{
     margin-top: 5px;
     background-color: green;
-    height: 180px;
+    height: 200px;
   }
 
   .popup__payment__desc {
@@ -380,10 +380,14 @@
     display:flex;
     justify-content: space-between;
     padding-bottom: 10px;
+    align-items:center;
 }
 .popup__payment_text {
+    font-weight: 500;
+    font-size: 19px;
 }
 .popup__payment__info {
+    font-size: 18px;
 }
 /****************************/
 /****************************/
