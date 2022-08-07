@@ -1,3 +1,6 @@
+/*****Стили страницы аккаунта*********/
+/*****Стили страницы аккаунта*********/
+/*****Стили страницы аккаунта*********/
 .account_wrapper {
     width: 80%;
     margin: 0 auto;
@@ -82,10 +85,10 @@
     height: 100%;
     overflow: auto;
 }
-/**************************/
-/**************************/
-/**************************/
-/**************************/
+/********СТИЛИ ЗАКЛАДОК*********/
+/********СТИЛИ ЗАКЛАДОК*********/
+/********СТИЛИ ЗАКЛАДОК*********/
+/********СТИЛИ ЗАКЛАДОК*********/
 
 .favorite__element {
     margin-top: 25px;
@@ -180,215 +183,8 @@
     margin-top: 25px;
     margin-bottom: 35px;
 }
-
-.customize_svg img{
-    height: 25px;
-    width: 25px;
-}
-.element_image {
-    position: relative;
-}
-.element_image-img {
-}
-.element_status {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-
-    right: 1%;
-    top: 1%;
-}
-.element_status img {
-    width: 100%;
-}
-
 /****************************/
 /****************************/
-/****************************/
-/****************************/
-.popup__wrapper_content{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-}
-.popup__wrapper_block{
-    width: 40%;
-}
-.popup__content__block2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #f5ad19;
-    border-top: 2px solid #f5ad19;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-.popup__content__container {
-    width: 60%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.popup__content__block {
-
-
-}
-.popup__content__block_container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.popup__content__block-icon {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.popup__content__block-icon img {
-    width: 50px;
-    height: 70px;
-
-}
-.popup__content__block-block  {
-    width: 80%;
-
-}
-
-.popup__content__block__title {
-
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-.popup__content__block__title-desc{
-    font-size: 14px;
-    color: #a5a5a5;
-}
-.popup__content__block_buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.popup__content__block-button {
-    margin-top: 10px;
-    
-    background: linear-gradient( #f5ad19 ,#f1431d);
-    width: 30%;
-    height: 60px;
-    color: #fff;
-    border-radius: 15px;
-    padding: 8px 8px 8px 8px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
-    transition: ease-in-out 0.5s;
-}
-.popup__content__block-button:hover{
-    background: linear-gradient( #f1431d,#f5ad19 );
-}
-.popup__content__block-daysp {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 17px;
-}
-.popup__content__block-ammountp {
-
-    width:  90%;
-    margin: 0 auto;
-    text-align: end;
-    font-size: 17px;
-}
-.popup__content__block-ammountp span {
-    font-size: 12px;
-}
-
-.popup__content__container2{
-    height: 100%;
-
-}
-.popup__verification_title {
-    font-size: 24px;
-    color: #081534;
-}
-.popup__verification__desc {
-    color: #081534;
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.popup__verification__upload{
-
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.center {
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-color: #fff;
-    border-radius: 15px;
-  
-  }
-  .form-input {
-    height: 100%;
-    padding: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .form-input img {
-    width:100%;
-    display:none;
-    margin-top: 5px;
-  }
-  .form-input input {
-    display:none;
-  }
-  
-  .form-input label {
-    display:block;
-    width:100%;
-    text-align:center;
-    background-color: #081534;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 8px;
-    cursor:pointer;
-  }
-                        
-  .popup__block__container_payment{
-    margin-top: 5px;
-    background-color: green;
-    height: 200px;
-  }
-
-  .popup__payment__desc {
-    width: 60%;
-    margin-top: 15px;
-    color: #081534;
-
-}
-.popup__payment_wrapper {
-    display:flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    align-items:center;
-}
-.popup__payment_text {
-    font-weight: 500;
-    font-size: 19px;
-}
-.popup__payment__info {
-    font-size: 18px;
-}
 /****************************/
 /****************************/
 /****************************/

@@ -1,6 +1,7 @@
 <style>
     <?php include './content/account__page/account.css"' ?>
     <?php include './content/account__page/account_block.css"' ?>
+    <?php include './content/account__page/verification.css"' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
