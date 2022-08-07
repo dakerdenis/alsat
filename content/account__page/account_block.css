@@ -356,7 +356,6 @@
     .elelement__block {
 
         margin-top: 25px;
-        height: calc(32.75em - 15%);
         width: 40%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
@@ -406,17 +405,17 @@
     
     }
     .element__price {
-        font-size: calc(24px - 40%);
+        font-size: 18px;
         font-weight: 600;
     }
     .element__type {
         padding-top: 5px;
-        font-size: calc(20px - 40%);
+        font-size: 13px;
         color: rgb(80, 89, 111);
     }
     .element__date {
         padding-top: 4px;
-        font-size: calc(15px - 40%);
+        font-size: 13px;
         color: rgb(193, 193, 193);
     }
     .verified_top {
@@ -437,6 +436,9 @@
     }
     .verified_img img {
 
+    }
+    .top_img-{
+        margin-top: 5px;
     }
     .top_img- img {
         width: 50%;
@@ -477,7 +479,7 @@
     .elelement__block {
 
         margin-top: 25px;
-        height: calc(32.75em - 15%);
+
         width: 70%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
@@ -527,17 +529,18 @@
     
     }
     .element__price {
-        font-size: calc(24px - 40%);
+        font-size: 20px;
         font-weight: 600;
+        color: rgb(8, 21, 52);
     }
     .element__type {
         padding-top: 5px;
-        font-size: calc(20px - 40%);
+
         color: rgb(80, 89, 111);
     }
     .element__date {
         padding-top: 4px;
-        font-size: calc(15px - 40%);
+
         color: rgb(193, 193, 193);
     }
     .verified_top {
@@ -577,7 +580,7 @@
         font-size: 15px;
     }
     .percentage_block_type {
-        font-size: 13px;
+        font-size: 14px;
     }
     .percentage_block_percent {
         padding-top: 5px;
@@ -587,6 +590,7 @@
         text-align: center;
     }
     .month_income_desc {
+
     }
     .month_income_price {
         padding-top: 5px;
