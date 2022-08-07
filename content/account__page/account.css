@@ -222,13 +222,13 @@
 .popup__content__container {
     width: 60%;
     height: 100%;
-    background-color: green;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .popup__content__block {
-    background-color: blue;
+
 
 }
 .popup__content__block_container {
@@ -239,27 +239,53 @@
 }
 .popup__content__block-icon {
     width: 20%;
+    background-color: blue;
 }
 .popup__content__block-block {
     width: 80%;
-    background-color: bisque
+
 }
 .popup__content__block__title {
-    background-color: red;
+
     font-size: 20px;
     margin-bottom: 5px;
 }
-.popup__content__block__title-desc{}
+.popup__content__block__title-desc{
+    font-size: 14px;
+    color: #a5a5a5;
+}
 .popup__content__block_buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .popup__content__block-button {
+    margin-top: 10px;
+    
+    background: linear-gradient( #f5ad19 ,#f1431d);
+    width: 30%;
+    height: 60px;
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px 8px 8px 8px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .popup__content__block-daysp {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 17px;
 }
 .popup__content__block-ammountp {
+
+    width:  90%;
+    margin: 0 auto;
+    text-align: end;
+    font-size: 17px;
+}
+.popup__content__block-ammountp span {
+    font-size: 12px;
 }
 /****************************/
 /****************************/

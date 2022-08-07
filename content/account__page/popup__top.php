@@ -14,7 +14,9 @@
                     <div class="popup__content__block">
                         <div class="popup__content__block_container">
                             <!---иконка вывода в топ--->
-                            <div class="popup__content__block-icon"></div>
+                            <div class="popup__content__block-icon">
+                                <img src="" alt="">
+                            </div>
                             <!---контент с кнопками выбора--->
                             <div class="popup__content__block-block">
                                 <!--название категории вывода в топ--->
