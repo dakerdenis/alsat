@@ -12,7 +12,11 @@
   <link rel="stylesheet" href="./includes/header.css">
   <!--search styles форма поиска--->
   <link rel="stylesheet" href="./includes/search.css">
-
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
 
   <link
       rel="stylesheet"

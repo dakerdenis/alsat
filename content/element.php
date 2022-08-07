@@ -1,7 +1,8 @@
 <style>
     <?php include './content/block.css'; ?><?php include './content/element.css'; ?>
 </style>
-
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <div class="product_wrapper">
     <!-- навигация и номер обьявления--->
     <div class="product__desc">
@@ -27,30 +28,62 @@
         <!--Галлерея часть 2-->
         <div class="photo-gallery-part2">
 
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <!---PC VERSION---->
+            <div class="photo_gallery__wrapper-pc">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+                            <div class="gallery-part2-blocks">
+                                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
-                <div class="gallery-part2-blocks">
-                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-                </div>
+
+
+            </div>
 
         </div>
     </div>
@@ -172,3 +205,16 @@
     <span class="close">&times;</span>
     <img class="modal-content" id="img01">
 </div>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>

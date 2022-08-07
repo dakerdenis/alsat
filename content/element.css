@@ -77,6 +77,13 @@
 .photo-gallery-part2{
     width: 49%;
 }
+.photo_gallery__wrapper-pc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
 .gallery-part2-blocks{
     width: 25%;
     height: 90px;
@@ -84,6 +91,7 @@
     border-radius: 15px;
     overflow: hidden;
     margin-left: 5%;
+    margin-top: 10px;
 }
 .gallery-part2-blocks img {
 
@@ -342,6 +350,25 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/*******SWIPER SLIDER*************/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
 @media only screen and (max-device-width: 1368px){
     .product__openclose_block{
         align-items: center;
