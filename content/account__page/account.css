@@ -363,6 +363,28 @@
     border-radius: 8px;
     cursor:pointer;
   }
+                        
+  .popup__block__container_payment{
+    margin-top: 5px;
+    background-color: green;
+    height: 180px;
+  }
+
+  .popup__payment__desc {
+    width: 60%;
+    margin-top: 15px;
+    color: #081534;
+
+}
+.popup__payment_wrapper {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.popup__payment_text {
+}
+.popup__payment__info {
+}
 /****************************/
 /****************************/
 /****************************/

@@ -1,4 +1,4 @@
-   <!------popup тело-->
+   <!------popup тело---->
    <div id="popup" class="popup">
       <div class="popup__body">
          <div class="popup__content">
