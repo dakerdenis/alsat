@@ -15,7 +15,7 @@
                         <div class="popup__content__block_container">
                             <!---иконка вывода в топ--->
                             <div class="popup__content__block-icon">
-                                <img src="" alt="">
+                            <img src="./style/imgs/top.svg" alt="">
                             </div>
                             <!---контент с кнопками выбора--->
                             <div class="popup__content__block-block">
@@ -51,7 +51,9 @@
                     <div class="popup__content__block popup__content__block2">
                         <div class="popup__content__block_container">
                             <!---иконка вывода в топ--->
-                            <div class="popup__content__block-icon"></div>
+                            <div class="popup__content__block-icon">
+                                <img src="./style/imgs/cat_top.svg" alt="">
+                            </div>
                             <!---контент с кнопками выбора--->
                             <div class="popup__content__block-block">
                                 <!--название категории вывода в топ--->
