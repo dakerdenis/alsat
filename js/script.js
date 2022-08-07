@@ -211,8 +211,31 @@ document.addEventListener('keydown', function (e) {
          Element.prototype.msMatchesSelector;
    }
 })();
-
-
+/****/////*****Предпросмотр загруженного сообщения************** */
+function showPreview(event){
+   if(event.target.files.length > 0){
+     var src = URL.createObjectURL(event.target.files[0]);
+     var preview = document.getElementById("file-ip-1-preview");
+     preview.src = src;
+     preview.style.display = "block";
+   }
+ }
+ function showPreview2(event){
+   if(event.target.files.length > 0){
+     var src = URL.createObjectURL(event.target.files[0]);
+     var preview = document.getElementById("file-ip-2-preview");
+     preview.src = src;
+     preview.style.display = "block";
+   }
+ }
+ function showPreview3(event){
+   if(event.target.files.length > 0){
+     var src = URL.createObjectURL(event.target.files[0]);
+     var preview = document.getElementById("file-ip-3-preview");
+     preview.src = src;
+     preview.style.display = "block";
+   }
+ }
 
 //////////////////***крипт страницы элемента **///
 
