@@ -267,8 +267,19 @@
     </div>
 </div>
 
-<!---4 похожие рекомендации--->
 
+<!---4 похожие рекомендации--->
+<div class="element__four__recomendation_block">
+    <div class="recomendation__block__text">
+        Похожие публикации
+    </div>
+    <div class="element__fourblocks__wrapper">
+        <?php include './content/block.php' ?>
+        <?php include './content/block.php' ?>
+        <?php include './content/block.php' ?>
+        <?php include './content/block.php' ?>
+    </div>
+</div>
 
 
 <div id="myModal" class="modal">

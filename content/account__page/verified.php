@@ -14,6 +14,6 @@
                                 </div>
                             </div>
                             <div class="account__verification__block__change">
-                                <a href="" class="popup-link">Редактировать</a>
+                                <a href="./index.php?source=add" class="">Редактировать</a>
                             </div>
                         </div>
