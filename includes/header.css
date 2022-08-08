@@ -324,7 +324,7 @@ body._lock{
         margin-top: 5px;
     }
     .header__desc_block p {
-        font-size: 18px;
+
         display: block;
         padding-left: 15px;
         color: #fff;
@@ -332,11 +332,16 @@ body._lock{
     .header__desc_block img {
         height: 20px;        
     }
+    .header__desc_block-account{
+        display: flex;
+        flex-direction: row;
+    }
+
     .header__desc_block-account img {
         height: 25px;
     }
     .header__desc_block p {
-        font-size: 15px;
+        font-size: 20px;
     }
     .header__desc_block-small{
         display: block;
@@ -344,6 +349,7 @@ body._lock{
         align-items: center;
         padding-left: 40px;
         padding-top: 5px;
+        font-size: 15px;
     }
     .header__desc_block-small p {
         color: #fff;
@@ -352,6 +358,20 @@ body._lock{
     .header__desc_block-small img{
         width: 8px;
         height: 10px;
+    }
+    .log_out {
+        color: #fff;
+        border: 2px solid #081534;
+        background-color: rgba(8, 21, 52, 0.2);
+        padding: 0px;
+        margin: 0px;
+        margin-left: 10px;
+        border-radius: 8px;
+        font-size: 19px;
+        padding: 5px 8px 5px 8px;
+
+        text-align: center;
+
     }
 }
 @media only screen and (max-width: 321px){

@@ -93,65 +93,67 @@
 
             </div>
             <!--mobile version-->
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
-            </div>
-            <div class="gallery-part2-blocks">
-                <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <div class="photo_gallery__wrapper-mobile">
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img2.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
+                <div class="gallery-part2-blocks">
+                    <img src="./content/images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+                </div>
             </div>
         </div>
     </div>

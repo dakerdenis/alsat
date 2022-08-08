@@ -39,10 +39,11 @@
             </div>
           </div>
           <!---Блок АККАУНТА--->
-          <a href="#" class="header__desc_block header__desc_block-account">
+          <div href="#" class="header__desc_block header__desc_block-account">
               <img src="./style/imgs/user.png" alt="">
-              <p>Aleksey Navalniy</p>
-          </a>
+              <p>Aleksey Navalniy</p>           <a class="log_out" href="">Çixiş</a>
+          </div>
+
           <!---Блок Новое обьявление--->
           <a href="index.php?source=add" class="header__desc_block header__desc_block-new">
             <img src="./style/imgs/add_white.png" alt="">

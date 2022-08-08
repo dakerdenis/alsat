@@ -271,6 +271,24 @@
 }
 /****************************/
 /****************************/
+.popup__verification__button {
+    margin-top: 35px;
+    text-align: center;
+
+}
+.popup__verification__button a {
+    color: #081534;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid #081534;
+    padding: 5px 7px 5px 7px;
+    border-radius: 10px;
+}
+.popup__verification__button a:hover{
+    color: #fff;
+    background-color: #081534;
+}
 @media only screen and (max-width:1450px){
     .popup__payment__desc {
         width: 80%;
@@ -470,6 +488,11 @@
 }
 @media only screen and (max-width: 1368px){}
 @media only screen and (max-width: 769px){
+    .popup__verification__button {
+        margin-top: 25px;
+        text-align: center;
+    
+    }
        /****************************/
 /****************************/
 /****************************/
@@ -745,6 +768,39 @@
 /****************************/
 /****************************/
 /****************************/
+}
+@media only screen and (max-width: 600px){
+    .popup__wrapper_block{
+        display: none;
+        visibility: hidden;
+    }
+    .popup__content__container{
+        width: 100%;
+        height: 100%;
+    }
+    .popup__payment__desc{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .popup__content__block-icon{
+        width: 11%
+    }
+
+    .popup__content__block-icon img{
+        width: 30px;
+        height: 50px;
+    }
+    .popup__content__block-block{
+        widows: 85%;
+    }
+    .popup__content__block-button{
+        padding: 6px;
+        height: 45px
+    }
+    .popup__content__block-daysp, .popup__content__block-ammountp{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 376px){
 

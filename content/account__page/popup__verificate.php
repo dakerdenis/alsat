@@ -53,6 +53,10 @@
 
 
                   </div>
+                  <!--Кнопка верифицировать--->
+                  <div class="popup__verification__button">
+                     <a href="">Верифицировать</a>
+                  </div>
                </div>
             </div>
          </div>
