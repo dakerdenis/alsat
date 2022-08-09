@@ -1,7 +1,5 @@
 <style>
-    <?php include './content/account__page/account.css' ?>
-    <?php include './content/account__page/account_block.css' ?>
-    <?php include './content/account__page/verification.css' ?>
+    <?php include './content/account__page/account.css' ?><?php include './content/account__page/account_block.css' ?><?php include './content/account__page/verification.css' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
@@ -32,10 +30,6 @@
                     <!--- account settings --->
                     <div class="account__settings">
                         Parolu dəyiş
-                    </div>
-                    <!--- account settings --->
-                    <div class="account__settings">
-                        Çıxış
                     </div>
 
                 </div>
@@ -311,7 +305,13 @@
                             </div>
                         </a>
                     </div>
+                    
+                    <div class="favorites__advertisement__block">
+                        REKLAMA
+                    </div>
+                    
                 </div>
+
             </div>
         </div>
         <!--- my elements --->
