@@ -1,0 +1,14 @@
+.change__password__content{
+    width:fit-content;
+    flex-direction: column;
+    
+}
+.change__password__container{
+    width:100%;
+}
+.change__password__form{
+    width:100%;
+}
+.change__password_desc_text{
+    padding-top: 0px;
+}

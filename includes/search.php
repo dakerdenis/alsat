@@ -13,22 +13,22 @@
       <!--navigation element-->
       <div class="header_nav_element">
         <img src="./style/imgs/franceise.svg" alt="" srcset="">
-        <a href="#">Francayzinqler</a>
+        <a href="./index.php?source=main&content=avadanliq">Francayzinqler</a>
       </div>
       <!--navigation element-->
       <div class="header_nav_element">
         <img src="./style/imgs/invest.svg" alt="" srcset="">
-        <a href="#">Investisiyalar</a>
+        <a href="./index.php?source=main&content=avadanliq">Investisiyalar</a>
       </div>
       <!--navigation element-->
       <div class="header_nav_element">
         <img src="./style/imgs/ready_buisness.svg" alt="" srcset="">
-        <a href="#">Hazir biznes</a>
+        <a href="./index.php?source=main&content=avadanliq">Hazir biznes</a>
       </div>
       <!--navigation element-->
       <div class="header_nav_element ">
         <img src="./style/imgs/equip.svg" alt="" srcset="">
-        <a href="#">Avadanliqlarin satisi</a>
+        <a href="./index.php?source=main&content=avadanliq">Avadanliqlarin satisi</a>
       </div>
 
 

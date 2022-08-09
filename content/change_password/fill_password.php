@@ -1,5 +1,8 @@
 <style>
-    <?php include './content/login.css'; ?><?php include './content/change_password/change_password.css'; ?>
+    <?php include './content/login.css'; ?>
+    <?php include './content/change_password/change_password.css'; ?>
+    <?php include './content/change_password/fill_pass.css'; ?>
+
 </style>
 
 <div class="change__password_wrapperr">
@@ -11,7 +14,7 @@
         <div class="change__password__container">
             <div class="change__password__desc">
                 <div class="change__password_desc_text">
-                    Укажите свой эмейл,который вы указывали при регистрации на него будет выслан код подтверждения ,который будет необходимо ввести в поле.
+                    Введите код который вы получили в эмейле
                     <br> <span>
                         Ни в коем случае не передавайте этот код третьим лицам !
                     </span>
@@ -23,23 +26,17 @@
             <!--emaiL-->
             <div class="log_reg_element__wrapper">
                 <div class="log_reg_element_wraper_desc">
-                    E-mail*
+                    Код с эмейла*
                 </div>
                 <div class="log_reg_element_wraper_input">
                     <input class="log_reg_element_wraper_input-input" type="text">
                 </div>
             </div>
-            <!---Kaptcha-->
-            <div class="change__password__captcha_container">
-                <div class="change__password__capthca">
-                    капча
-                </div>
-            </div>
             <!--Buttons submit-->
             <div class="submit_login_wrapper">
                 <div class="submit_login_container">
-                    <button type="submit" class="submit_login_container-button">Mektub gondermek</button>
-                    <a href="./index.php?source=fill_password">отправили письмо</a>
+                    <button type="submit" class="submit_login_container-button">Отправить</button>
+                    <a style="color: red;" href="">Далее</a>
                 </div>
             </div>
         </form>
