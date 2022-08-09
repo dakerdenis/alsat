@@ -92,12 +92,7 @@
                                 Bir dəfəli zaqruzka 10 dənə maksimum
                             </div>
                         </div>
-                    </div>
-
-
-
-
-                    
+                    </div>                    
                 </div>
                 <!-----2й контейнер --->
                 <!-----2й контейнер --->
