@@ -101,6 +101,9 @@
             include './content/categories/search_elements.php';
             break;
             
+            case 'district';
+            include './content/districts/districts.php';
+            break;
 
             default:
             include './content/categories/main.php';

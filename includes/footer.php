@@ -42,21 +42,21 @@
       <div class="footer__element_districkt">Bakının rayonları</div>
       <!--DISTR LIST-->
       <div class="footer__element_list">
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=district">Suraxanı</a></p>
 
       </div>
     </div>
@@ -66,20 +66,20 @@
       <div class="footer__element_category">Kategoriyalar</div>
       <!--category LIST-->
       <div class="footer__element_list">
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
-        <p class="footer__element_list-p"><a class="footer__element_list-a" href="#">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
+        <p class="footer__element_list-p"><a class="footer__element_list-a" href="./index.php?source=main&content=avadanliq">Magazin</a></p>
       </div>
     </div>
   </div>
