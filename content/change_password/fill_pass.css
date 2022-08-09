@@ -15,6 +15,20 @@
 .log_reg_element_wraper_input{
     width:60%;
 }
+.password__changing__succesfull {
+    width:100%;
+    text-align: center;
+    color: #47a8e5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.submit_login_wrapper{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media only screen and (max-device-width: 770px){
     .log_reg_element_wraper_input{
         width:100%;

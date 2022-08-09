@@ -40,8 +40,8 @@
           </div>
           <!---Блок АККАУНТА--->
           <div href="#" class="header__desc_block header__desc_block-account">
-              <img src="./style/imgs/user.png" alt="">
-              <p>Aleksey Navalniy</p>           <a class="log_out" href="">Çixiş</a>
+            <img src="./style/imgs/user.png" alt="">
+            <p>Aleksey Navalniy</p> <a class="log_out" href="">Çixiş</a>
           </div>
 
           <!---Блок Новое обьявление--->
@@ -139,12 +139,28 @@
           <p>Registrasiya</p>
         </a>
       </div> -->
-      <!--login-->
-      <div class="header__form_login">
-        <a href="">
-          <p>Daxil ol</p>
-        </a>
-      </div>
+      <?php
+
+      if (isset($_GET['login'])) {
+        $login = $_GET['login'];
+      } else {
+        $login = '';
+      }
+      switch($login){
+        case 'login';
+        include './content/login/account.php';
+        break;
+
+        case 'logout';
+        include './content/login/login.php';
+        break;
+
+        default:
+        include './content/login/login.php';
+        break;
+      }
+      ?>
+
       <!--Язык-->
       <div class="header__form_language">
         <button onclick="language()" class="dropbtn_language">AZ</button>
