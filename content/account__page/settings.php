@@ -5,7 +5,7 @@
     <div class="account__settings_container">
         <div class="account__settings__container_wrap">
             <!--Имя фотка и информация-->
-            <div class="account__settings__block">
+            <div class="account__settings__block account__settings__block2">
                 <!---фото профиля-->
                 <div class="account__profile__photo">
                     <img src="./style/imgs/account_photo.png" alt="" srcset="">
@@ -37,7 +37,7 @@
                 <!----Email--->
                 <div class="log_reg_element__wrapper">
                     <div class="log_reg_element_wraper_desc">
-                    Email*
+                        Email*
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="password">
@@ -46,20 +46,23 @@
                 <!----phone--->
                 <div class="log_reg_element__wrapper">
                     <div class="log_reg_element_wraper_desc">
-                    phone*
+                        phone*
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="password">
                     </div>
                 </div>
-                                <!----password--->
-                                <div class="log_reg_element__wrapper">
+                <!----password--->
+                <div class="log_reg_element__wrapper">
                     <div class="log_reg_element_wraper_desc">
                         Şifrə*
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="password">
                     </div>
+                </div>
+                <div class="account__change__password__">
+                    <a href="./index.php?source=change_userpass">Изменить пароль</a>
                 </div>
             </div>
         </div>

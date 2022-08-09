@@ -1,0 +1,49 @@
+.account__settings_container {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 15px;
+    padding: 20px;
+    color: #081534;
+}
+.account__settings__container_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.account__settings__block {
+    width: 48%;
+}
+.account__settings__block2{
+    display: flex;
+    flex-direction: column;
+
+}
+.account__profile__photo {
+    width: 100%;
+    display: flex;
+    
+}
+.account__information {
+}
+.account__info__block {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.account__info__block2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.account__save_changes__button{
+    width: 40%;
+    margin: 0 auto;
+}
+.account__change__password__{
+    width: 100%;
+    margin-top: 15px;
+    
+}
+.account__change__password__ a {
+    font-size: 19px;
+    color: #47a8e5;
+}
