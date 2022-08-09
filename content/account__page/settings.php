@@ -40,7 +40,7 @@
                         Email*
                     </div>
                     <div class="log_reg_element_wraper_input">
-                        <input class="log_reg_element_wraper_input-input" type="password">
+                        <input placeholder="test@test.com" class="log_reg_element_wraper_input-input" type="password">
                     </div>
                 </div>
                 <!----phone--->
@@ -49,7 +49,7 @@
                         phone*
                     </div>
                     <div class="log_reg_element_wraper_input">
-                        <input class="log_reg_element_wraper_input-input" type="password">
+                        <input class="log_reg_element_wraper_input-input" placeholder="+994 50 228 14 88" type="password">
                     </div>
                 </div>
                 <!----password--->
@@ -58,7 +58,7 @@
                         Şifrə*
                     </div>
                     <div class="log_reg_element_wraper_input">
-                        <input class="log_reg_element_wraper_input-input" type="password">
+                        <input placeholder="Ваш пароль" class="log_reg_element_wraper_input-input" type="password">
                     </div>
                 </div>
                 <div class="account__change__password__">
