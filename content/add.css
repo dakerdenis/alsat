@@ -506,6 +506,11 @@
     margin-top: 4px;
     color: #c0c0c0;
   }
+  .add_buisness__accept-desc{
+    font-size: 16px;
+    line-height: 23px;
+    margin: 25px 0p 15px 0px;
+  }
 /*********Стили галочки чекбокса****************/
 .add_buisness__accept{
   margin-top: 10px;
