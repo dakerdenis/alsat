@@ -47,3 +47,25 @@
     font-size: 19px;
     color: #47a8e5;
 }
+@media only screen and (max-width: 769px){
+    .account__settings_container {
+        width: 90%;
+    }
+    .account__settings__container_wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .account__settings__block{
+        width: 100%;
+    }
+    .account__settings__block:nth-child(2){
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .account__settings_container {
+        width: 95%;
+        padding: 12px;
+    }
+}
