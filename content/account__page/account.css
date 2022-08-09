@@ -481,7 +481,7 @@
         position: relative;
         overflow: hidden;
         border-radius: 25px;   
-        width: calc(100% - 2em); 
+        width: 100%; 
         box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     }
     .favorite__element a {
