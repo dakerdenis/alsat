@@ -21,7 +21,7 @@
                                             44 000 AZN
                                         </p>
                                         <p class="element__type">
-                                            Kombayn - Restoran üçün 5eded
+                                            Kombayn - Restoran üçün 
                                         </p>
                                         <p class="element__date">
                                             Baku, 04 may 2022
@@ -46,19 +46,19 @@
                                     <!--percentage-->
                                     <div class="percentage_block">
                                         <p class="percentage_block_type">
-                                            Biznes %
+                                            Yaş
                                         </p>
                                         <p class="percentage_block_percent">
-                                            100%
+                                            Yeni
                                         </p>
                                     </div>
                                     <!-- Ayliq income -->
                                     <div class="month_income">
                                         <p class="month_income_desc">
-                                            Ayliq gəlir
+                                            Lizing:
                                         </p>
                                         <p class="month_income_price">
-                                            6000 AZN
+                                            Var
                                         </p>
                                     </div>
                                 </div>
