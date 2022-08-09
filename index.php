@@ -60,6 +60,10 @@
         include './content/main.php';
         break;
 
+        case 'pass_changed';
+        include './content/change_password/new_pass.php';
+        break;
+
         case 'fill_password';
         include './content/change_password/fill_password.php';
         break;

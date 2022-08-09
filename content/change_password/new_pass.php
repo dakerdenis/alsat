@@ -1,8 +1,5 @@
 <style>
-    <?php include './content/login.css'; ?>
-    <?php include './content/change_password/change_password.css'; ?>
-    <?php include './content/change_password/fill_pass.css'; ?>
-
+    <?php include './content/login.css'; ?><?php include './content/change_password/change_password.css'; ?><?php include './content/change_password/fill_pass.css'; ?>
 </style>
 
 <div class="change__password_wrapperr">
@@ -14,19 +11,27 @@
         <div class="change__password__container">
             <div class="change__password__desc">
                 <div class="change__password_desc_text">
-                    Введите код который вы получили в эмейле
-                    <br> <span>
-                        Ни в коем случае не передавайте этот код третьим лицам !
+                    <span>
+                        Если письмо со смной пароля запрашивали не вы,свяжитесь с нами !
                     </span>
                 </div>
             </div>
         </div>
         <!---форма сброса пароля-->
         <form action="" class="change__password__form">
-            <!--emaiL-->
+            <!--новый пароль-->
             <div class="log_reg_element__wrapper">
                 <div class="log_reg_element_wraper_desc">
-                    Код с эмейла*
+                    Новый пароль*
+                </div>
+                <div class="log_reg_element_wraper_input">
+                    <input class="log_reg_element_wraper_input-input" type="text">
+                </div>
+            </div>
+            <!--подтвердите пароль-->
+            <div class="log_reg_element__wrapper">
+                <div class="log_reg_element_wraper_desc">
+                    Подтвердите пароль*
                 </div>
                 <div class="log_reg_element_wraper_input">
                     <input class="log_reg_element_wraper_input-input" type="text">
@@ -36,8 +41,10 @@
             <div class="submit_login_wrapper">
                 <div class="submit_login_container">
                     <button type="submit" class="submit_login_container-button">Отправить</button>
-                    <a style="color: red;" href="./index.php?source=pass_changed">Далее</a>
                 </div>
+            </div>
+            <div class="password__changing__succesfull">
+                    Ваш пароль успешно изменён !
             </div>
         </form>
     </div>
