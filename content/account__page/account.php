@@ -306,13 +306,15 @@
                         </a>
                     </div>
                     
-                    <div class="favorites__advertisement__block">
-                        REKLAMA
-                    </div>
-                    
+
+
                 </div>
 
+
             </div>
+            <div class="favorites__advertisement__block">
+                       <a href="">REKLAMA</a>
+                </div>
         </div>
         <!--- my elements --->
         <div class="account__elements_block">

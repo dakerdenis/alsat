@@ -189,8 +189,21 @@
 /****************************/
 /****************************/
 .favorites__advertisement__block{
-    background-color: red;
+    padding-top: 25px;
+
+    width: 95%;
+    height: 100%;
+}
+.favorites__advertisement__block a {
+    display: block;
+    height: 100%;
     width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
 }
 
 @media only screen and (max-width: 1500px){
