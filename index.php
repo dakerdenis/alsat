@@ -80,6 +80,10 @@
         include './content/page.php';
         break;
 
+        case 'change_userpass';
+        include './content/change_password/change_user_password.php';
+        break;
+
         case'login';
         include './content/login.php';
         break;

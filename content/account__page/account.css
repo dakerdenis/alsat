@@ -60,6 +60,11 @@
     color: #c1c1c1;
     font-size: 17px;
 }
+.account__settings a {
+    padding-top: 8px;
+    color: #c1c1c1;
+    font-size: 17px;
+}
 .account__settings:first-child {
     padding-top: 15px;
 }
@@ -362,6 +367,10 @@
 
 }
 @media only screen and (max-width: 769px){
+    .favorites__advertisement__block{
+        height: 180px;
+        width: 100%;
+    }
     .account__cotainer{
         flex-direction: column;
     }

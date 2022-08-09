@@ -29,7 +29,7 @@
                     </div>
                     <!--- account settings --->
                     <div class="account__settings">
-                        Parolu dəyiş
+                        <a href="./index.php?source=change_userpass">Parolu dəyiş</a>
                     </div>
 
                 </div>
