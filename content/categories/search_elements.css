@@ -1,0 +1,16 @@
+.categories__name__and_types {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    color: rgb(8, 21, 52);
+    margin: 0 auto;
+}
+.categories__name__and_types-ico {
+    height: 20px;
+    width: 15px;
+}
+.categories__name__and_types_name {
+    color: rgb(8, 21, 52);
+    font-size: 24px;
+    font-weight: 500;
+}
