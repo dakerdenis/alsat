@@ -92,7 +92,27 @@
                                 Bir dəfəli zaqruzka 10 dənə maksimum
                             </div>
                         </div>
-                    </div>                    
+                    </div>
+
+                    <!---Добавление изображения-->
+                    <div class="add_buisness__element">
+                        <div class="add_buisness__element-desc">
+                            Verifikaciya sekilleri elave et<br>
+                        </div>
+
+
+                        <div class="add_buisness_photo_add">
+                            <div class="add_photodesc">
+                                Bir dəfəli zaqruzka 10 dənə maksimum
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add_buisness__accept">
+                        <label class="container">Нажимая это я подтверждаю что кроме администрации файлы подтверждающие мой бизнес увидят другие пользователи
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
                 </div>
                 <!-----2й контейнер --->
                 <!-----2й контейнер --->
