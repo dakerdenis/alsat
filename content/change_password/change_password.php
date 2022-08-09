@@ -1,5 +1,6 @@
 <style>
-    <?php include './content/login.css'; ?><?php include './content/change_password/change_password.css'; ?>
+    <?php include './content/login.css'; ?>
+    <?php include './content/change_password/change_password.css'; ?>
 </style>
 
 <div class="change__password_wrapperr">
