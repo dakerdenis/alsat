@@ -223,6 +223,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <textarea style="resize:none"></textarea>
+                            <div class="add__buisness_text_area__maxsymbols">
+                                maximum 1000 symbols
+                            </div>
                         </div>
                     </div>
                 </div>
