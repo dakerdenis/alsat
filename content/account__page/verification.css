@@ -289,6 +289,20 @@
     color: #fff;
     background-color: #081534;
 }
+.popup__verification__contact {
+    width: 100%;
+    color: #081534;
+    text-align: center;
+    margin-top: 15px;
+}
+.popup__verification__contact-text {
+    font-size: 16px;
+margin-bottom: 5px;
+}
+.popup__verification__contact-email_phone p{
+    margin-top: 8px;
+    
+}
 @media only screen and (max-width:1450px){
     .popup__payment__desc {
         width: 80%;

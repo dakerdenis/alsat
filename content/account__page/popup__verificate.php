@@ -57,7 +57,17 @@
                   <div class="popup__verification__button">
                      <a href="">Верифицировать</a>
                   </div>
+                  <div class="popup__verification__contact">
+                     <div class="popup__verification__contact-text">
+                        Свяжитесь с нами если у вас имеются вопросы
+                     </div>
+                     <div class="popup__verification__contact-email_phone">
+                        <p>test@albiz.az</p>
+                        <p>+994 50 550 52 16</p>
+                     </div>
+                  </div>
                </div>
+
             </div>
          </div>
       </div>
