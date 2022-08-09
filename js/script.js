@@ -237,7 +237,7 @@ function showPreview(event){
    }
  }
 
-//////////////////***крипт страницы элемента **///
+//////////////////***cкрипт страницы элемента **///
 
 function myImageFunction(productSmallImg) {
    console.log(productSmallImg.src)
@@ -253,14 +253,19 @@ var modalImg = document.getElementById("img01");
 btn.onclick = function(){
  modal.style.display = "block";
  modalImg.src = img.src;
+ document.body.classList.add('_lock');
+ 
 }
 
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
  modal.style.display = "none";
+ document.body.classList.remove('_lock');
+ 
 }
 window.onclick = function(event) {
    if (event.target == modal) {
      modal.style.display = "none";
+     document.body.classList.remove('_lock');
    }
  }
