@@ -82,66 +82,14 @@
                     <!---Добавление изображения-->
                     <div class="add_buisness__element">
                         <div class="add_buisness__element-desc">
-                            Sekilleri elave et*
+                            Sekilleri elave et* <br>
+                            <p>Maksimum 30 dənə</p>
                         </div>
 
 
                         <div class="add_buisness_photo_add">
-                            <div class="add_buisness_photo_add1">
-                                <input class="add_buisness_photo_add-input" type="file" accept="image/*" onchange="loadFile1(event)">
-                                <img id="output1" />
-                                <script>
-                                    var loadFile1 = function(event) {
-                                        var reader = new FileReader();
-                                        reader.onload = function() {
-                                            var output = document.getElementById('output1');
-                                            output.src = reader.result;
-                                        };
-                                        reader.readAsDataURL(event.target.files[0]);
-                                    };
-                                </script>
-                            </div>
-                            <div class="add_buisness_photo_add1">
-                                <input class="add_buisness_photo_add-input" type="file" accept="image/*" onchange="loadFile2(event)">
-                                <img id="output2" />
-                                <script>
-                                    var loadFile2 = function(event) {
-                                        var reader = new FileReader();
-                                        reader.onload = function() {
-                                            var output = document.getElementById('output2');
-                                            output.src = reader.result;
-                                        };
-                                        reader.readAsDataURL(event.target.files[0]);
-                                    };
-                                </script>
-                            </div>
-                            <div class="add_buisness_photo_add1">
-                                <input class="add_buisness_photo_add-input" type="file" accept="image/*" onchange="loadFile3(event)">
-                                <img id="output3" />
-                                <script>
-                                    var loadFile3 = function(event) {
-                                        var reader = new FileReader();
-                                        reader.onload = function() {
-                                            var output = document.getElementById('output3');
-                                            output.src = reader.result;
-                                        };
-                                        reader.readAsDataURL(event.target.files[0]);
-                                    };
-                                </script>
-                            </div>
-                            <div class="add_buisness_photo_add1">
-                                <input class="add_buisness_photo_add-input" type="file" accept="image/*" onchange="loadFile4(event)">
-                                <img id="output4" />
-                                <script>
-                                    var loadFile4 = function(event) {
-                                        var reader = new FileReader();
-                                        reader.onload = function() {
-                                            var output = document.getElementById('output4');
-                                            output.src = reader.result;
-                                        };
-                                        reader.readAsDataURL(event.target.files[0]);
-                                    };
-                                </script>
+                            <div class="add_photodesc">
+                                Bir dəfəli zaqruzka 10 dənə maksimum
                             </div>
                         </div>
                     </div>

@@ -45,6 +45,18 @@
     color: #081534;
     font-weight: 500;
 }
+.add_buisness__element-desc p{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #47A8E5;
+
+}
+.add_photodesc{
+  font-size: 15px;
+  font-weight: 400;
+  color: #47A8E5;
+}
 .add_buisness__element-input {
     width: 60%;
 }

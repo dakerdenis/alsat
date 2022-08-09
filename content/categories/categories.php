@@ -41,9 +41,9 @@
             <!-- 2 элемента контейнер -->
             <div class="content_wrapper_2elements">
                 <!--element block -->
-                <?php include './content/block_avadanliq.php'; ?>
+                <?php include './content/block.php'; ?>
                 <!--element block -->
-                <?php include './content/block_avadanliq.php'; ?>
+                <?php include './content/block.php'; ?>
             </div>
         </div>
 
