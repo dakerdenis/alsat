@@ -80,6 +80,10 @@
         include './content/page.php';
         break;
 
+        case 'account__settings';
+        include './content/account__page/settings.php';
+        break;
+
         case 'change_userpass';
         include './content/change_password/change_user_password.php';
         break;

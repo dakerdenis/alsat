@@ -25,7 +25,8 @@
                     </div>
                     <!--- account settings --->
                     <div class="account__settings">
-                        Düzəliş et
+                    <a href="./index.php?source=account__settings">Düzəliş et</a>
+                        
                     </div>
                     <!--- account settings --->
                     <div class="account__settings">
