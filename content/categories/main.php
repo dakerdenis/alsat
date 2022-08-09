@@ -21,7 +21,7 @@
 
                 <!--show more button -->
                 <div class="sell_find_buisness_button">
-                    <a href="#">Növbəti təklifləri göstər</a>
+                    <a href="./index.php?source=main&content=avadanliq">Növbəti təklifləri göstər</a>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
 
                 <!--show more button -->
                 <div class="sell_find_buisness_button">
-                    <a href="#">Növbəti təklifləri göstər</a>
+                    <a href="./index.php?source=main&content=avadanliq">Növbəti təklifləri göstər</a>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
 
                 <!--show more button -->
                 <div class="sell_find_buisness_button">
-                    <a href="#">Növbəti təklifləri göstər</a>
+                    <a href="./index.php?source=main&content=avadanliq">Növbəti təklifləri göstər</a>
                 </div>
             </div>
 
