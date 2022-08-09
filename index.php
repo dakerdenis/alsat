@@ -90,6 +90,10 @@
         case 'search_all';
         include './content/search_elements.php';
         break;
+
+        case 'change_password';
+        include './content/change_password/change_password.php';
+        break;
         
         default:
         include './content/content/main.php';

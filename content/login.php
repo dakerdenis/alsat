@@ -43,7 +43,7 @@
                     <!--Buttons submit-->
                     <div class="submit_login_wrapper">
                         <div class="submit_login_container">
-                            <a href="#">Şifrəni unutdun ?</a>
+                            <a href="./index.php?source=change_password">Şifrəni unutdun ?</a>
                             <button type="submit" class="submit_login_container-button">Daxil olmaq</button>
                         </div>
                     </div>
