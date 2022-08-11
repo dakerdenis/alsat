@@ -1,6 +1,6 @@
             <!--element block -->
             <div class="elelement__block">
-                <a href="./index.php?source=element">
+
                     <div class="element_wrapper">
                         <!-- image block-->
                         <div class="element_image">
@@ -8,6 +8,7 @@
                             <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
                             <!--Bookmark -->
                             <div class="element__bookmark">
+                                <img src="./style/imgs/fav_main.svg" alt="" srcset="">
                             </div>
                         </div>
                         <!--element content -->
@@ -65,5 +66,5 @@
                             </div>
                         </div>
                     </div>
-                </a>
+
             </div>

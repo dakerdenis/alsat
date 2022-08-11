@@ -8,6 +8,7 @@
                             <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
                             <!--Bookmark -->
                             <div class="element__bookmark">
+                                <img src="./style/imgs/fav_main.svg" alt="" srcset="">
                             </div>
                         </div>
                         <!--element content -->
@@ -21,7 +22,7 @@
                                             44 000 AZN
                                         </p>
                                         <p class="element__type">
-                                            Kombayn - Restoran üçün 
+                                            Kombayn - Restoran üçün
                                         </p>
                                         <p class="element__date">
                                             Baku, 04 may 2022

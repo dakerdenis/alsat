@@ -180,15 +180,19 @@
     width: 80%;
     margin: 0 auto;
     color: #081534;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .filter__container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
 }
 .filter__desc {
     font-size: 18px;
+    margin-right: 25px;
 }
 .filter__element {
     padding: 8px 19px 8px 19px;

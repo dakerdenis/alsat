@@ -6,10 +6,11 @@
     </style>
     <div class="filter__wrapper">
         <div class="filter__container">
+          
             <div class="filter__desc">
                 Filtr:
             </div>
-
+          <!------ Фильтр убирается до лучших времён
 
             <div class="filter__element">
                 Yasayis Binasinda: 150
@@ -23,7 +24,7 @@
             <div class="filter__element">
                 Daha Cox
             </div>
-
+            ---->
             <!--Сортировка по чему либо--->
             <div class="custom-selectfilter">
                 <select>

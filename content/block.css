@@ -31,6 +31,17 @@
     object-fit: cover;
 }
 .element__bookmark {
+    background-color: red;
+    position: absolute;
+    top: 3%;
+    right: 4%;
+    width: 25px;
+    height: 34px;
+    padding: 1px;
+}
+.element__bookmark img{
+    width: 100%;
+    object-fit: contain;
 }
 .element__content {
 
@@ -398,6 +409,17 @@
         font-size: 13px;
     }
 }
+@media only screen and (max-width: 600px){
+    .element__bookmark {
+        background-color: red;
+        position: absolute;
+        top: 3%;
+        right: 4%;
+        width: 18px;
+        height: 25px;
+        padding: 1px;
+    }
+}
 @media only screen and (max-width: 450px){
     .elelement__block{
         width: 48%;
@@ -410,6 +432,7 @@
     }
 }
 @media only screen and (max-width: 376px){
+    
     .elelement__block {
 
         margin-top: 25px;
@@ -520,6 +543,15 @@
     }
     .month_income_price {
         padding-top: 5px;
+    }
+    .element__bookmark {
+        background-color: red;
+        position: absolute;
+        top: 3%;
+        right: 4%;
+        width: 15px;
+        height: 22px;
+        padding: 1px;
     }
 }
 @media only screen and (max-width: 355px){
