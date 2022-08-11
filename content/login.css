@@ -95,6 +95,12 @@
     display: none;
     visibility: hidden;
 }
+.required__field_login{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
 @media only screen and (max-width: 1368px){
     .log_reg_element_wraper_input{
         width: 60%;

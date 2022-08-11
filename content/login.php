@@ -48,7 +48,7 @@
                         </div>
                     </div>
                     <div class="required__field_login">
-                        *Это опле обязательно
+                        *Это поле обязательно
                     </div>
                 </form>
             </div>
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div class="required__field_login">
-                        *Это опле обязательно
+                        *Это поле обязательно
                     </div>
                 </form>
             </div>
