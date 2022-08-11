@@ -327,101 +327,13 @@
     background-color: rgba(0, 0, 0, 0.1);
   }
 
-
-
-
-/**************Стили цели продажи******************/
-/**************Стили цели продажи******************/
-/**************Стили цели продажи******************/
-/**************Стили цели продажи******************/
-/**************Стили цели продажи******************/
+/**************Стили categories******************/
+/**************Стили categories******************/
+/**************Стили categories******************/
+/**************Стили categories******************/
+/**************Стили categories******************/
 /*the container must be positioned relative:*/
-.custom-select_category {
-    position: relative;
-    font-family: Arial;
-        border-radius: 30px;
-        width: 100%;
-        height: 100%;
-        border: 2px solid #47A8E5;
-  }
-  
-  .custom-select_category select {
-    display: none; /*hide original SELECT element:*/
-      border-radius: 30px;
-      border: 2px solid #47A8E5;
-
-  }
-  
-  .select-selected_category {
-
-      border-radius: 30px;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 20px;
-      color: #081534;
-      background-color: #fff;
-      border: 2px solid #47A8E5;
-  }
-  
-  /*style the arrow inside the select element:*/
-  .select-selected_category:after {
-    position: absolute;
-    content: "";
-    top: 19px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #081534 transparent transparent transparent;
-  }
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  .select-selected_category.select-arrow-active_category:after {
-    border-color: transparent transparent #081534 transparent;
-    top: 13px;
-  }
-  
-  /*style the items (options), including the selected item:*/
-  .select-items_category div,.select-selected_category {
-
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  /*style items (options):*/
-  .select-items_category {
-    background-color: #fff;
-    color: #081534;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    font-size: 18px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 15px;
-  }
-  
-  /*hide the items when the select box is closed:*/
-  .select-hide_category {
-    display: none;
-  }
-  
-  .select-items_category div:hover, .same-as-selected_category {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-/**************Стили цели категории******************/
-/**************Стили цели категории******************/
-/**************Стили цели категории******************/
-/**************Стили цели категории******************/
-/**************Стили цели категории******************/
-/*the container must be positioned relative:*/
-.custom-select28 {
+.custom-select_cats {
   position: relative;
   font-family: Arial;
       border-radius: 30px;
@@ -430,14 +342,14 @@
       border: 2px solid #47A8E5;
 }
 
-.custom-select28 select {
+.custom-select_cats select {
   display: none; /*hide original SELECT element:*/
     border-radius: 30px;
     border: 2px solid #47A8E5;
 
 }
 
-.select-selected28  {
+.select-selected_cats {
 
     border-radius: 30px;
     width: 100%;
@@ -452,7 +364,7 @@
 }
 
 /*style the arrow inside the select element:*/
-.select-selected28:after {
+.select-selected_cats:after {
   position: absolute;
   content: "";
   top: 19px;
@@ -464,13 +376,13 @@
 }
 
 /*point the arrow upwards when the select box is open (active):*/
-.select-selected28.select-arrow-active28:after {
+.select-selected_cats.select-arrow-active_cats:after {
   border-color: transparent transparent #081534 transparent;
   top: 13px;
 }
 
 /*style the items (options), including the selected item:*/
-.select-items28 div,.select-selected28 {
+.select-items_cats div,.select-selected_cats {
 
   padding: 8px 16px;
   border: 1px solid transparent;
@@ -480,7 +392,8 @@
 }
 
 /*style items (options):*/
-.select-items28 {
+.select-items_cats {
+  position: absolute;
   background-color: #fff;
   color: #081534;
   top: 100%;
@@ -493,101 +406,104 @@
 }
 
 /*hide the items when the select box is closed:*/
-.select-hide28 {
+.select-hide_cats {
   display: none;
 }
 
-.select-items28 div:hover, .same-as-selected28 {
+.select-items_cats div:hover, .same-as-selected_cats {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**************Стили FEALLİYET******************/
+/**************Стили FEALLİYET******************/
+/**************Стили FEALLİYET******************/
+/**************Стили FEALLİYET******************/
+/**************Стили FEALLİYET******************/
+/*the container must be positioned relative:*/
+.custom-select_feat {
+  position: relative;
+  font-family: Arial;
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #47A8E5;
+}
+
+.custom-select_feat select {
+  display: none; /*hide original SELECT element:*/
+    border-radius: 30px;
+    border: 2px solid #47A8E5;
+
+}
+
+.select-selected_feat {
+
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #081534;
+    background-color: #fff;
+    border: 2px solid #47A8E5;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected_feat:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #081534 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected_feat.select-arrow-active_feat:after {
+  border-color: transparent transparent #081534 transparent;
+  top: 13px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items_feat div,.select-selected_feat {
+
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items_feat {
+  position: absolute;
+  background-color: #fff;
+  color: #081534;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide_feat {
+  display: none;
+}
+
+.select-items_feat div:hover, .same-as-selected_feat {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 
 
-/**************Стили цели fealliyet******************/
-/**************Стили цели fealliyet******************/
-/**************Стили цели fealliyet******************/
-/**************Стили цели fealliyet******************/
-/**************Стили цели fealliyet******************/
-/*the container must be positioned relative:*/
-.custom-select_fealliet {
-    position: relative;
-    font-family: Arial;
-        border-radius: 30px;
-        width: 100%;
-        height: 100%;
-        border: 2px solid #47A8E5;
-  }
-  
-  .custom-select_fealliet select {
-    display: none; /*hide original SELECT element:*/
-      border-radius: 30px;
-      border: 2px solid #47A8E5;
 
-  }
-  
-  .select-selected_fealliet {
-
-      border-radius: 30px;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 20px;
-      color: #081534;
-      background-color: #fff;
-      border: 2px solid #47A8E5;
-  }
-  
-  /*style the arrow inside the select element:*/
-  .select-selected_fealliet:after {
-    position: absolute;
-    content: "";
-    top: 19px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #081534 transparent transparent transparent;
-  }
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  .select-selected_fealliet.select-arrow-active_fealliet:after {
-    border-color: transparent transparent #081534 transparent;
-    top: 13px;
-  }
-  
-  /*style the items (options), including the selected item:*/
-  .select-items_fealliet div,.select-selected_fealliet {
-
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  /*style items (options):*/
-  .select-items_fealliet {
-    background-color: #fff;
-    color: #081534;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    font-size: 18px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 15px;
-  }
-  
-  /*hide the items when the select box is closed:*/
-  .select-hide_fealliet {
-    display: none;
-  }
-  
-  .select-items_fealliet div:hover, .same-as-selected_fealliet {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
 
 
 

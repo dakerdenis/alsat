@@ -148,7 +148,7 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <!--категории--->
-                            <div class="custom-select28">
+                            <div class="custom-select_cats">
                                 <select>
                                     <option value="0">Kategoriya</option>
                                     <option value="0">Kategoriya</option>
@@ -176,7 +176,7 @@
                             Fealliyet*
                         </div>
                         <div class="add_buisness__element-input">
-                            <div class="custom-select_fealliet">
+                            <div class="custom-select_feat">
                                 <select>
                                     <option value="0">test1</option>
                                     <option value="0">test1</option>
@@ -330,10 +330,11 @@
     document.addEventListener("click", closeAllSelect23);
 
 
-    /**********Скрипт для выбора цели продажи ************** */
-    /**********Скрипт для выбора цели продажи ************** */
-    /**********Скрипт для выбора цели продажи ************** */
-    /**********Скрипт для выбора цели продажи ************** */
+
+    /**********Скрипт для выбора Məqsəd   ----- ************** */
+    /**********Скрипт для выбора Məqsəd   ----- ************** */
+    /**********Скрипт для выбора Məqsəd   ----- ************** */
+    /**********Скрипт для выбора Məqsəd   ----- ************** */
     var x, i, j, l, ll, selElmnt, a, b, c;
     /*look for any elements with the class "custom-select":*/
     x = document.getElementsByClassName("custom-select_goal");
@@ -389,7 +390,7 @@
         });
     }
 
-    function closeAllSelect24(elmnt) {
+    function closeAllSelect_goal(elmnt) {
         /*a function that will close all select boxes in the document,
         except the current select box:*/
         var x, y, i, xl, yl, arrNo = [];
@@ -412,28 +413,27 @@
     }
     /*if the user clicks anywhere outside the select box,
     then close all select boxes:*/
-    document.addEventListener("click", closeAllSelect24);
+    document.addEventListener("click", closeAllSelect_goal);
 
-
-    /**********Скрипт для выбора цели продажи ************** */
-    /**********Скрипт для выбора цели продажи ************** */
-    /**********Скрипт для выбора цели продажи ************** */
-    /**********Скрипт для выбора цели продажи ************** */
+    /**********Скрипт для выбора categories  ----- ************** */
+    /**********Скрипт для выбора categories  ----- ************** */
+    /**********Скрипт для выбора categories  ----- ************** */
+    /**********Скрипт для выбора categories  ----- ************** */
     var x, i, j, l, ll, selElmnt, a, b, c;
     /*look for any elements with the class "custom-select":*/
-    x = document.getElementsByClassName("custom-select_category");
+    x = document.getElementsByClassName("custom-select_cats");
     l = x.length;
     for (i = 0; i < l; i++) {
         selElmnt = x[i].getElementsByTagName("select")[0];
         ll = selElmnt.length;
         /*for each element, create a new DIV that will act as the selected item:*/
         a = document.createElement("DIV");
-        a.setAttribute("class", "select-selected_category");
+        a.setAttribute("class", "select-selected_cats");
         a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
         x[i].appendChild(a);
         /*for each element, create a new DIV that will contain the option list:*/
         b = document.createElement("DIV");
-        b.setAttribute("class", "select-items_goal select-hide_category");
+        b.setAttribute("class", "select-items_cats select-hide_cats");
         for (j = 1; j < ll; j++) {
             /*for each option in the original select element,
             create a new DIV that will act as an option item:*/
@@ -450,12 +450,12 @@
                     if (s.options[i].innerHTML == this.innerHTML) {
                         s.selectedIndex = i;
                         h.innerHTML = this.innerHTML;
-                        y = this.parentNode.getElementsByClassName("same-as-selected_category");
+                        y = this.parentNode.getElementsByClassName("same-as-selected_cats");
                         yl = y.length;
                         for (k = 0; k < yl; k++) {
                             y[k].removeAttribute("class");
                         }
-                        this.setAttribute("class", "same-as-selected_category");
+                        this.setAttribute("class", "same-as-selected_cats");
                         break;
                     }
                 }
@@ -469,55 +469,57 @@
             and open/close the current select box:*/
             e.stopPropagation();
             closeAllSelect1(this);
-            this.nextSibling.classList.toggle("select-hide_category");
-            this.classList.toggle("select-arrow-active_category");
+            this.nextSibling.classList.toggle("select-hide_cats");
+            this.classList.toggle("select-arrow-active_cats");
         });
     }
 
-    function closeAllSelect25(elmnt) {
+    function closeAllSelect_cats(elmnt) {
         /*a function that will close all select boxes in the document,
         except the current select box:*/
         var x, y, i, xl, yl, arrNo = [];
-        x = document.getElementsByClassName("select-items_category");
-        y = document.getElementsByClassName("select-selected_category");
+        x = document.getElementsByClassName("select-items_cats");
+        y = document.getElementsByClassName("select-selected_cats");
         xl = x.length;
         yl = y.length;
         for (i = 0; i < yl; i++) {
             if (elmnt == y[i]) {
                 arrNo.push(i)
             } else {
-                y[i].classList.remove("select-arrow-active_category");
+                y[i].classList.remove("select-arrow-active_cats");
             }
         }
         for (i = 0; i < xl; i++) {
             if (arrNo.indexOf(i)) {
-                x[i].classList.add("select-hide_category");
+                x[i].classList.add("select-hide_cats");
             }
         }
     }
     /*if the user clicks anywhere outside the select box,
     then close all select boxes:*/
-    document.addEventListener("click", closeAllSelect25);
+    document.addEventListener("click", closeAllSelect_cats);
 
-    /**********Скрипт для выбора Категории ************** */
-    /**********Скрипт для выбора Категории ************** */
-    /**********Скрипт для выбора Категории ************** */
-    /**********Скрипт для выбора Категории ************** */
+
+
+    /**********Скрипт для выбора Fealliyet  ----- ************** */
+    /**********Скрипт для выбора Fealliyet  ----- ************** */
+    /**********Скрипт для выбора Fealliyet  ----- ************** */
+    /**********Скрипт для выбора Fealliyet  ----- ************** */
     var x, i, j, l, ll, selElmnt, a, b, c;
     /*look for any elements with the class "custom-select":*/
-    x = document.getElementsByClassName("custom-select28");
+    x = document.getElementsByClassName("custom-select_feat");
     l = x.length;
     for (i = 0; i < l; i++) {
         selElmnt = x[i].getElementsByTagName("select")[0];
         ll = selElmnt.length;
         /*for each element, create a new DIV that will act as the selected item:*/
         a = document.createElement("DIV");
-        a.setAttribute("class", "select-selected28");
+        a.setAttribute("class", "select-selected_feat");
         a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
         x[i].appendChild(a);
         /*for each element, create a new DIV that will contain the option list:*/
         b = document.createElement("DIV");
-        b.setAttribute("class", "select-items28 select-hide28");
+        b.setAttribute("class", "select-items_feat select-hide_feat");
         for (j = 1; j < ll; j++) {
             /*for each option in the original select element,
             create a new DIV that will act as an option item:*/
@@ -534,12 +536,12 @@
                     if (s.options[i].innerHTML == this.innerHTML) {
                         s.selectedIndex = i;
                         h.innerHTML = this.innerHTML;
-                        y = this.parentNode.getElementsByClassName("same-as-selected28");
+                        y = this.parentNode.getElementsByClassName("same-as-selected_feat");
                         yl = y.length;
                         for (k = 0; k < yl; k++) {
                             y[k].removeAttribute("class");
                         }
-                        this.setAttribute("class", "same-as-selected28");
+                        this.setAttribute("class", "same-as-selected_feat");
                         break;
                     }
                 }
@@ -552,120 +554,34 @@
             /*when the select box is clicked, close any other select boxes,
             and open/close the current select box:*/
             e.stopPropagation();
-            closeAllSelect28(this);
-            this.nextSibling.classList.toggle("select-hide28");
-            this.classList.toggle("select-arrow-active28");
+            closeAllSelect1(this);
+            this.nextSibling.classList.toggle("select-hide_feat");
+            this.classList.toggle("select-arrow-active_feat");
         });
     }
 
-    function closeAllSelect28(elmnt) {
+    function closeAllSelect_feat(elmnt) {
         /*a function that will close all select boxes in the document,
         except the current select box:*/
         var x, y, i, xl, yl, arrNo = [];
-        x = document.getElementsByClassName("select-items28");
-        y = document.getElementsByClassName("select-selected28");
+        x = document.getElementsByClassName("select-items_feat");
+        y = document.getElementsByClassName("select-selected_feat");
         xl = x.length;
         yl = y.length;
         for (i = 0; i < yl; i++) {
             if (elmnt == y[i]) {
                 arrNo.push(i)
             } else {
-                y[i].classList.remove("select-arrow-active28");
+                y[i].classList.remove("select-arrow-active_feat");
             }
         }
         for (i = 0; i < xl; i++) {
             if (arrNo.indexOf(i)) {
-                x[i].classList.add("select-hide28");
+                x[i].classList.add("select-hide_feat");
             }
         }
     }
     /*if the user clicks anywhere outside the select box,
     then close all select boxes:*/
-    document.addEventListener("click", closeAllSelect28);
-
-
-
-    /**********Скрипт для выбора fealliyet ************** */
-    /**********Скрипт для выбора fealliyet ************** */
-    /**********Скрипт для выбора fealliyet ************** */
-    /**********Скрипт для выбора fealliyet ************** */
-    var x, i, j, l, ll, selElmnt, a, b, c;
-    /*look for any elements with the class "custom-select":*/
-    x = document.getElementsByClassName("custom-select_fealliet");
-    l = x.length;
-    for (i = 0; i < l; i++) {
-        selElmnt = x[i].getElementsByTagName("select")[0];
-        ll = selElmnt.length;
-        /*for each element, create a new DIV that will act as the selected item:*/
-        a = document.createElement("DIV");
-        a.setAttribute("class", "select-selected_fealliet");
-        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-        x[i].appendChild(a);
-        /*for each element, create a new DIV that will contain the option list:*/
-        b = document.createElement("DIV");
-        b.setAttribute("class", "select-items_fealliet select-hide_fealliet");
-        for (j = 1; j < ll; j++) {
-            /*for each option in the original select element,
-            create a new DIV that will act as an option item:*/
-            c = document.createElement("DIV");
-            c.innerHTML = selElmnt.options[j].innerHTML;
-            c.addEventListener("click", function(e) {
-                /*when an item is clicked, update the original select box,
-                and the selected item:*/
-                var y, i, k, s, h, sl, yl;
-                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-                sl = s.length;
-                h = this.parentNode.previousSibling;
-                for (i = 0; i < sl; i++) {
-                    if (s.options[i].innerHTML == this.innerHTML) {
-                        s.selectedIndex = i;
-                        h.innerHTML = this.innerHTML;
-                        y = this.parentNode.getElementsByClassName("same-as-selected_fealliet");
-                        yl = y.length;
-                        for (k = 0; k < yl; k++) {
-                            y[k].removeAttribute("class");
-                        }
-                        this.setAttribute("class", "same-as-selected_fealliet");
-                        break;
-                    }
-                }
-                h.click();
-            });
-            b.appendChild(c);
-        }
-        x[i].appendChild(b);
-        a.addEventListener("click", function(e) {
-            /*when the select box is clicked, close any other select boxes,
-            and open/close the current select box:*/
-            e.stopPropagation();
-            closeAllSelect_fealliet(this);
-            this.nextSibling.classList.toggle("select-hide_fealliet");
-            this.classList.toggle("select-arrow-active_fealliet");
-        });
-    }
-
-    function closeAllSelect_fealliet(elmnt) {
-        /*a function that will close all select boxes in the document,
-        except the current select box:*/
-        var x, y, i, xl, yl, arrNo = [];
-        x = document.getElementsByClassName("select-items_fealliet");
-        y = document.getElementsByClassName("select-selected_fealliet");
-        xl = x.length;
-        yl = y.length;
-        for (i = 0; i < yl; i++) {
-            if (elmnt == y[i]) {
-                arrNo.push(i)
-            } else {
-                y[i].classList.remove("select-arrow-active_fealliet");
-            }
-        }
-        for (i = 0; i < xl; i++) {
-            if (arrNo.indexOf(i)) {
-                x[i].classList.add("select-hide_fealliet");
-            }
-        }
-    }
-    /*if the user clicks anywhere outside the select box,
-    then close all select boxes:*/
-    document.addEventListener("click", closeAllSelect_fealliet);
+    document.addEventListener("click", closeAllSelect_feat);
 </script>
