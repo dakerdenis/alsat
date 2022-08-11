@@ -41,7 +41,7 @@
           <!---Блок АККАУНТА--->
           <div href="#" class="header__desc_block header__desc_block-account">
             <img src="./style/imgs/user.png" alt="">
-            <p>Aleksey Navalniy</p> <a class="log_out" href="">Çixiş</a>
+            <a class="header__account_link" href="./index.php?source=account">Aleksey Navalniy</a> <a class="log_out" href="">Çixiş</a>
           </div>
 
           <!---Блок Новое обьявление--->
