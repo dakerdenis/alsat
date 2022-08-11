@@ -49,6 +49,7 @@
     <a style="color:red; padding-left: 15px;" href="./index.php?source=account">Личный кабинет</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=search_all">Поиск всего</a> <br>
     <a style="color:red; padding-left: 15px;" href="index.php?source=login">страница входа</a> <br>
+    <a style="color:red; padding-left: 15px;" href="index.php?source=element">страница Элемента</a> <br>
     </div>
   <?php 
     if (isset($_GET['source'])){

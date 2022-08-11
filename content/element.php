@@ -1,5 +1,7 @@
 <style>
-    <?php include './content/block.css'; ?><?php include './content/element.css'; ?>
+
+    <?php include './content/block.css'; ?>
+    <?php include './content/element.css'; ?>
 </style>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>

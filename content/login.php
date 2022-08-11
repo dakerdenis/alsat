@@ -19,7 +19,7 @@
             <!--контейнер логина-->
             <div class="login__container_form">
                 <div class="login_onlymobile_name">
-                Şəxsi hesaba giriş
+                    Şəxsi hesaba giriş
                 </div>
                 <form class="login__container_form-form" action="">
                     <!--emaiL-->
@@ -31,6 +31,9 @@
                             <input class="log_reg_element_wraper_input-input" type="text">
                         </div>
                     </div>
+                    <div class="required__field_login">
+                        <p style="visibility:hidden;">*Это поле обязательно</p>
+                    </div>
                     <!----password--->
                     <div class="log_reg_element__wrapper">
                         <div class="log_reg_element_wraper_desc">
@@ -40,6 +43,9 @@
                             <input class="log_reg_element_wraper_input-input" type="password">
                         </div>
                     </div>
+                    <div class="required__field_login">
+                        <p>*Это поле обязательно</p>
+                    </div>
                     <!--Buttons submit-->
                     <div class="submit_login_wrapper">
                         <div class="submit_login_container">
@@ -47,16 +53,14 @@
                             <button type="submit" class="submit_login_container-button">Daxil olmaq</button>
                         </div>
                     </div>
-                    <div class="required__field_login">
-                        *Это поле обязательно
-                    </div>
+
                 </form>
             </div>
             <!--контейнер регистрации--->
             <div class="registration__container_form">
                 <!--только для телефона-->
-            <div class="login_onlymobile_name">
-            Qeydiyyatdan keçmək
+                <div class="login_onlymobile_name">
+                    Qeydiyyatdan keçmək
                 </div>
                 <form class="registration__container_form-form" action="">
                     <!--name-->
@@ -68,6 +72,9 @@
                             <input class="log_reg_element_wraper_input-input" type="text">
                         </div>
                     </div>
+                    <div class="required__field_login">
+                        <p>*Это поле обязательно</p>
+                    </div>
                     <!--emaiL-->
                     <div class="log_reg_element__wrapper">
                         <div class="log_reg_element_wraper_desc">
@@ -76,6 +83,9 @@
                         <div class="log_reg_element_wraper_input">
                             <input class="log_reg_element_wraper_input-input" type="text">
                         </div>
+                    </div>
+                    <div class="required__field_login">
+                        <p style="visibility: hidden;">*Это поле обязательно</p>
                     </div>
                     <!--Telefon-->
                     <div class="log_reg_element__wrapper">
@@ -86,6 +96,9 @@
                             <input class="log_reg_element_wraper_input-input" type="number">
                         </div>
                     </div>
+                    <div class="required__field_login">
+                        <p>*Это поле обязательно</p>
+                    </div>
                     <!----password--->
                     <div class="log_reg_element__wrapper">
                         <div class="log_reg_element_wraper_desc">
@@ -95,15 +108,16 @@
                             <input class="log_reg_element_wraper_input-input" type="password">
                         </div>
                     </div>
+                    <div class="required__field_login">
+                        <p>*Это поле обязательно</p>
+                    </div>
                     <!--Buttons submit-->
                     <div class="submit_login_wrapper">
                         <div class="submit_login_container">
                             <button type="submit" class="submit_login_container-button">Daxil olmaq</button>
                         </div>
                     </div>
-                    <div class="required__field_login">
-                        *Это поле обязательно
-                    </div>
+
                 </form>
             </div>
         </div>

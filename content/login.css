@@ -38,7 +38,7 @@
     justify-content: space-between;
     align-items: center;
     color: rgb(8, 21, 52);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .log_reg_element__wrapper:first-child{
     margin-top: 0px;
@@ -95,13 +95,17 @@
     display: none;
     visibility: hidden;
 }
+/*****************/
+/*****************/
 .required__field_login{
-    margin-top: 10px;
+    margin-top: 7px;
     width: 100%;
     text-align: center;
     color: red;
-    font-size: 16px;
-}
+    font-size: 15px;
+} 
+/*****************/
+/*****************/
 @media only screen and (max-width: 1368px){
     .log_reg_element_wraper_input{
         width: 60%;
