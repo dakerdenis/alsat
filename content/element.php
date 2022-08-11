@@ -276,7 +276,7 @@
         Похожие публикации
     </div>
     <div class="element__fourblocks__wrapper">
-        <?php include './content/block.php' ?>
+        <?php include './content/block_avadanliq.php' ?>
         <?php include './content/block.php' ?>
         <?php include './content/block.php' ?>
         <?php include './content/block.php' ?>

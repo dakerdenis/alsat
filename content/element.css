@@ -398,9 +398,20 @@
 .element__fourblocks__wrapper {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
+@media only screen and (max-device-width: 1680px){
+    .element__block{
+        width: 22%;
+    }
+}
+@media only screen and (max-device-width: 1660px){
+    .element__block{
+        width: 22%;
+    }
+}
+@media only screen and (max-device-width: 1480px){}
+@media only screen and (max-device-width: 1400px){}
 @media only screen and (max-device-width: 1368px){
     .product__openclose_block{
         align-items: center;
