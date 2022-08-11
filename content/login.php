@@ -47,6 +47,9 @@
                             <button type="submit" class="submit_login_container-button">Daxil olmaq</button>
                         </div>
                     </div>
+                    <div class="required__field_login">
+                        *Это опле обязательно
+                    </div>
                 </form>
             </div>
             <!--контейнер регистрации--->
@@ -97,6 +100,9 @@
                         <div class="submit_login_container">
                             <button type="submit" class="submit_login_container-button">Daxil olmaq</button>
                         </div>
+                    </div>
+                    <div class="required__field_login">
+                        *Это опле обязательно
                     </div>
                 </form>
             </div>

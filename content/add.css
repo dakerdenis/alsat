@@ -154,7 +154,7 @@
 /**************Стили варианта выбора города*****************/
 /**************Стили варианта выбора города*****************/
 /*the container must be positioned relative:*/
-.custom-select_city {
+.custom-select23 {
     position: relative;
     font-family: Arial;
         border-radius: 30px;
@@ -163,14 +163,14 @@
         border: 2px solid #47A8E5;
   }
   
-  .custom-select_city select {
+  .custom-select23 select {
     display: none; /*hide original SELECT element:*/
       border-radius: 30px;
       border: 2px solid #47A8E5;
 
   }
   
-  .select-selected_city {
+  .select-selected23 {
 
       border-radius: 30px;
       width: 100%;
@@ -185,7 +185,7 @@
   }
   
   /*style the arrow inside the select element:*/
-  .select-selected_city:after {
+  .select-selected23:after {
     position: absolute;
     content: "";
     top: 19px;
@@ -197,14 +197,14 @@
   }
   
   /*point the arrow upwards when the select box is open (active):*/
-  .select-selected_city.select-arrow-active_city:after {
+  .select-selected23.select-arrow-active23:after {
     border-color: transparent transparent #081534 transparent;
     top: 13px;
     border-radius: 15px;
   }
   
   /*style the items (options), including the selected item:*/
-  .select-items_city div,.select-selected_city {
+  .select-items23 div,.select-selected23 {
 
     padding: 8px 16px;
     border: 1px solid transparent;
@@ -215,7 +215,7 @@
   }
   
   /*style items (options):*/
-  .select-items_city {
+  .select-items23 {
     position: absolute;
     background-color: #fff;
     color: #081534;
@@ -229,11 +229,11 @@
   }
   
   /*hide the items when the select box is closed:*/
-  .select-hide_city {
+  .select-hide23 {
     display: none;
   }
   
-  .select-items_city div:hover, .same-as-selected_city {
+  .select-items23 div:hover, .same-as-selected23 {
     background-color: rgba(0, 0, 0, 0.1);
   }
 
@@ -415,6 +415,92 @@
   .select-items_category div:hover, .same-as-selected_category {
     background-color: rgba(0, 0, 0, 0.1);
   }
+/**************Стили цели категории******************/
+/**************Стили цели категории******************/
+/**************Стили цели категории******************/
+/**************Стили цели категории******************/
+/**************Стили цели категории******************/
+/*the container must be positioned relative:*/
+.custom-select28 {
+  position: relative;
+  font-family: Arial;
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+      border: 2px solid #47A8E5;
+}
+
+.custom-select28 select {
+  display: none; /*hide original SELECT element:*/
+    border-radius: 30px;
+    border: 2px solid #47A8E5;
+
+}
+
+.select-selected28  {
+
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #081534;
+    background-color: #fff;
+    border: 2px solid #47A8E5;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected28:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #081534 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected28.select-arrow-active28:after {
+  border-color: transparent transparent #081534 transparent;
+  top: 13px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items28 div,.select-selected28 {
+
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items28 {
+  background-color: #fff;
+  color: #081534;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide28 {
+  display: none;
+}
+
+.select-items28 div:hover, .same-as-selected28 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 
 /**************Стили цели fealliyet******************/
