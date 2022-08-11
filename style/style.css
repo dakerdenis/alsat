@@ -105,20 +105,13 @@ h6 {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
     background-color: #F5F5F5;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(8, 21, 52);
-    background-image: -webkit-linear-gradient(45deg,
-            rgba(71, 168, 229, .4) 25%,
-            transparent 25%,
-            transparent 50%,
-            rgba(71, 168, 229, .4) 50%,
-            rgba(71, 168, 229, .5) 75%,
-            transparent 50%,
-            transparent)
+
 }
 
 

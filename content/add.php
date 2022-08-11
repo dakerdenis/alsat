@@ -163,7 +163,7 @@
                     <!--Площадь-->
                     <div class="add_buisness__element">
                         <div class="add_buisness__element-desc">
-                            Sahə(m<sub>2</sub>)*
+                            Sahə(m<sup>2</sup>)*
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">

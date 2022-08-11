@@ -134,6 +134,7 @@
 .add_buisness_container-button{
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 .add_buisness_container_text{
     font-weight: 500;
@@ -547,6 +548,7 @@
   height: 25px;
   width: 25px;
   background-color: #eee;
+  border-radius: 5px;
 }
 
 /* On mouse-over, add a grey background color */
