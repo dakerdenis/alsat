@@ -59,8 +59,8 @@
 
             <!--Варианты покупки полные---->
             <div class="custom-select1">
-              <select>
-                <option value="0">Almaq</option>
+              <select id="my_select">
+                <option defaultSelected value="0">Almaq</option>
                 <option value="0">Almaq</option>
                 <option value="0">Satmaq</option>
                 <option value="1">Arenda</option>
@@ -72,8 +72,8 @@
 
             <!--Варианты категорий полные---->
             <div class="custom-select2">
-              <select>
-                <option value="0">Kategoriyalar</option>
+              <select id="my_select">
+                <option defaultSelected value="0">Kategoriyalar</option>
                 <option value="0">Kategoriyalar</option>
                 <option value="1">Restoran</option>
                 <option value="2">Kafe</option>
@@ -138,8 +138,8 @@
             <div class="search__block__active">
               <p>Status</p>
               <div class="custom-select3">
-                <select>
-                  <option value="0">Aktiv</option>
+                <select id="my_select">
+                  <option defaultSelected value="0">Aktiv</option>
                   <option value="0">Aktiv</option>
                   <option value="0">Baglidir</option>
                   <option value="1">Planda</option>
@@ -280,11 +280,17 @@
   for (i = 0; i < l; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
     ll = selElmnt.length;
+
+
+
     /*for each element, create a new DIV that will act as the selected item:*/
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected2");
     a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
     x[i].appendChild(a);
+
+
+
     /*for each element, create a new DIV that will contain the option list:*/
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items2 select-hide2");
@@ -456,16 +462,27 @@
   btnClear.addEventListener('click', function() {
     form.reset();
     // Look for a default selected option
-    //  for (var i = 0, iLen = options.length; i < iLen; i++) {
-    //
-    //    if (options[i].defaultSelected) {
-    //      selectElement.selectedIndex = i;
-    //      return;
-    //    }
-    //  }
+    // for (var i = 0, iLen = options.length; i < iLen; i++) {
+
+    //   if (options[i].defaultSelected) {
+    //     selectElement.selectedIndex = i;
+    //     return;
+    //   }
+    // }
     // If no option is the default, select first or none as appropriate
-    selectElement.selectedIndex = 0; // or -1 for no option selected
+    //selectElement.selectedIndex = 0; // or -1 for no option selected
+    var options = document.querySelectorAll('#my_select option');
+    for (var i = 0, l = options.length; i < l; i++) {
+      options[i].selected = options[i].defaultSelected;
+    }
+    x = document.getElementsByClassName("custom-select2");
+    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+    x[i].appendChild(a);
   });
+
+
+
+
 
 
 

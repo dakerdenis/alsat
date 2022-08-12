@@ -16,6 +16,9 @@
         </div>
         <!--контейнер для регистрации и логина-->
         <div class="login__registration_wrapper">
+            <div class="password__changing__succesfull">
+                Ваш пароль успешно изменён !
+            </div>
             <!--контейнер логина-->
             <div class="login__container_form">
                 <div class="login_onlymobile_name">
