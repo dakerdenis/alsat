@@ -475,9 +475,6 @@
     for (var i = 0, l = options.length; i < l; i++) {
       options[i].selected = options[i].defaultSelected;
     }
-    x = document.getElementsByClassName("custom-select2");
-    a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
-    x[i].appendChild(a);
   });
 
 
