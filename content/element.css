@@ -520,7 +520,10 @@
         background-color: green;
         height: 100%;
     }
-
+    .element__fourblocks__wrapper{
+        flex-wrap: wrap;
+    }
+    
 }
 @media only screen and (max-device-width: 590px){
     .element__four__recomendation_block {
