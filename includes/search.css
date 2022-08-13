@@ -763,7 +763,10 @@ input[type="number"] {
 .additional_show__image_changed {
   transform: rotate(180deg);
 }
-
+.header_nav_element img {
+  width: 30px;
+  height: 30px;
+}
 @media only screen and (max-width: 1601px) {
   .search__square__min {
     padding-right: 18px;

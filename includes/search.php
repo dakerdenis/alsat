@@ -34,7 +34,7 @@
 
       <!--navigation element-->
       <div class="header_nav_element header_nav_element_dropdown">
-        <img src="./style/imgs/equip.svg" alt="" srcset="">
+        <img src="./style/imgs/idea.svg" alt="" srcset="">
         <a href="#">Əlavə Xidmətlər</a>
         <div class="dropdown-content1">
           <a href="./index.php?source=page">Audit</a>
