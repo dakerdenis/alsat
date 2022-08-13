@@ -32,7 +32,11 @@ if (isMobile.any()) {
 } else {
     document.body.classList.add('_pc');
 }
-console.log('SUKA');
+
+
+
+// Меню бургер
+// Меню бургер
 // Меню бургер
 const iconMenu = document.querySelector('.menu-burger_icon');
 const menuBody = document.querySelector('.menu__body');
@@ -55,6 +59,19 @@ closeMenu.addEventListener('click', function onClick2() {
 
     document.body.classList.remove('_lock');
 });
+// Смена картинки добавить в закладки******************/ */
+
+const iconFavoriteNot = document.querySelector('.favorite__block__image_not');
+const iconFavoriteYes = document.querySelector('.favorite__block__image_yes');
+const favoriteImageBlock = document.querySelector('#element__bookmark');
+
+ function onClick23(){
+
+   iconFavoriteNot.classList.toggle('_favorite_active_not');
+   iconFavoriteYes.classList.toggle('_favorite_active_yes');
+
+};
+
 
 
 

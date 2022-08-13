@@ -1,18 +1,20 @@
             <!--element block -->
             <div class="elelement__block">
 
-                    <div class="element_wrapper">
-                        <!-- image block-->
-                        <div class="element_image">
-                            <!--element image-->
-                            <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
-                            <!--Bookmark -->
-                            <div class="element__bookmark">
-                                <img src="./style/imgs/fav_main.svg" alt="" srcset="">
-                            </div>
+                <div class="element_wrapper">
+                    <!-- image block-->
+                    <div class="element_image">
+                        <!--element image-->
+                        <img class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
+                        <!--Bookmark -->
+                        <div id="element__bookmark" onClick="onClick23()" class="element__bookmark">
+                            <img class="favorite__block__image_not" src="./style/imgs/fav_main.svg" alt="" srcset="">
+                            <img class="favorite__block__image_yes"  src="./style/imgs/fav2.svg" alt="" srcset="">
                         </div>
-                        <!--element content -->
-                        <div class="element__content">
+                    </div>
+                    <!--element content -->
+                    <div class="element__content">
+                        <a href="index.php?source=element">
                             <div class="element__content_wrapper">
                                 <!-- price and additional -->
                                 <div class="element__price_additional_wrapper">
@@ -64,7 +66,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-
+                </div>
             </div>

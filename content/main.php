@@ -186,7 +186,7 @@
     });
   }
 
-  function closeAllSelect3(elmnt) {
+  function closeAllSelectfilter(elmnt) {
     /*a function that will close all select boxes in the document,
     except the current select box:*/
     var x, y, i, xl, yl, arrNo = [];

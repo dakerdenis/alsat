@@ -31,13 +31,14 @@
     object-fit: cover;
 }
 .element__bookmark {
-    background-color: red;
+    background-color: #000;
     position: absolute;
     top: 3%;
     right: 4%;
     width: 25px;
     height: 34px;
     padding: 1px;
+    cursor: pointer;
 }
 .element__bookmark img{
     width: 100%;
@@ -132,6 +133,20 @@
 }
 /***********************************/
 /***********************************/
+.favorite__block__image_not{}
+.favorite__block__image_yes{
+    display: none;
+    visibility: hidden;
+}
+._favorite_active_not{
+    display: none;
+    visibility: hidden;
+}
+._favorite_active_yes{
+    display: block;
+    visibility: visible;
+}
+
 /***********************************/
 @media only screen and (max-width:1620px){
     .element_image{
