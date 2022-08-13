@@ -274,7 +274,7 @@ input[type="number"] {
 }
 
 .search__block_block3 {
-  width: 68%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -842,7 +842,7 @@ input[type="number"] {
     width: 50%;
   }
   .search__block_block3 {
-    width: 59%;
+    width: 100%;
   }
   .search__block__active {
     width: 35%;

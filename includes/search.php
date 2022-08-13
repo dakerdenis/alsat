@@ -101,22 +101,7 @@
           </div>
         </div>
         <div class="search__block_square_price">
-          <!-- Площадь -->
-          <div class="search__block_block">
-            <div class="search__block__square">
-              <p>Sahə</p>
-              <!--минимальная площадь--->
-              <div class="search__square__min">
-                <input type="number" placeholder="min">
-                <p>m<sup>2</sup></p>
-              </div>
-              <!--максимальная площадь-->
-              <div class="search__square__max">
-                <input type="number" placeholder="max">
-                <p>m<sup>2</sup> </p>
-              </div>
-            </div>
-          </div>
+
           <!-- Цена и наличие -->
           <div class="search__block_block3">
             <!--Цена-->
