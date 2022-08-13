@@ -75,6 +75,10 @@ const favoriteImageBlock = document.querySelector('#element__bookmark');
 
 
 
+
+
+
+
 /************************скрыть показать больше в панели поиска*************************** */
 const search_buy = document.querySelector('.search__block_block2');
 const search_square = document.querySelector('.search__block_square_price');

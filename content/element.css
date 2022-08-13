@@ -22,6 +22,12 @@
     display: flex;
     align-items: center;
 }
+.product__number img {
+    cursor: pointer;
+    margin-left: 5px;
+    width: 25px;
+    height: 30px;
+}
 .product__content_wrapper {
     margin-top: 18px;
     display: flex;
@@ -400,6 +406,9 @@
     display: flex;
     justify-content: space-between;
 }
+/**********************/
+
+
 @media only screen and (max-device-width: 1680px){
     .element__block{
         width: 22%;

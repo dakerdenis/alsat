@@ -13,16 +13,17 @@
             Hazır biznes > SPA salon
         </div>
         <!---номер элемента в бд и закладка-->
-        <div class="product__number">
+        <div  class="product__number">
             <p>Elan N 2455341</p>
-            <img src="https://placehold.jp/3d4070/ffffff/25x30.png" alt="" srcset="">
+            <img class="favorite__block__image_notElement" src="./style/imgs/fav.svg" alt="" srcset="">
+            
         </div>
     </div>
     <!-- Галлерея и описание товара--->
     <div class="product__content_wrapper">
         <!-----галлерея часть 1 --->
         <div class="photo-gallery-part1">
-            <div class="gallery-part1-image">
+            <div  class="gallery-part1-image">
                 <img id="img-Box" src="./content/images/img1.jpg" alt="">
                 <i id="zoom" class="fa-solid fa-magnifying-glass-plus"></i>
             </div>
