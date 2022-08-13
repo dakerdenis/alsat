@@ -92,12 +92,7 @@
             <div class="search_buy_input">
               <input class="search_buy_input-input" type="text" name="" id="" placeholder="Almaq">
             </div>
-            <!--выбор станции метро или ориентира-->
-            <div class="search_buy_destination">
-              <span>Metro</span>
-              <span>Rayon</span>
-              <span>Küçə</span>
-            </div>
+
           </div>
         </div>
         <div class="search__block_square_price">

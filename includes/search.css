@@ -208,7 +208,7 @@ input[type="number"] {
 }
 .search_buy_input {
   height: 100%;
-  width: 70%;
+  width: 100%;
 }
 .search_buy_input-input {
   display: block;
