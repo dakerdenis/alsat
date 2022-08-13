@@ -502,6 +502,13 @@ margin-bottom: 5px;
 }
 @media only screen and (max-width: 1368px){}
 @media only screen and (max-width: 769px){
+    .popup__content{
+        padding: 10px 8px 10px 8px;
+
+    }
+    .popup .elelement__block  {
+        width: 99%;
+}
     .popup__verification__button {
         margin-top: 25px;
         text-align: center;
@@ -601,9 +608,10 @@ margin-bottom: 5px;
     height: 100%;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
 }
 .popup__wrapper_block{
-    width: 40%;
+    width: 38%;
 }
 .popup__content__block2{
     margin-top: 20px;
@@ -614,7 +622,7 @@ margin-bottom: 5px;
     padding-top: 15px;
 }
 .popup__content__container {
-    width: 60%;
+    width: 57%;
     height: 100%;
 
     display: flex;
@@ -813,6 +821,21 @@ margin-bottom: 5px;
         height: 45px
     }
     .popup__content__block-daysp, .popup__content__block-ammountp{
+        font-size: 15px;
+    }
+    .popup__content{
+        width: 95%;
+        padding: 10px 8px 10px 8px;
+    }
+    .popup__verification_title{
+        font-size: 20px;
+    }
+    .popup__verification__desc{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .form-input label{
+        padding: 10px;
         font-size: 15px;
     }
 }

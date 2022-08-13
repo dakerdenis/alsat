@@ -353,10 +353,11 @@
     }
 }
 @media only screen and (max-width: 769px){
+
     .elelement__block {
 
         margin-top: 25px;
-        width: 40%;
+        width: 42%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;
@@ -552,7 +553,7 @@
 
     }
     .verified_img{
-        width: 18px;
+        width: 23px;
         height: 18px;
         margin-left: 21px;
     }
@@ -877,7 +878,7 @@
 
         margin-top: 25px;
 
-        width: 60%;
+        width: 80%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;

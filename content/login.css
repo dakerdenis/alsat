@@ -209,4 +209,7 @@
     width: 90%;
     margin: 0 auto;
   }
+  .elelement__block{
+    width: 80%;
+  }
 }
