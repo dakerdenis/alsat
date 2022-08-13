@@ -638,7 +638,20 @@
     .add_buisness_container{
       padding: 20px 15px 20px 15px;
     }
-
+    .add_buisness__element{
+      flex-direction: column;
+    }
+    .add_buisness__element-desc{
+      margin-bottom: 7px;
+      width: 100%;
+      text-align: left;
+    }
+    .add_buisness__element-input{
+      width: 100%;
+    }
+    .add_buisness__element-map{
+      width: 100%;
+    }
   }
   @media only screen and (max-width: 326px){
     .add_buisness__element-desc{
