@@ -380,6 +380,17 @@ body._lock{
 
     }
 }
+@media only screen and (max-width: 450px){
+    .header__desc_block-small p {
+        font-size: 18px;
+    }
+    .header__desc_block-small{
+        margin-top: 4px;
+    }
+    .header__desc_block p {
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 321px){
     .menu__body {
         background-color: #47a8e5;

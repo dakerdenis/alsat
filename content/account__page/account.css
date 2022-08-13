@@ -292,6 +292,9 @@
   .accordion__item:not(.accordion__item_show) .accordion__body {
     display: none;
   }
+  .accordion {
+    max-width: 30rem;
+  }
 @media only screen and (max-width: 1500px){
     .account__cotainer{
         height: 100%;
@@ -535,6 +538,9 @@
         top: 10px;
     }
     /**************************/
+    .accordion{
+        max-width: 100%;
+    }
 }
 @media only screen and (max-width: 430px){
     .account__cotainer{

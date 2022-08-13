@@ -1,5 +1,7 @@
 <style>
-    <?php include './content/account__page/account.css' ?><?php include './content/account__page/account_block.css' ?><?php include './content/account__page/verification.css' ?>
+    <?php include './content/account__page/account.css' ?>
+    <?php include './content/account__page/account_block.css' ?>
+    <?php include './content/account__page/verification.css' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
@@ -38,7 +40,7 @@
             <!---Bookmarks--->
             <div class="favorites__block">
                 <!---Аккордеон-->
-                <div id="accordion" class="accordion" style="max-width: 30rem;">
+                <div id="accordion" class="accordion" >
 
                     <div class="accordion__item">
                         <div class="accordion__header">
