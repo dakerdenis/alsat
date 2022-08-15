@@ -1,5 +1,5 @@
             <!--element block -->
-            <div class="elelement__block" style="margin-top: 0px;     background-color: rgba(0, 0, 0, 0.0);    border-radius: 0px 0px 18px 18px ;">
+            <div class="elelement__block elelement__block2" style="margin-top: 0px;     background-color: rgba(0, 0, 0, 0.0);    border-radius: 0px 0px 18px 18px ;">
                 <div class="element_wrapper" style="background-color: rgba(0, 0, 0, 0.0);" >
                     <!-- image block-->
                     <div class="element_image" style="background-color: rgba(0, 0, 0, 0.0);">
