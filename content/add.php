@@ -244,6 +244,8 @@
         </form>
     </div>
 </div>
+<script src = "jquery-3.6.0.min.js" >
+</script>
 <script>
     /**********Скрипт для выбора города ************** */
     /**********Скрипт для выбора города ************** */
@@ -584,4 +586,16 @@
     /*if the user clicks anywhere outside the select box,
     then close all select boxes:*/
     document.addEventListener("click", closeAllSelect_feat);
+    /************************************************** */
+    /************************************************** */
+    /************************************************** */
+
+$(function() {
+$("button[type='submit']").click(function() {
+var $fileUpload = $("input[type='file']");
+if (parseInt($fileUpload.get(0).files.length) > 10) {
+alert("You can only upload a maximum of 10 files");
+}
+});
+});​
 </script>
