@@ -296,6 +296,9 @@
     max-width: 30rem;
   }
 @media only screen and (max-width: 1500px){
+    .accordion__header {
+        width: 95%;
+    }
     .account__cotainer{
         height: 100%;
     }
@@ -451,6 +454,9 @@
 
 }
 @media only screen and (max-width: 769px){
+    .accordion__header {
+        width: 100%;
+    }
     .favorites__advertisement__block{
         height: 180px;
         width: 100%;
