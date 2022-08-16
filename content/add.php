@@ -41,8 +41,8 @@
                         <div class="add_buisness__element-input">
                             <!--выбор города--->
                             <div class="custom-select">
-                                <select id="my_select">
-                                    <option defaultSelected value="0">Seher</option>
+                                <select>
+                                    <option value="0">Seher</option>
                                     <option value="0">Seher</option>
                                     <option value="1">Baku</option>
                                     <option value="2">Novigrad</option>

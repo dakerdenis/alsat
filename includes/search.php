@@ -52,26 +52,36 @@
     </div>
     <form class="searc_form" id="my-form" action="">
       <div class="search_block_wrapper">
-      <div class="custom-select" style="width:100%;">
-                <select>
-                  <option value="0">Select car:</option>
-                  <option value="1">Audi</option>
-                  <option value="2">BMW</option>
-                  <option value="3">Citroen</option>
-                  <option value="4">Ford</option>
-                </select>
-              </div>
         <div class="search__block_container_2">
           <!--Стандартный блок на 2 элемента--->
           <div class="search__block_block">
 
-            <!--Варианты покупки полные---->
-            <div class="search__block_block_container">
 
+            <div class="search__how_tobuy">
+              <!--Варианты покупки полные---->
+              <div class="custom-select">
+                <select id="">
+                  <option defaultSelected value="0">Almaq</option>
+                  <option value="0">Almaq</option>
+                  <option value="0">Satmaq</option>
+                  <option value="1">Arenda</option>
+                  <option value="2">Snos</option>
+                </select>
+              </div>
             </div>
-            <!--Варианты категорий полные---->
-            <div class="search__block_block_container">
 
+            <!--Варианты категорий полные---->
+            <div class="search__how_tobuy">
+            <div class="custom-select">
+              <select id="my_select">
+                <option defaultSelected value="0">Kategoriyalar</option>
+                <option value="0">Kategoriyalar</option>
+                <option value="1">Restoran</option>
+                <option value="2">Kafe</option>
+                <option value="3">Studia</option>
+                <option value="4">Zavod</option>
+              </select>
+            </div>
             </div>
 
 
@@ -109,8 +119,16 @@
             <!---Наличие --->
             <div class="search__block__active">
               <p>Status</p>
-              <div class="status__search__block">
-
+              <div class="status__container__wrapper">
+                <div class="custom-select">
+                  <select id="my_select">
+                    <option defaultSelected value="0">Aktiv</option>
+                    <option value="0">Aktiv</option>
+                    <option value="0">Baglidir</option>
+                    <option value="1">Planda</option>
+                    <option value="2">Snos</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
@@ -148,3 +166,6 @@
     </form>
   </div>
 </div>
+<script>
+
+</script>

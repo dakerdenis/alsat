@@ -427,9 +427,267 @@ input[type="number"] {
   visibility: visible;
 }
 
-/******************************/
-/******************************/
-/******************************/
+/**************Стили варианта покупки******************/
+/**************Стили варианта покупки******************/
+/**************Стили варианта покупки******************/
+/**************Стили варианта покупки******************/
+/**************Стили варианта покупки******************/
+/*the container must be positioned relative:*/
+.custom-select1 {
+  position: relative;
+  font-family: Arial;
+  border-radius: 30px;
+  width: 40%;
+  height: 100%;
+  border: 2px solid #47a8e5;
+}
+
+.custom-select1 select {
+  display: none; /*hide original SELECT element:*/
+  border-radius: 30px;
+  border: 2px solid #47a8e5;
+}
+
+.select-selected1 {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47a8e5;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected1:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #081534 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected1.select-arrow-active1:after {
+  border-color: transparent transparent #081534 transparent;
+  top: 13px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items1 div,
+.select-selected1 {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items1 {
+  position: absolute;
+  background-color: #fff;
+  color: #081534;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide1 {
+  display: none;
+}
+
+.select-items1 div:hover,
+.same-as-selected1 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**************Стили варианта категории******************/
+/**************Стили варианта категории******************/
+/**************Стили варианта категории******************/
+/**************Стили варианта категории******************/
+/**************Стили варианта категории******************/
+/*the container must be positioned relative:*/
+.custom-select2 {
+  position: relative;
+  font-family: Arial;
+  border-radius: 30px;
+  width: 55%;
+  height: 100%;
+  border: 2px solid #47a8e5;
+}
+
+.custom-select2 select {
+  display: none; /*hide original SELECT element:*/
+  border-radius: 30px;
+  border: 2px solid #47a8e5;
+}
+
+.select-selected2 {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47a8e5;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected2:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #081534 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected2.select-arrow-active2:after {
+  border-color: transparent transparent #081534 transparent;
+  top: 13px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items2 div,
+.select-selected2 {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items2 {
+  position: absolute;
+  background-color: #fff;
+  color: #081534;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide2 {
+  display: none;
+}
+
+.select-items2 div:hover,
+.same-as-selected2 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/**************Стили варианта статуса******************/
+/*the container must be positioned relative:*/
+.custom-select3 {
+  position: relative;
+  font-family: Arial;
+  border-radius: 30px;
+  width: 37%;
+  height: 100%;
+  border: 2px solid #47a8e5;
+}
+
+.custom-select3 select {
+  display: none; /*hide original SELECT element:*/
+  border-radius: 30px;
+  border: 2px solid #47a8e5;
+}
+
+.select-selected3 {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47a8e5;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected3:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #081534 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected3.select-arrow-active3:after {
+  border-color: transparent transparent #081534 transparent;
+  top: 13px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items3 div,
+.select-selected3 {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items3 {
+  position: absolute;
+  background-color: #fff;
+  color: #081534;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide3 {
+  display: none;
+}
+
+.select-items3div:hover,
+.same-as-selected3 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .search__block__additional_element {
   cursor: pointer;
 }
@@ -463,7 +721,9 @@ input[type="number"] {
   display: block;
   width: 38%;
 }
-
+.show__search .custom-select3 {
+  width: 100%;
+}
 .show__search2 {
   display: initial;
   visibility: visible;
@@ -489,9 +749,6 @@ input[type="number"] {
 }
 .show__search5 img {
 }
-/**********************/
-
-
 
 /***************/
 /***************/
@@ -510,16 +767,11 @@ input[type="number"] {
   width: 30px;
   height: 30px;
 }
-.search__block_block_container{
-  width: 49%;
-  border: 2px #47a8e5 solid;
-  border-radius: 30px;
+.status__container__wrapper{
+  width: 30%;
 }
-.status__search__block{
-  width: 50%;
-  border: 2px #47a8e5 solid;
-  border-radius: 30px;
-  height: 100%;
+.search__how_tobuy{
+  width: 48%;
 }
 @media only screen and (max-width: 1601px) {
   .search__square__min {
@@ -528,7 +780,7 @@ input[type="number"] {
   }
   .search__square__max {
     margin-left: 7px;
-
+    border-left: 2px #47a8e5 solid;
   }
   .search_buy_input {
     width: 55%;
@@ -545,7 +797,15 @@ input[type="number"] {
   .search_name_desc{
     font-size: 21.5px;
   }
-  
+  .select-selected1{
+    font-size: 19px;
+  }
+  .select-selected2{
+    font-size: 19px;
+  }
+  .select-selected3{
+    font-size: 19px;
+  }
   .search_buy_destination span{
     font-size: 19px;
   }
@@ -579,7 +839,12 @@ input[type="number"] {
   .search__block__map img {
         height: 29px;
   }
-
+  .search__block_block2 {
+    width: 60%;
+  }
+  .search__block_block{
+    width: 37%;
+  }
 }
 @media only screen and (max-width: 1530px) {
   .search__block__button button {
@@ -598,13 +863,26 @@ input[type="number"] {
     width: 35%;
     justify-content: space-evenly;
   }
-
+  .custom-select3 {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 1441px) {
     .search_name_desc{
         font-size: 19.5px;
       }
-      
+      .select-selected1{
+        font-size: 17px;
+      }
+      .select-selected2{
+        font-size: 17px;
+      }
+      .select-selected3{
+        font-size: 17px;
+      }
+      .select-selected3{
+        padding: 6px 12px;
+      }
       .search_buy_destination span{
         font-size: 17px;
       }
@@ -648,10 +926,30 @@ input[type="number"] {
       .search__block__price{
         padding: 6px 12px 6px 12px;
       }
-    
+      .select-selected1:after {
+        top: 16px;
+      }
+      .select-selected1.select-arrow-active1:after{
+        top: 9px;
+      }
+      .select-selected2:after {
+        top: 16px;
+      }
+      .select-selected2.select-arrow-active2:after{
+        top: 9px;
+      }
+      .select-selected3:after{
+        top: 16px;
+      }
+      .select-selected3.select-arrow-active3:after{
+        top: 9px;
+      }
 }
 @media only screen and (max-width: 1368px) {
-
+  .custom-select1 {
+  }
+  .select-selected1 {
+  }
   .search_buy_destination {
     display: flex;
     align-items: center;
@@ -683,7 +981,12 @@ input[type="number"] {
     display: flex;
     align-items: center;
   }
- 
+  .select-selected1 {
+    font-size: 17px;
+  }
+  .select-selected2 {
+    font-size: 17px;
+  }
   .search_buy_input-input {
     font-size: 17px;
   }
@@ -696,7 +999,9 @@ input[type="number"] {
   .search__block__active {
     font-size: 17px;
   }
-
+  .select-selected3 {
+    font-size: 17px;
+  }
   .clear_form {
     font-size: 17px;
   }
@@ -714,6 +1019,12 @@ input[type="number"] {
   }
   .search__block__button button {
     font-size: 17px;
+  }
+  .search__block_block{
+    width: 44%;
+  }
+  .status__container__wrapper {
+    width: 36%;
   }
 }
 @media only screen and (max-width: 769px) {
@@ -769,7 +1080,12 @@ input[type="number"] {
   .search__block__additional {
     width: 48%;
   }
-
+  .custom-select1 {
+    width: 48%;
+  }
+  .custom-select2 {
+    width: 48%;
+  }
   .search__block__map_button {
     width: 48%;
   }
@@ -814,9 +1130,11 @@ input[type="number"] {
   }
   .show__search .search__block__active p {
     display: block;
-    width: 38%;
+    width: 22%;
   }
-
+  .show__search .custom-select3 {
+    width: 100%;
+  }
   .show__search2 {
     display: initial;
     visibility: visible;
@@ -842,7 +1160,12 @@ input[type="number"] {
   .clear_form {
     margin-left: 20px;
   }
-
+  .select-selected3:after{
+    top: 13px;
+  }
+  .status__container__wrapper {
+    width: 51%;
+  }
 }
 @media only screen and (max-width: 426px) {
   .search__wrapper {
@@ -882,7 +1205,15 @@ input[type="number"] {
   .search__block__map_button {
     width: 100%;
   }
-
+  .select-selected1:after{
+    top: 14px;
+  }
+  .select-selected2:after{
+    top: 14px;
+  }
+  .select-selected3:after {
+    top: 14px;
+  }
   .show__search .search__block_block3{
     flex-direction: column;
   }
@@ -897,11 +1228,24 @@ input[type="number"] {
     font-size: 16px;
     line-height: 18px;
   }
+  .search__how_tobuy{
+    width: 100%;
+  }
+  .search__how_tobuy{
+    width: 100%;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
   .search__block_block {
     flex-direction: column;
   }
-
+  .custom-select1 {
+    width: 100%;
+  }
+  .custom-select2 {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
