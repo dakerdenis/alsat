@@ -103,12 +103,9 @@
 
                         <div class="add_buisness_photo_add">
                             <div class="add_photodesc">
-                                Bir dəfəli zaqruzka 5 dənə maksimum
+                                Bir dəfəli zaqruzka 10 dənə maksimum
                             </div>
                         </div>
-                    </div>
-                    <div class="add_buisness__accept-desc">
-                        Верифицируйте свой бизнес что бы пользователи видели что ваш бизнес реальный,чем больше информации вы предоставите ,тем больше шансов что вы найдете своего клиента.
                     </div>
                     <div class="add_buisness__accept">
                         <label class="container">Нажимая это я подтверждаю что кроме администрации файлы подтверждающие мой бизнес увидят другие пользователи
