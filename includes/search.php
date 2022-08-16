@@ -72,16 +72,16 @@
 
             <!--Варианты категорий полные---->
             <div class="search__how_tobuy">
-            <div class="custom-select">
-              <select id="my_select">
-                <option defaultSelected value="0">Kategoriyalar</option>
-                <option value="0">Kategoriyalar</option>
-                <option value="1">Restoran</option>
-                <option value="2">Kafe</option>
-                <option value="3">Studia</option>
-                <option value="4">Zavod</option>
-              </select>
-            </div>
+              <div class="custom-select">
+                <select id="my_select">
+                  <option defaultSelected value="0">Kategoriyalar</option>
+                  <option value="0">Kategoriyalar</option>
+                  <option value="1">Restoran</option>
+                  <option value="2">Kafe</option>
+                  <option value="3">Studia</option>
+                  <option value="4">Zavod</option>
+                </select>
+              </div>
             </div>
 
 
