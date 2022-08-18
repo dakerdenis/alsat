@@ -1235,6 +1235,18 @@ input[type="number"] {
     width: 48%;
     margin-top: 10px;
   }
+  .search__how_tobuy  .select-selected{
+    font-size: 16px;
+  }
+  .search__how_tobuy .select-selected:after{
+    top: 14px;
+  }
+  .search__how_tobuy .select-selected.select-arrow-active:after{
+    top: 5px;
+  }
+  .search__how_tobuy .select-items{
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
@@ -1246,6 +1258,9 @@ input[type="number"] {
   }
   .custom-select2 {
     margin-top: 10px;
+    width: 100%;
+  }
+  .search__how_tobuy{
     width: 100%;
   }
 }
