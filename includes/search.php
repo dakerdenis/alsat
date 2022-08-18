@@ -168,7 +168,7 @@
 <div id="popup_3" class="popup">
     <div class="popup__body">
         <div class="popup__content">
-        <a href="#header" style="font-size: 20px;" class="popup__close close-popup">&#10006;</a>
+        <a href="#header"  class="popup__close close-popup">&#10006;</a>
             <div class="popup__wrapper_content">
               <div class="popup__map_container">
                 
