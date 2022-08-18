@@ -1179,9 +1179,13 @@ input[type="number"] {
     width: 100%;
   }
   .search__block__additional {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+
+  }
+  .search__block__additional{
+    margin: 0;
   }
     .show__search5 {
     display: flex;
@@ -1262,6 +1266,9 @@ input[type="number"] {
     transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
     border-radius: 18px;
   }
+  .search__block_container_2{
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 426px) {
   .search__wrapper {
@@ -1274,7 +1281,7 @@ input[type="number"] {
   .search__block__additional {
   }
   .additional__show_hide {
-    margin-top: 20px;
+
   }
 
   /***************/
@@ -1348,6 +1355,9 @@ input[type="number"] {
   }
   .status__container__wrapper   .select-selected.select-arrow-active:after {
     top: 7px;
+  }
+  .search__block__button{
+    margin-bottom: 15px;
   }
 }
 
