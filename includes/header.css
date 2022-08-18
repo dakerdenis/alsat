@@ -151,6 +151,13 @@ body._lock{
   
   .show_language {display: block;}
   /*******************************/
+  .header__small__element{
+    display: none;
+    overflow: hidden;
+  }
+  .header__desc_block-small{
+
+  }
 @media only screen and (max-width: 1200px){
     .header__form{
         width: 70%;
@@ -337,6 +344,11 @@ body._lock{
     }
     .header__desc_block img {
         height: 20px;        
+    }
+    .header__desc_block-new{
+        background-color: #09CA57;
+        border-radius: 8px;
+        padding: 8px 0px 8px 15px; 
     }
     .header__desc_block-account{
         display: flex;

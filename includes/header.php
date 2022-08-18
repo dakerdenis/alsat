@@ -70,30 +70,32 @@
             <p>Avadanliqlarin satişi</p>
           </a>
           <!---Блок информативный--->
-          <a href="#" class="header__desc_block">
+          <div  class="header__desc_block">
             <img src="./style/imgs/add_white.png" alt="">
             <p>Əlavə xidmətlər</p>
-          </a>
-          <!---Блок информативный 2--->
-          <a href="#" class="header__desc_block-small">
-            <img src="./style/imgs/arrow_right.svg" alt="">
-            <p>kapital qiymıtlındirimase</p>
-          </a>
-          <!---Блок информативный 2--->
-          <a href="#" class="header__desc_block-small">
-            <img src="./style/imgs/arrow_right.svg" alt="">
-            <p>HR</p>
-          </a>
-          <!---Блок информативный 2--->
-          <a href="index.php?source=page" class="header__desc_block-small">
-            <img src="./style/imgs/arrow_right.svg" alt="">
-            <p>Audit</p>
-          </a>
-          <!---Блок информативный 2--->
-          <a href="#" class="header__desc_block-small">
-            <img src="./style/imgs/arrow_right.svg" alt="">
-            <p>Market reserch</p>
-          </a>
+          </div>
+          <div class="header__small__element">
+            <!---Блок информативный 2--->
+            <a href="#" class="header__desc_block-small">
+              <img src="./style/imgs/arrow_right.svg" alt="">
+              <p>kapital qiymıtlındirimase</p>
+            </a>
+            <!---Блок информативный 2--->
+            <a href="#" class="header__desc_block-small">
+              <img src="./style/imgs/arrow_right.svg" alt="">
+              <p>HR</p>
+            </a>
+            <!---Блок информативный 2--->
+            <a href="index.php?source=page" class="header__desc_block-small">
+              <img src="./style/imgs/arrow_right.svg" alt="">
+              <p>Audit</p>
+            </a>
+            <!---Блок информативный 2--->
+            <a href="#" class="header__desc_block-small">
+              <img src="./style/imgs/arrow_right.svg" alt="">
+              <p>Market reserch</p>
+            </a>
+          </div>
 
 
 
@@ -146,18 +148,18 @@
       } else {
         $login = '';
       }
-      switch($login){
+      switch ($login) {
         case 'login';
-        include './content/login/account.php';
-        break;
+          include './content/login/account.php';
+          break;
 
         case 'logout';
-        include './content/login/login.php';
-        break;
+          include './content/login/login.php';
+          break;
 
         default:
-        include './content/login/login.php';
-        break;
+          include './content/login/login.php';
+          break;
       }
       ?>
 
