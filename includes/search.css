@@ -1244,8 +1244,14 @@ input[type="number"] {
   .search__how_tobuy .select-selected.select-arrow-active:after{
     top: 5px;
   }
-  .search__how_tobuy .select-items{
-    font-size: 18px;
+  .search__how_tobuy .select-items div, .select-selected{
+    font-size: 16px;
+  }
+  .status__container__wrapper   .select-selected:after{
+    top: 14px;
+  }
+  .status__container__wrapper   .select-selected.select-arrow-active:after {
+    top: 7px;
   }
 }
 

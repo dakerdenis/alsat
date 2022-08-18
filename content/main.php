@@ -24,7 +24,7 @@
             </div>
             ---->
         <!--Сортировка по чему либо--->
-        <div class="main__filter__container">
+
         <div class="custom-select" style="width:100%;">
             <select>
                 <option value="0">Select car:</option>
@@ -34,7 +34,7 @@
                 <option value="4">Ford</option>
             </select>
         </div>
-        </div>
+
 
     </div>
 </div>
