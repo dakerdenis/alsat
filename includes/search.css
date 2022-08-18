@@ -370,6 +370,16 @@ input[type="number"] {
   border-radius: 30px;
   margin-right: 16px;
 }
+#popup__search_map{
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #081534;
+  cursor: pointer;
+}
 .search__block__map p {
   display: block;
   font-size: 20px;
@@ -773,6 +783,82 @@ input[type="number"] {
 .search__how_tobuy{
   width: 48%;
 }
+
+/*******СТИЛИ ПОПАПА КАРТЫ***********/
+/*******СТИЛИ ПОПАПА КАРТЫ***********/
+/*******СТИЛИ ПОПАПА КАРТЫ***********/
+.search__wrapper .popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.3s ease 0s;
+  z-index: 98;
+}
+.search__wrapper .popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+.search__wrapper  .popup.open .popup__content {
+  transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+  opacity: 1;
+}
+
+.search__wrapper .popup__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.search__wrapper .popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  transition: all 0.8s ease 0s;
+
+}
+.search__wrapper .popup__content {
+  background-color: #fff;
+  color: #000;
+  width: 60%;
+  padding: 30px;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+  border-radius: 18px;
+}
+.search__wrapper.popup__content_image {
+  padding: 0;
+}
+.search__wrapper .popup__image img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.search__wrapper .popup__close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.search__wrapper .popup__map_container{
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
 @media only screen and (max-width: 1601px) {
   .search__square__min {
     padding-right: 18px;
@@ -1165,6 +1251,16 @@ input[type="number"] {
   }
   .status__container__wrapper {
     width: 51%;
+  }.search__wrapper .popup__content {
+    background-color: #fff;
+    color: #000;
+    width: 80%;
+    padding: 30px;
+    position: relative;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+    border-radius: 18px;
   }
 }
 @media only screen and (max-width: 426px) {

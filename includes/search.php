@@ -143,17 +143,16 @@
             <div class="clear_form" style="color: #EB1B3D;">
               Hamısını sıfırla
             </div>
-            <div class="remember_search">
-              Axtarışı yadda saxla
-            </div>
           </div>
 
           <!--- локация на карте и кнопка поиска--->
           <div class="search__block__map_button">
             <!---локация на карте--->
             <div class="search__block__map">
-              <img src="./style/imgs/location.png" alt="#">
-              <p>Xəritədə baxın</p>
+              <a href="#popup_3" id="popup__search_map" class="popup-link">
+                <img src="./style/imgs/location.png" alt="#">
+                <p>Xəritədə baxın</p>
+              </a>
             </div>
             <!-----кнопка поиска-->
             <div class="search__block__button">
@@ -165,7 +164,17 @@
       </div>
     </form>
   </div>
+  <!------popup вывести в топ блок---->
+<div id="popup_3" class="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+        <a href="#header" style="font-size: 20px;" class="popup__close close-popup">&#10006;</a>
+            <div class="popup__wrapper_content">
+              <div class="popup__map_container">
+                
+              </div>
+            </div>
+        </div>
+    </div>
 </div>
-<script>
-
-</script>
+</div>
