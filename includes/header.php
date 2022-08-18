@@ -69,8 +69,14 @@
             <img src="./style/imgs/add_white.png" alt="">
             <p>Avadanliqlarin satişi</p>
           </a>
+
+
+
+
+
+
           <!---Блок информативный--->
-          <div  class="header__desc_block">
+          <div id="menu_1"  class="header__desc_block header__desc_block_menu">
             <img src="./style/imgs/add_white.png" alt="">
             <p>Əlavə xidmətlər</p>
           </div>
@@ -96,6 +102,8 @@
               <p>Market reserch</p>
             </a>
           </div>
+
+
 
 
 
@@ -197,4 +205,18 @@
       }
     }
   }
+  /********Скрипт выпадаюшего меню***********/
+  var acc = document.getElementsByClassName("header__desc_block_menu");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 </script>

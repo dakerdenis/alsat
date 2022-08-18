@@ -154,9 +154,10 @@ body._lock{
   .header__small__element{
     display: none;
     overflow: hidden;
+    transition: all 0.2s;
   }
-  .header__desc_block-small{
-
+  .header__small__element_active{
+    display: block;
   }
 @media only screen and (max-width: 1200px){
     .header__form{
