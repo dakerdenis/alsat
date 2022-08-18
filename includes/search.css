@@ -1232,7 +1232,7 @@ input[type="number"] {
     width: 100%;
   }
   .search__how_tobuy{
-    width: 100%;
+    width: 48%;
     margin-top: 10px;
   }
 }
