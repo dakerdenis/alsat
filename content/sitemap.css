@@ -106,3 +106,29 @@
     border-left: 2px solid #BDBDBD;
     border-bottom: 2px solid #BDBDBD;
 }
+@media only screen and (max-width: 1369px){
+    .sitemap__elementblock__line{
+        width: 7.1%;
+    }
+}
+@media only screen and (max-width: 769px){
+    .sitemap__block_{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .sitemap__content__wrapper{
+        padding: 25px 20px;
+        flex-direction: column;
+    }
+    .sitemap__block_{
+        width: 100%;
+    }
+    .sitemap__elementblock__name{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .sitemap__block_name{
+        font-size: 27px;
+    }
+}
