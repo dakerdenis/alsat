@@ -1,7 +1,5 @@
 <style>
-
-    <?php include './content/block.css'; ?>
-    <?php include './content/element.css'; ?>
+    <?php include './content/block.css'; ?><?php include './content/element.css'; ?>
 </style>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -13,17 +11,17 @@
             Hazır biznes > SPA salon
         </div>
         <!---номер элемента в бд и закладка-->
-        <div  class="product__number">
+        <div class="product__number">
             <p>Elan N 2455341</p>
             <img class="favorite__block__image_notElement" src="./style/imgs/fav.svg" alt="" srcset="">
-            
+
         </div>
     </div>
     <!-- Галлерея и описание товара--->
     <div class="product__content_wrapper">
         <!-----галлерея часть 1 --->
         <div class="photo-gallery-part1">
-            <div  class="gallery-part1-image">
+            <div class="gallery-part1-image">
                 <img id="img-Box" src="./content/images/img1.jpg" alt="">
                 <i id="zoom" class="fa-solid fa-magnifying-glass-plus"></i>
             </div>
@@ -198,6 +196,15 @@
                             SPA SALON
                         </div>
                     </div>
+                    <!---Страна--->
+                    <div class="produkt__category_block_wrap">
+                        <div class="produkt__category_block_type">
+                            Ölkə:
+                        </div>
+                        <div class="produkt__category_block_type">
+                        Azərbaycan
+                        </div>
+                    </div>
                     <div class="produkt__category_block_wrap">
                         <div class="produkt__category_block_type">
                             Seher:
@@ -214,6 +221,7 @@
                             Neftciler pr-ti 115
                         </div>
                     </div>
+
                     <div class="produkt__category_block_wrap">
                         <div class="produkt__category_block_type">
                             Rayon:
@@ -302,43 +310,40 @@
         },
     });
 
-      //////////////////***cкрипт страницы элемента **///
-//////////////////***cкрипт страницы элемента **///
-//////////////////***cкрипт страницы элемента **///
-//////////////////***cкрипт страницы элемента **///
-//////////////////***cкрипт страницы элемента **///
+    //////////////////***cкрипт страницы элемента **///
+    //////////////////***cкрипт страницы элемента **///
+    //////////////////***cкрипт страницы элемента **///
+    //////////////////***cкрипт страницы элемента **///
+    //////////////////***cкрипт страницы элемента **///
 
-function myImageFunction(productSmallImg) {
-   console.log(productSmallImg.src)
-   var productFullImg = document.getElementById("img-Box");
-   console.log(productFullImg)
-   productFullImg.src = productSmallImg.src;
-}
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("zoom");
-var img=document.getElementById("img-Box");
-var modalImg = document.getElementById("img01");
+    function myImageFunction(productSmallImg) {
+        console.log(productSmallImg.src)
+        var productFullImg = document.getElementById("img-Box");
+        console.log(productFullImg)
+        productFullImg.src = productSmallImg.src;
+    }
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("zoom");
+    var img = document.getElementById("img-Box");
+    var modalImg = document.getElementById("img01");
 
-btn.onclick = function(){
- modal.style.display = "block";
- modalImg.src = img.src;
- document.body.classList.add('_lock');
- 
-}
+    btn.onclick = function() {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+        document.body.classList.add('_lock');
 
-var span = document.getElementsByClassName("close")[0];
-span.onclick = function() { 
- modal.style.display = "none";
- document.body.classList.remove('_lock');
- 
-}
-window.onclick = function(event) {
-   if (event.target == modal) {
-     modal.style.display = "none";
-     document.body.classList.remove('_lock');
-   }
- }
+    }
 
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() {
+        modal.style.display = "none";
+        document.body.classList.remove('_lock');
 
-
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            document.body.classList.remove('_lock');
+        }
+    }
 </script>
