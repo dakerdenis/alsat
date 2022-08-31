@@ -26,3 +26,16 @@
     width: 72px;
     border-radius: 2px;
 }
+
+.textpage__content__container{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.textpage__textblock{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
