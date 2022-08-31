@@ -9,14 +9,27 @@
     justify-content: center;
 }
 .sitemap_name_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sitemap__name {
     font-weight: 500;
     font-size: 28px;
     line-height: 42px;
     color: rgba(8, 21, 52, 1);
 }
-.sitemap__name {
-}
 .sitemap__border {
+    margin-top: 10px;
+    height: 3px;
+    background-color: #47A8e5;
+    width: 72px;
+    border-radius: 2px;
 }
 .sitemap__content__wrapper {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.12);
+    padding: 40px;
 }

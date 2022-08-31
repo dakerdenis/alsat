@@ -16,6 +16,6 @@
     </div>
     <!---sitemap main container -->
     <div class="sitemap__content__wrapper">
-
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae voluptates explicabo rerum earum animi quidem! Incidunt enim numquam quas dolores eos laudantium repudiandae repellendus? Mollitia esse magnam reprehenderit ipsa.
     </div>
 </div>
