@@ -51,22 +51,22 @@
           </a>
           <!---Блок информативный--->
           <a href="#" class="header__desc_block">
-            <img src="./style/imgs/add_white.png" alt="">
+            <img src="./style/imgs/france.svg" alt="">
             <p>Francayzinqlər</p>
           </a>
           <!---Блок информативный--->
           <a class="header__desc_block">
-            <img src="./style/imgs/add_white.png" alt="">
+            <img src="./style/imgs/invest2.svg" alt="">
             <p>İnvestisiyalar</p>
           </a>
           <!---Блок информативный--->
           <a class="header__desc_block">
-            <img src="./style/imgs/add_white.png" alt="">
+            <img src="./style/imgs/ready_buisness2.svg" alt="">
             <p>Hazir biznes</p>
           </a>
           <!---Блок информативный--->
           <a class="header__desc_block">
-            <img src="./style/imgs/add_white.png" alt="">
+            <img src="./style/imgs/avadanliq2.svg" alt="">
             <p>Avadanliqlarin satişi</p>
           </a>
 
@@ -77,7 +77,7 @@
 
           <!---Блок информативный--->
           <div id="menu_1"  class="header__desc_block header__desc_block_menu">
-            <img src="./style/imgs/add_white.png" alt="">
+            <img src="./style/imgs/additional2.svg" alt="">
             <p>Əlavə xidmətlər</p>
           </div>
           <div class="header__small__element">
