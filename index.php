@@ -112,6 +112,10 @@
         case 'change_password';
         include './content/change_password/change_password.php';
         break;
+
+        case 'sitemap';
+        include './content/change_password/sitemap.php';
+        break;
         
         default:
         include './content/content/main.php';

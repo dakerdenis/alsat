@@ -27,7 +27,7 @@
           <a href="#">Mexfilik siyaseti</a>
         </div>
         <div class="footer__element_rest-info">
-          <a href="#">Saytin Xeritesi</a>
+          <a href="index.php?source=sitemap">Saytin Xeritesi</a>
         </div>
         <div class="footer__element_rest-info">
           <a href="#">Istifadeci Razilasma</a>
