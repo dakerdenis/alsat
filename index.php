@@ -116,6 +116,10 @@
         case 'sitemap';
         include './content/sitemap.php';
         break;
+
+        case 'text_page';
+        include './content/text_page.php';
+        break;
         
         default:
         include './content/content/main.php';

@@ -30,7 +30,7 @@
           <a href="index.php?source=sitemap">Saytin Xeritesi</a>
         </div>
         <div class="footer__element_rest-info">
-          <a href="#">Istifadeci Razilasma</a>
+          <a href="index.php?source=text_page">Istifadeci Razilasma</a>
         </div>
 
       </div>
