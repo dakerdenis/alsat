@@ -114,7 +114,7 @@
         break;
 
         case 'sitemap';
-        include './content/change_password/sitemap.php';
+        include './content/sitemap.php';
         break;
         
         default:

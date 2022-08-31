@@ -1,1 +1,17 @@
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, corrupti incidunt? Voluptate ipsa, est deserunt eum voluptates quod nam ipsam necessitatibus aut quis quo fugit. Nemo sint neque nostrum obcaecati!
+<?php include './content/sitemap.css'  ?>
+
+<div class="sitemap__wrapper">
+    <!--SITIMAP NAME---->
+    <div class="sitemap__name_wrapper">
+        <div class="sitemap_name_block">
+            <div class="sitemap__name">
+                Saytın Xəritəsi
+            </div>
+            <div class="sitemap__border"></div>
+        </div>
+    </div>
+    <!---sitemap main container -->
+    <div class="sitemap__content__wrapper">
+            
+    </div>
+</div>
