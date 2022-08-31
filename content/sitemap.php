@@ -1,4 +1,6 @@
-<?php include './content/sitemap.css'  ?>
+<style>
+    <?php include './content/sitemap.css'  ?>
+</style>
 
 <div class="sitemap__wrapper">
     <!--SITIMAP NAME---->
@@ -12,6 +14,6 @@
     </div>
     <!---sitemap main container -->
     <div class="sitemap__content__wrapper">
-            
+
     </div>
 </div>
