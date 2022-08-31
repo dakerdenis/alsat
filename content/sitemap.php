@@ -126,26 +126,7 @@
                             <a href="#">Dostlar və əməkdaşlar</a>
                         </div>
                     </div>
-                    <!--элемент вложенный---->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Вложенный элемент</a>                        
-                        </div>
-                        
-                        
-                    </div>
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Lorem</a>
-                        </div>
-                    </div>
+
 
                     <!--Элемент--->
                     <div class="sitemap__element_block">
