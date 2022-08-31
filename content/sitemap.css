@@ -1,8 +1,18 @@
 .sitemap__wrapper {
+    width: 80%;
+    margin: 0 auto;
 }
 .sitemap__name_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .sitemap_name_block {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgba(8, 21, 52, 1);
 }
 .sitemap__name {
 }
