@@ -282,37 +282,61 @@
                 <div class="product__additional_desc">
                     Ətraflı məlumat yüklə:
                 </div>
-                <!--блок с файлами--->
-                <div class="product__additional__files-block">
-                    <div class="_additional__files-block1">
-                        <a href="#" class="_additional__files-block-block">
-                            <img src="./style/imgs/etrafli.svg" alt="">
-                            <p>İşçılər haqqında</p>
-                        </a>
-                        <a href="#" class="_additional__files-block-block">
-                            <img src="./style/imgs/etrafli.svg" alt="">
-                            <p>Gəlir haqqında</p>
-                        </a>
+                <div class="product__additional_container">
+
+                    <!---кнопка которую нажимаешь--->
+                    <div class="product__additional_button">
+                        <p>Ətraflı məlumat</p>
                     </div>
-                    <div class="_additional__files-block1">
-                        <a href="#" class="_additional__files-block-block">
-                            <img src="./style/imgs/etrafli.svg" alt="">
-                            <p>Partnyorlar haqqında</p>
-                        </a>
-                        <a href="#" class="_additional__files-block-block">
-                            <img src="./style/imgs/etrafli.svg" alt="">
-                            <p>Hamısını</p>
-                        </a>
+                    <!--блок с файлами--->
+                    <div class="product__additional__files-block">
+
+                        <div class="_additional__files-block1">
+                            <a href="#" class="_additional__files-block-block">
+                                <img src="./style/imgs/etrafli.svg" alt="">
+                                <p>İşçılər haqqında</p>
+                            </a>
+                            <a href="#" class="_additional__files-block-block">
+                                <img src="./style/imgs/etrafli.svg" alt="">
+                                <p>Gəlir haqqında</p>
+                            </a>
+                        </div>
+                        <div class="_additional__files-block1">
+                            <a href="#" class="_additional__files-block-block">
+                                <img src="./style/imgs/etrafli.svg" alt="">
+                                <p>Partnyorlar haqqında</p>
+                            </a>
+                            <a href="#" class="_additional__files-block-block">
+                                <img src="./style/imgs/etrafli.svg" alt="">
+                                <p>Hamısını</p>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <!---кнопка которую нажимаешь--->
-                <div class="product__additional_button">
-                    <a href="#">Ətraflı məlumat</a>
+
+
+                    
                 </div>
             </div>
+            <!---платные функции------>
         </div>
     </div>
 </div>
+<script>
+var acc = document.getElementsByClassName("product__additional_button");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
 
 <!---4 похожие рекомендации--->

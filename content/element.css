@@ -423,7 +423,15 @@
     color: rgba(189, 189, 189, 1);
 
 }
+.product__additional_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
 .product__additional__files-block {
+    display: none;
+    overflow: hidden;
     margin-top: 15px;
 }
 ._additional__files-block1 {
@@ -450,6 +458,7 @@
     margin-right: 15px;
 }
 ._additional__files-block-block p {
+
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -458,8 +467,9 @@
 }
 .product__additional_button {
     width: 100%;
+    cursor: pointer;
 }
-.product__additional_button  a {
+.product__additional_button  p {
     display: block;
     width: 100%;
     border: 2px rgba(255, 222, 90, 1) solid;
