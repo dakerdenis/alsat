@@ -278,6 +278,7 @@
             <!---платные функции------>
 
             <div class="product__additional">
+                <!---описание--->
                 <div class="product__additional_desc">
                     Ətraflı məlumat yüklə:
                 </div>
