@@ -5,9 +5,7 @@
 </style>
 <!--*search  контейнер с формой поиска-->
 <div class="search__wrapper">
-
-
-  <!--container DOWN - smal navigation-->
+  <!--контейнер с навигацией наверху-->
   <div class="header_container_nav">
     <div class="header_nav_wrap">
       <!--navigation element-->
@@ -46,6 +44,25 @@
     </div>
   </div>
 
+  <!--фоновое изображение--->
+  <div class="search__image__block">
+    <!---->
+    <img class="search__background_image" src="./style/imgs/background.png" alt="">
+  </div>
+
+  <!--Промо текст на картинке---->
+  <div class="search__promotext_block">
+    <div class="search__promotext_text">
+      Azərbaycanda hazır biznes alın
+    </div>
+    <!--кнопки промо-->
+    <div class="search__promotext_buttons">
+        <a href="#" class="search__promo_button_add">Biznesi əlavə edin</a>
+        <a href="#" class="search__promo_button_buy">Biznes al</a>
+    </div>
+  </div>
+
+  <!--форма поиска на сайте--->
   <div class="search_container">
     <div class="search_name_desc">
       Hazır biznes almaq və satmaq &nbsp; | &nbsp; Satış üçün biznes təklifi
@@ -165,16 +182,17 @@
     </form>
   </div>
   <!------popup вывести в топ блок---->
-<div id="popup_3" class="popup">
+  <div id="popup_3" class="popup">
     <div class="popup__body">
-        <div class="popup__content">
-        <a href="#header"  class="popup__close close-popup">&#10006;</a>
-            <div class="popup__wrapper_content">
-              <div class="popup__map_container">
-                
-              </div>
-            </div>
+      <div class="popup__content">
+        <a href="#header" class="popup__close close-popup">✖</a>
+        <div class="popup__wrapper_content">
+          <div class="popup__map_container">
+
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
+
 </div>
