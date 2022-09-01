@@ -202,7 +202,7 @@
                             Ölkə:
                         </div>
                         <div class="produkt__category_block_type">
-                        Azərbaycan
+                            Azərbaycan
                         </div>
                     </div>
                     <div class="produkt__category_block_wrap">
@@ -272,6 +272,41 @@
                 <div class="product__percentage">
                     <div class="product__desc__addstyle">Biznes% (serik):</div>
                     <div class="product__price__money-div">Tam 100%</div>
+                </div>
+            </div>
+
+            <!---платные функции------>
+
+            <div class="product__additional">
+                <div class="product__additional_desc">
+                    Ətraflı məlumat yüklə:
+                </div>
+                <!--блок с файлами--->
+                <div class="product__additional__files-block">
+                    <div class="_additional__files-block1">
+                        <a href="#" class="_additional__files-block-block">
+                            <img src="./style/imgs/etrafli.svg" alt="">
+                            <p>İşçılər haqqında</p>
+                        </a>
+                        <a href="#" class="_additional__files-block-block">
+                            <img src="./style/imgs/etrafli.svg" alt="">
+                            <p>Gəlir haqqında</p>
+                        </a>
+                    </div>
+                    <div class="_additional__files-block1">
+                        <a href="#" class="_additional__files-block-block">
+                            <img src="./style/imgs/etrafli.svg" alt="">
+                            <p>Partnyorlar haqqında</p>
+                        </a>
+                        <a href="#" class="_additional__files-block-block">
+                            <img src="./style/imgs/etrafli.svg" alt="">
+                            <p>Hamısını</p>
+                        </a>
+                    </div>
+                </div>
+                <!---кнопка которую нажимаешь--->
+                <div class="product__additional_button">
+                    <a href="#">Ətraflı məlumat</a>
                 </div>
             </div>
         </div>
