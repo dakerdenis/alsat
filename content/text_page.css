@@ -39,7 +39,10 @@
     font-weight: 400;
     margin-bottom: 39px;
 }
-
+.textpage__image__block{
+    width: 100%;
+    overflow: hidden;
+}
 @media only screen and (max-width: 768px){
     .textpage__wrapper{
         width: 90%;
