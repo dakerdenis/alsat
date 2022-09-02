@@ -137,7 +137,7 @@
       <!-- Add buisness -->
       <div class="header__add_buisness">
         <a href="index.php?source=add">
-          <img src="./style/imgs/add.png" alt="" srcset="">
+          <img src="./style/imgs/add2.svg" alt="" srcset="">
 
           <p>Biznesi elave edin</p>
         </a>
