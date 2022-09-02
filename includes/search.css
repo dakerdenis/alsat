@@ -1184,7 +1184,8 @@ input[type="number"] {
   }
   .search_container {
     width: 90%;
-
+    bottom: initial;
+    top: 50%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
   .additional_show__image {
@@ -1232,7 +1233,7 @@ input[type="number"] {
     width: 48%;
   }
   .search__block__map_button {
-    width: 48%;
+    width: 62%;
   }
   .search__block__button {
     width: 100%;
@@ -1341,11 +1342,11 @@ input[type="number"] {
 }
 @media only screen and (max-width: 426px) {
   .search__wrapper {
-    height: 37em;
+    height: 50em;
     background-size: cover;
   }
   .search_container {
-    top: 25%;
+    top: 42%;
   }
   .search__block__additional {
   }
@@ -1446,6 +1447,33 @@ input[type="number"] {
   .search__wrapper .popup__close{
     font-size: 25px;
   }
+  .search__promotext_block{
+    width: 100%;
+  }
+  .search__promotext_buttons{
+    width: 100%;
+  }
+  .search__promo_button_add{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px 15px;
+    display: block;
+  }
+  .search__promo_button_buy{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 5px 15px; 
+    display: block;
+  }
+  .search__block__button button{
+    font-size: 15px;
+  }
+  .search__block__map p{
+    font-size: 15px;
+  }
+  .search__block__map_button{
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 376px) {
@@ -1461,5 +1489,44 @@ input[type="number"] {
   }
   .search__how_tobuy{
     width: 100%;
+  }
+
+  .search__promotext_buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left
+    ;
+    position: relative;
+  }
+  .search__promo_button_buy{
+    position: absolute;
+    left: 0;
+    margin-left: 0;
+    top: 40px ;
+  }
+  .search__promo_button_add{
+    position: absolute;
+    left: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 350px){
+  .search__block__map_button{
+    flex-direction: column;
+  }
+  .search__block__map{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .search__block__map {
+    height: 30px;
+  }
+  .search__block__map img {
+    height: 18px;
+  }
+  .search__block__button{
+    margin-top: 10px;
   }
 }
