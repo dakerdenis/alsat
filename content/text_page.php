@@ -18,7 +18,7 @@
     <div class="textpage__content__container">
 
         <!--Блок текста-->
-        <p class="textpage__textblock">
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab earum quibusdam inventore sapiente similique, commodi consequuntur reiciendis maiores aut, assumenda cupiditate perspiciatis reprehenderit voluptates molestias, obcaecati dolor. Quasi, neque!
             Quisquam laborum est ducimus nostrum accusantium, aspernatur quibusdam optio dolores et impedit! Praesentium, dicta, cumque iusto fugit eos ex autem hic ullam voluptatem quo atque iure maiores nam error veniam!
             Est iste officia libero. Tempora voluptatem iure fuga maxime ex laboriosam quidem eos hic natus aperiam nisi dolore modi, obcaecati, asperiores neque quae alias dolorem dignissimos quo! Quasi, iusto sunt.
@@ -26,7 +26,7 @@
 
 
         <!--Блок текста-->
-        <p class="textpage__textblock">
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab earum quibusdam inventore sapiente similique, commodi consequuntur reiciendis maiores aut, assumenda cupiditate perspiciatis reprehenderit voluptates molestias, obcaecati dolor. Quasi, neque!
             Quisquam laborum est ducimus nostrum accusantium, Lorem ipsum dolor sit amet consectetur adipisicing elit. At ea laudantium debitis soluta incidunt nulla tempore, quaerat ipsam, corporis numquam saepe exercitationem enim harum iste reprehenderit magnam adipisci! Deleniti, esse.
             Sit doloremque ipsum, in nobis perferendis hic quibusdam quia aspernatur alias laudantium. Error placeat odio, beatae obcaecati ratione quasi soluta, distinctio enim doloribus reprehenderit commodi nihil pariatur? Quas, dignissimos accusamus?
@@ -35,18 +35,18 @@
             Est iste officia libero. Tempora voluptatem iure fuga maxime ex laboriosam quidem eos hic natus aperiam nisi dolore modi, obcaecati, asperiores neque quae alias dolorem dignissimos quo! Quasi, iusto sunt.
         </p>
         <!--Блок картинки--->
-        <div class="textpage__image__block">
+        <p>
             <img src="./style/imgs/123456.jpg" alt="">
-        </div>
+        </p>
 
         <!--Блок текста-->
-        <p class="textpage__textblock">
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab earum quibusdam inventore sapiente similique, commodi consequuntur reiciendis maiores aut, assumenda cupiditate perspiciatis reprehenderit voluptates molestias, obcaecati dolor. Quasi, neque!
 
         </p>
 
         <!--Блок текста-->
-        <p class="textpage__textblock">
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab earum quibusdam inventore sapiente similique, commodi consequuntur reiciendis maiores aut, assumenda cupiditate perspiciatis reprehenderit voluptates molestias, obcaecati dolor. Quasi, neque!
             Quisquam laborum est ducimus nostrum accusantium, aspernatur quibusdam optio dolores et impedit! Praesentium, dicta, cumque iusto fugit eos ex autem hic ullam voluptatem quo atque iure maiores nam error veniam!
             Est iste officia libero. Tempora voluptatem iure fuga maxime ex laboriosam quidem eos hic natus aperiam nisi dolore modi, obcaecati, asperiores neque quae alias dolorem dignissimos quo! Quasi, iusto sunt.
@@ -54,17 +54,17 @@
 
 
         <!--Блок текста-->
-        <p class="textpage__textblock">
+        <p >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab earum quibusdam inventore sapiente similique, commodi consequuntur reiciendis maiores aut, assumenda cupiditate perspiciatis reprehenderit voluptates molestias, obcaecati dolor. Quasi, neque!
             Quisquam laborum est ducimus nostrum accusantium, aspernatur quibusdam optio dolores et impedit! Praesentium, dicta, cumque iusto fugit eos ex autem hic ullam voluptatem quo atque iure maiores nam error veniam!
             Est iste officia libero. Tempora voluptatem iure fuga maxime ex laboriosam quidem eos hic natus aperiam nisi dolore modi, obcaecati, asperiores neque quae alias dolorem dignissimos quo! Quasi, iusto sunt.
         </p>
         <!--Блок картинки--->
-        <div class="textpage__image__block">
+        <p>
             <img src="./style/imgs/768.png" alt="">
-        </div>
+        </p>
         <!--Блок текста-->
-        <p class="textpage__textblock">
+        <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ab earum quibusdam inventore sapiente similique, commodi consequuntur reiciendis maiores aut, assumenda cupiditate perspiciatis reprehenderit voluptates molestias, obcaecati dolor. Quasi, neque!
             Quisquam laborum est ducimus nostrum accusantium, aspernatur quibusdam optio dolores et impedit! Praesentium, dicta, cumque iusto fugit eos ex autem hic ullam voluptatem quo atque iure maiores nam error veniam!
             Est iste officia libero. Tempora voluptatem iure fuga maxime ex laboriosam quidem eos hic natus aperiam nisi dolore modi, obcaecati, asperiores neque quae alias dolorem dignissimos quo! Quasi, iusto sunt.
