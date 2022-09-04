@@ -45,6 +45,7 @@
     }
     .search__background_image{
         width: 100%;
+
     }
     @media only screen and (max-width: 1380px) {
         .search_container{
@@ -58,11 +59,19 @@
         margin-top: 5px;
     }
     }
+    @media only screen and (max-width: 768px){
+        .search__background_image{
+        width: initial;
+        height: 100%;
+
+    }
+    }
     @media only screen and (max-width: 375px) {
         .search__wrapper {
         width: 100%;
         height: 56.3vh;
     }
+
     }
 </style>
 <!--////////////! СТИЛИ ДЛЯ ОТДЕЛЬНОЙ СТРАНИЦЫ С ФОРМОЙ///////////////////////--------------->
