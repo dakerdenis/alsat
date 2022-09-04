@@ -113,7 +113,7 @@ body._lock{
 
     color: #BDBDBD;
     height: 40px;
-    width: 40px;
+    width: 50px;
     font-size: 20px;
     border: none;
     cursor: pointer;
@@ -122,9 +122,17 @@ body._lock{
     flex-direction: row;
     align-items: center;
 
+    z-index: 5;
+    position: relative;
+  }
+
+  .dropbtn_language::after{
+    margin-left: 5px;
+    content: url(../style/imgs/language.svg);
   }
   .dropbtn_language img{
     margin-left: 6px;
+    z-index: 4;
   }
   
   .dropbtn_language:hover, .dropbtn_language:focus {

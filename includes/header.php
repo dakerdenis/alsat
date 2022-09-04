@@ -173,10 +173,10 @@
 
       <!--Язык-->
       <div class="header__form_language">
-        <p onclick="language()" class="dropbtn_language">
+        <div onclick="language()" class="dropbtn_language">
         AZ
-        <img  src="./style/imgs/language.svg" alt="" srcset="">
-      </p>
+        <!--img  src="./style/imgs/language.svg" alt="" srcset=""-->
+      </div>
         <div id="myDropdown_language" class="dropdown-content_language">
           <a href="#">RU</a>
           <a href="#">EN</a>
