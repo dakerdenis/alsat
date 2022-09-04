@@ -22,6 +22,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
                     <!--элемент формы Sirketin Adi-->
@@ -31,6 +34,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
                     <!---элемент с выбором Seher -->
@@ -50,6 +56,9 @@
                                     <option value="4">Ard-Skellige</option>
                                 </select>
                             </div>
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
                     <!--элемент формы Unvan-->
@@ -59,7 +68,11 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
+                        
                     </div>
                     <!--элемент формы Rayon-->
                     <div class="add_buisness__element">
@@ -68,6 +81,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
                     <!--КАРТА--->
@@ -135,6 +151,9 @@
                                     <option value="4">Nalogovaya</option>
                                 </select>
                             </div>
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
 
@@ -155,6 +174,9 @@
                                     <option value="4">Nalogovaya</option>
                                 </select>
                             </div>
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
                     <!--Площадь-->
@@ -164,6 +186,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="text">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
 
@@ -183,6 +208,9 @@
                                     <option value="4">test5</option>
                                 </select>
                             </div>
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
 
@@ -194,6 +222,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="number">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
 
@@ -204,6 +235,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="number">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
                     <!--ПРоцент бизнеса-->
@@ -213,6 +247,9 @@
                         </div>
                         <div class="add_buisness__element-input">
                             <input type="number">
+                            <div class="required__field_login">
+                                <p>*Это поле обязательно</p>
+                            </div>
                         </div>
                     </div>
 

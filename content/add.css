@@ -683,6 +683,20 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+.add_buisness__element-input{
+  position: relative;
+}
+.required__field_login{
+  position: absolute;
+  margin-top: 7px;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+.add_buisness__element {
+  margin-top: 29px;margin-bottom: 15px;
+}
   @media only screen and (max-width: 1201px){
     .add_buisness__element-input{
       width: 70%;
