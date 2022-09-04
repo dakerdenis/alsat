@@ -84,6 +84,12 @@
 .footer__element_rest-info  a {
     color: #081534;
 }
+.footer__element_rest-info  a:hover {
+    color: #47A8E5;
+}
+.footer__element_list-a:hover{
+    color: #47A8E5;
+}
 @media only screen and (max-width: 767px) {
     .footer__container {
         flex-direction: column;
