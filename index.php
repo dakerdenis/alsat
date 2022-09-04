@@ -49,7 +49,7 @@
     <a style="color:red; padding-left: 15px;" href="./index.php?source=account">Личный кабинет</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=search_all">Поиск всего</a> <br>
     <a style="color:red; padding-left: 15px;" href="./index.php?source=login">страница входа</a> <br>
-    <a style="color:red; padding-left: 15px;" href="./index.php?source=text_page">Шаблон text page</a> <br>  
+    <a style="color:red; padding-left: 15px;" href="./content/text_page2.php">Шаблон text page</a> <br>  
   </div>
   <?php 
     if (isset($_GET['source'])){
