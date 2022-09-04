@@ -86,9 +86,6 @@ body._lock{
     font-size: 18px;
     color: #fff; 
 }
-.header__form_language {
-}
-
 
 
 .burger__mobile{
@@ -107,25 +104,34 @@ body._lock{
 
 
 /*******************/
+.header__form_language {
+
+}
+
+
 .dropbtn_language {
-    background-color: #47a8e5;
-    color: white;
+
+    color: #BDBDBD;
     height: 40px;
     width: 40px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
     border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  .dropbtn_language img{
+    margin-left: 6px;
   }
   
   .dropbtn_language:hover, .dropbtn_language:focus {
-    background-color: #2980B9;
+
   }
   
-  .dropdown_language {
-    position: relative;
-    display: inline-block;
-  }
+
   
   .dropdown-content_language {
     display: none;
@@ -135,7 +141,7 @@ body._lock{
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 15px;
+    border-radius: 5px;
   }
   
   .dropdown-content_language a {
@@ -145,11 +151,15 @@ body._lock{
     display: block;
   }
   
-  .dropdown_language a:hover {background-color: #47a8e5;
+  .dropdown_language a:hover {
+    background-color: #47a8e5;
     color: white;
 }
   
-  .show_language {display: block;}
+  .show_language {
+    display: block;
+}
+
   /*******************************/
   .header__small__element{
     display: none;
