@@ -1,8 +1,5 @@
 <style>
-    <?php include './content/account__page/account.css' ?>
-    <?php include './content/account__page/account_block.css' ?>
-    <?php include './content/account__page/verification.css' ?>
-    <?php include './content/account__page/account__block_maketop.css' ?>
+    <?php include './content/account__page/account.css' ?><?php include './content/account__page/account_block.css' ?><?php include './content/account__page/verification.css' ?><?php include './content/account__page/account__block_maketop.css' ?>
 </style>
 <div class="account_wrapper">
     <!-- account name -->
@@ -41,7 +38,7 @@
             <!---Bookmarks--->
             <div class="favorites__block">
                 <!---Аккордеон-->
-                <div id="accordion" class="accordion" >
+                <div id="accordion" class="accordion">
 
                     <div class="accordion__item">
                         <div class="accordion__header">
@@ -339,19 +336,23 @@
                     Mənim elanlarım
                 </p>
                 <div class="account__elements_desc-bullet">
-                    <img src="./style/imgs/active.svg" alt="">
+
+                    <div class="__elements_desc-bullet_img"></div>
                     <p>Aktiv</p>
                 </div>
                 <div class="account__elements_desc-bullet">
-                    <img src="./style/imgs/passive.svg" alt="">
+
+                    <div class="__elements_desc-bullet_img __elements_desc-bullet_img_gray"></div>
                     <p>Passiv</p>
                 </div>
                 <div class="account__elements_desc-bullet">
-                    <img src="./style/imgs/yoxlanir.svg" alt="">
+
+                    <div class="__elements_desc-bullet_img __elements_desc-bullet_img_yellow"></div>
                     <p>Yoxlanılır</p>
                 </div>
                 <div class="account__elements_desc-bullet">
-                    <img src="./style/imgs/redd.svg" alt="">
+
+                    <div class="__elements_desc-bullet_img __elements_desc-bullet_img_red"></div>
                     <p>Rədd olunub</p>
                 </div>
             </div>
