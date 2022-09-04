@@ -48,16 +48,19 @@
             </div>
             <div class="contact__social_symbols">
                 <a href="">
-                    <img src="./style/imgs/social.svg" alt="" srcset="">
+                    <img src="./style/imgs/instagram.png" alt="" srcset="">
                 </a>
                 <a href="">
-                    <img src="./style/imgs/social.svg" alt="" srcset="">
+                    <img src="./style/imgs/facebook.png" alt="" srcset="">
                 </a>
                 <a href="">
-                    <img src="./style/imgs/social.svg" alt="" srcset="">
+                    <img src="./style/imgs/messenger.png" alt="" srcset="">
                 </a>
                 <a href="">
-                    <img src="./style/imgs/social.svg" alt="" srcset="">
+                    <img src="./style/imgs/whatsapp.png" alt="" srcset="">
+                </a>
+                <a href="">
+                    <img src="./style/imgs/vk.png" alt="" srcset="">
                 </a>
             </div>
         </div>

@@ -30,7 +30,7 @@
     width: 25%;
 }
 .contact__info__wrapper_block_name {
-    color: #47A8E5;
+    color: rgb(71, 168, 229);
     font-size: 17px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -116,6 +116,14 @@
     color: red;
     font-size: 15px;
 }
+.contact__social_symbols img{
+    width: 35px;
+    height: 35px;
+}
+.contact__social_symbols img:hover{
+    filter: drop-shadow(0 0rem 0.25rem rgba(71, 168, 229, 0.8));
+}
+
 @media only screen and (max-width: 769px){
     .contact__info__wrapper{
         flex-wrap: wrap;
