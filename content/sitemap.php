@@ -18,73 +18,29 @@
     <div class="sitemap__content__wrapper">
         <!--Блок карты сайта 1-->
         <div class="sitemap__block_">
-            <!--название раздлела карты сайта--->
-            <div class="sitemap__block_name">Fəaliyyət</div>
-            <!----->
-            <div class="sitemap__elements__content">
-
-                <!--Блоки с названиями-->
-                <div class="sitemap_element_container">
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                            <a href="#">Ümumi məlumat</a>
-                        </div>
-                    </div>
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                            <a href="#">Ipsum dolor</a>
-                        </div>
-                    </div>
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                            <a href="#">Dostlar və əməkdaşlar</a>
-                        </div>
-                    </div>
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Lorem</a>
-                        </div>
-                    </div>
-
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Struktur</a>
-                        </div>
-                    </div>
-
-                    <!--Последний элемент-->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line sitemap__elementblock__line_last">
-                            <div class="additional__line additional__line_last "></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Əlaqə</a>
-                        </div>
-                    </div>
-                </div>
-                <!---->
+            <div class="sitemap__item">
+                <div>Haqqımızda</div>
+                <ul class="sitemap__subitem">
+                    <li>
+                        <a title="Şirkət haqqında" href="https://www.roimedpharma.az/az/pages/about-company">Şirkət haqqında</a>
+                    </li>
+                    <li>
+                        <a title="Fəaliyyətimiz" href="https://www.roimedpharma.az/az/pages/activities">Fəaliyyətimiz</a>
+                    </li>
+                    <li>
+                        <a title="Hədəf - Missiya - Gələcəyə baxışımız" href="https://www.roimedpharma.az/az/pages/targets-mission-our-vision">Hədəf - Missiya - Gələcəyə baxışımız</a>
+                    </li>
+                    <li>
+                        <a title="Hədəf - Missiya - Gələcəyə baxışımız" href="https://www.roimedpharma.az/az/pages/targets-mission-our-vision">Hədəf - Missiya - Gələcəyə baxışımız</a>
+                    </li>
+                    <li>
+                        <a title="Hədəf - Missiya - Gələcəyə baxışımız" href="https://www.roimedpharma.az/az/pages/targets-mission-our-vision">Hədəf - Missiya - Gələcəyə baxışımız</a>
+                    </li>
+                    <li>
+                        <a title="Hədəf - Missiya - Gələcəyə baxışımız" href="https://www.roimedpharma.az/az/pages/targets-mission-our-vision">Hədəf - Missiya - Gələcəyə baxışımız</a>
+                    </li>
+                </ul>
             </div>
-            <!----->
         </div>
 
 
@@ -92,67 +48,21 @@
 
         <!--Блок карты сайта 2-->
         <div class="sitemap__block_">
-            <!--название раздлела карты сайта--->
-            <div class="sitemap__block_name">Əməkdaşlıq</div>
-            <!----->
-            <div class="sitemap__elements__content">
-
-                <!--Блоки с названиями-->
-                <div class="sitemap_element_container">
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                            <a href="#">Ümumi məlumat</a>
-                        </div>
-                    </div>
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                            <a href="#">Ipsum dolor</a>
-                        </div>
-                    </div>
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                            <a href="#">Dostlar və əməkdaşlar</a>
-                        </div>
-                    </div>
-
-
-                    <!--Элемент--->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line">
-                            <div class="additional__line"></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Struktur</a>
-                        </div>
-                    </div>
-
-                    <!--Последний элемент-->
-                    <div class="sitemap__element_block">
-                        <div class="sitemap__elementblock__line sitemap__elementblock__line_last">
-                            <div class="additional__line additional__line_last "></div>
-                        </div>
-                        <div class="sitemap__elementblock__name">
-                        <a href="#">Əlaqə</a>
-                        </div>
-                    </div>
-                </div>
-                <!---->
+            <div class="sitemap__item">
+                <div>Haqqımızda</div>
+                <ul class="sitemap__subitem">
+                    <li>
+                        <a title="Şirkət haqqında" href="https://www.roimedpharma.az/az/pages/about-company">Şirkət haqqında</a>
+                    </li>
+                    <li>
+                        <a title="Fəaliyyətimiz" href="https://www.roimedpharma.az/az/pages/activities">Fəaliyyətimiz</a>
+                    </li>
+                    <li>
+                        <a title="Hədəf - Missiya - Gələcəyə baxışımız" href="https://www.roimedpharma.az/az/pages/targets-mission-our-vision">Hədəf - Missiya - Gələcəyə baxışımız</a>
+                    </li>
+                </ul>
             </div>
-            <!----->
         </div>
-
 
     </div>
 </div>
