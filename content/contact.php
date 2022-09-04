@@ -23,10 +23,10 @@
                 Nomreler
             </div>
             <p class="contact__number__p">
-                моб: +55 (855) 845 - 55 - 55
+                <a href="#">моб: +55 (855) 845 - 55 - 55</a>
             </p>
             <p class="contact__number__p">
-                дом: +55 (915) 888 - 58 - 87
+                <a href="#">дом: +55 (915) 888 - 58 - 87</a>
             </p>
         </div>
         <!--Adresses--->

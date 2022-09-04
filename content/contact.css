@@ -42,7 +42,16 @@
 .contact__adress__p {
     display: block;
     margin-bottom: 15px;
+    font-size: 17px;
 }
+.contact__number__p a {
+    font-size: 17px;
+    color: rgba(8, 21, 52, 1);
+}
+.contact__number__p a:hover{
+    color: rgba(71, 168, 229, 1);
+}
+
 .contact__social_symbols {
     display: flex;
     width: 100%;
