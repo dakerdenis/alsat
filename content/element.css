@@ -452,6 +452,13 @@
     justify-content: center;
     padding-top: 17px;
     padding-bottom: 17px;
+    transition: ease-in-out 0.2s;
+}
+._additional__files-block-block:hover{
+    background-color: rgba(71, 168, 229, 1);
+}
+._additional__files-block-block:hover p {
+    color: #fff;
 }
 ._additional__files-block-block img {
     display: block;
@@ -480,6 +487,10 @@
     border-radius: 24px;
     margin-top: 25px;
     padding: 5px 0px;
+    transition: ease-in-out 0.2s;
+}
+.product__additional_button  p:hover{
+    background-color: rgba(255, 222, 90, 1);
 }
 
 @media only screen and (max-device-width: 1680px){
