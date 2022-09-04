@@ -1,10 +1,10 @@
             <!--element block -->
-            <div class="elelement__block elelement__block2" style="margin-top: 0px;     background-color: rgba(0, 0, 0, 0.0);    border-radius: 0px 0px 18px 18px ;">
-                <div class="element_wrapper" style="background-color: rgba(0, 0, 0, 0.0);" >
+            <div class="elelement__block elelement__block2" >
+                <div class="element_wrapper" >
                     <!-- image block-->
-                    <div class="element_image" style="background-color: rgba(0, 0, 0, 0.0);">
+                    <div class="element_image" >
                         <!--element image-->
-                        <img style="background-color: rgba(0, 0, 0, 0.0);" class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
+                        <img  class="element_image-img" src="./style/imgs/big_element_back.png" alt="" srcset="">
                         <!--Bookmark -->
                         <div class="element__bookmark">
                         </div>
