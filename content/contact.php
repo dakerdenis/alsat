@@ -76,8 +76,14 @@
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="text">
+                        <div class="required__field_login">
+                            <p>*Это поле обязательно</p>
+                        </div>
                     </div>
+
                 </div>
+
+
                 <!--number-->
                 <div class="log_reg_element__wrapper">
                     <div class="log_reg_element_wraper_desc">
@@ -85,6 +91,9 @@
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="number">
+                        <div class="required__field_login">
+                            <p>*Это поле обязательно</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,6 +106,9 @@
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="text">
+                        <div class="required__field_login">
+                            <p>*Это поле обязательно</p>
+                        </div>
                     </div>
                 </div>
                 <!--emaiL-->
@@ -106,6 +118,9 @@
                     </div>
                     <div class="log_reg_element_wraper_input">
                         <input class="log_reg_element_wraper_input-input" type="email">
+                        <div class="required__field_login">
+                            <p>*Это поле обязательно</p>
+                        </div>
                     </div>
                 </div>
             </div>

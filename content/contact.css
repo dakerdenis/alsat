@@ -101,6 +101,21 @@
     margin-top: 0px;
     width: 47%;
 }
+.log_reg_element_wraper_input{
+    position: relative;
+}
+.two_elements__from_container:nth-child(2){
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.required__field_login {
+    position: absolute;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
 @media only screen and (max-width: 769px){
     .contact__info__wrapper{
         flex-wrap: wrap;
@@ -130,5 +145,8 @@
     .contact__wrapper{
         width: 90%;
         margin: 0 auto;
+    }
+    .log_reg_element__wrapper{
+        margin-top: 35px;
     }
 }
