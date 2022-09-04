@@ -33,7 +33,7 @@
 <style>
     .search_container{
         bottom: initial;
-        top: 29%;
+        top: 26%;
 
     }
     .search__wrapper {
