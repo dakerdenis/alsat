@@ -210,7 +210,7 @@
 
         <!--форма поиска на сайте --->
         <!--*search  контейнер с формой поиска-->
-        <div class="search__wrapper">
+        <div class="search__wrapper   search__wrapper_float">
             <!--контейнер с навигацией наверху-->
             <div class="header_container_nav">
                 <div class="header_nav_wrap">
