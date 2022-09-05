@@ -29,53 +29,7 @@
 
 <body>
 
-<!--////////////! СТИЛИ ДЛЯ ОТДЕЛЬНОЙ СТРАНИЦЫ С ФОРМОЙ///////////////////////--------------->
-<style>
-    .search_container{
-        bottom: initial;
-        top: 26%;
 
-    }
-    .search__wrapper {
-        width: 100%;
-        height: 49.3vh;
-    }
-    .search__image__block{
-        border-radius: 0px;
-    }
-    .search__background_image{
-        width: 100%;
-
-    }
-    @media only screen and (max-width: 1380px) {
-        .search_container{
-            top: 29%;
-    }
-    .search__wrapper {
-        width: 100%;
-        height: 58.3vh;
-    }
-    .search__image__block{
-        margin-top: 5px;
-    }
-    }
-    @media only screen and (max-width: 768px){
-        .search__background_image{
-        width: initial;
-        height: 100%;
-
-    }
-    }
-    @media only screen and (max-width: 375px) {
-        .search__wrapper {
-        width: 100%;
-        height: 56.3vh;
-    }
-
-    }
-</style>
-<!--////////////! СТИЛИ ДЛЯ ОТДЕЛЬНОЙ СТРАНИЦЫ С ФОРМОЙ///////////////////////--------------->
-<!--////////////! СТИЛИ ДЛЯ ОТДЕЛЬНОЙ СТРАНИЦЫ С ФОРМОЙ///////////////////////--------------->
     <!--!Общий шаблон для всех страниц ,тут единый для всех footer,поиск форма, главный контейнер и header-->
     <div class="main__wrapper">
         <!-- header-->

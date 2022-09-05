@@ -14,7 +14,7 @@
                 <!-----1й контейнер --->
                 <!-----1й контейнер --->
                 <!-----1й контейнер --->
-                <div class="add_buisness_container_1">
+                <div class="add_buisness_container_1 add_buisness_container_1-1">
                     <!--элемент формы Ad soyad-->
                     <div class="add_buisness__element">
                         <div class="add_buisness__element-desc">
@@ -133,7 +133,7 @@
                 <!-----2й контейнер --->
                 <!-----2й контейнер --->
                 <!-----2й контейнер --->
-                <div class="add_buisness_container_1">
+                <div class="add_buisness_container_1 add_buisness_container_1-2">
                     <!---Meqsed-->
                     <div class="add_buisness__element">
                         <div class="add_buisness__element-desc">
