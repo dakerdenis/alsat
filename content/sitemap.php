@@ -19,7 +19,7 @@
         <!--Блок карты сайта 1-->
         <div class="sitemap__block_">
             <div class="sitemap__item">
-                <div>Haqqımızda</div>
+                <a href="#">Haqqımızda</a>
                 <ul class="sitemap__subitem">
                     <li>
                         <a title="Şirkət haqqında" href="https://www.roimedpharma.az/az/pages/about-company">Şirkət haqqında</a>
@@ -49,7 +49,7 @@
         <!--Блок карты сайта 2-->
         <div class="sitemap__block_">
             <div class="sitemap__item">
-                <div>Haqqımızda</div>
+                <div href="#">Haqqımızda</div>
                 <ul class="sitemap__subitem">
                     <li>
                         <a title="Şirkət haqqında" href="https://www.roimedpharma.az/az/pages/about-company">Şirkət haqqında</a>
@@ -61,6 +61,12 @@
                         <a title="Hədəf - Missiya - Gələcəyə baxışımız" href="https://www.roimedpharma.az/az/pages/targets-mission-our-vision">Hədəf - Missiya - Gələcəyə baxışımız</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <!--Блок карты сайта 3-->
+        <div class="sitemap__block_">
+            <div class="sitemap__item">
+                <a href="#">Haqqımızda</a>
             </div>
         </div>
 

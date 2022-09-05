@@ -115,6 +115,13 @@
     vertical-align: baseline;
 
 }
+.sitemap__item a {
+    color: rgba(8, 21, 52, 1);
+}
+.sitemap__item a:hover{
+    color: #47A8E5;
+}
+
 
 .sitemap__item:not(:last-child) {
     margin-bottom: 10px;
