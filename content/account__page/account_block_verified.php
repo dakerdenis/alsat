@@ -10,7 +10,7 @@
                         </div>
 
                         <div class="account__element__status">
-                            <img src="./style/imgs/active.svg" alt="" class="account__element__status-img">
+                            <div class="__elements_desc-bullet_img"></div>
                         </div>
 
 
@@ -70,7 +70,3 @@
                     </div>
                 </div>
             </div>
-
-
-
-            
