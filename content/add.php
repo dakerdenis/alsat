@@ -1,5 +1,5 @@
 <style>
-    <?php include './content/add.css';?>
+    <?php include './content/add.css'; ?>
 </style>
 
 <div class="add_buisness_wrapper">
@@ -72,7 +72,7 @@
                                 <p>*Это поле обязательно</p>
                             </div>
                         </div>
-                        
+
                     </div>
                     <!--элемент формы Rayon-->
                     <div class="add_buisness__element">
@@ -95,40 +95,7 @@
 
                         </div>
                     </div>
-                    <!---Добавление изображения-->
-                    <div class="add_buisness__element">
-                        <div class="add_buisness__element-desc">
-                            Sekilleri elave et* <br>
-                            <p>Maksimum 30 dənə</p>
-                        </div>
 
-
-                        <div class="add_buisness_photo_add">
-                            <div class="add_photodesc">
-                                Bir dəfəli zaqruzka 10 dənə maksimum
-                            </div>
-                        </div>
-                    </div>
-
-                    <!---Добавление изображения-->
-                    <div class="add_buisness__element">
-                        <div class="add_buisness__element-desc">
-                            Verifikaciya sekilleri elave et<br>
-                        </div>
-
-
-                        <div class="add_buisness_photo_add">
-                            <div class="add_photodesc">
-                                Bir dəfəli zaqruzka 10 dənə maksimum
-                            </div>
-                        </div>
-                    </div>
-                    <div class="add_buisness__accept">
-                        <label class="container">Нажимая это я подтверждаю что кроме администрации файлы подтверждающие мой бизнес увидят другие пользователи
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
                 </div>
                 <!-----2й контейнер --->
                 <!-----2й контейнер --->
@@ -267,9 +234,48 @@
                     </div>
                 </div>
             </div>
-            <!---INfo text--->
-            <div class="add_buisness_container_text">
-                *Elan yerlesdirerek, Siz saytin Istifadeci razilasmasi ile razi oldugunuzu tesdig edirsiz.
+
+
+            <div class="add_buisness_bottom_block">
+
+                <!---Добавление изображения-->
+                <div class="add_buisness__element add_buisness__element_image">
+                    <div class="add_buisness__element-desc">
+                        Sekilleri elave et* <br>
+                        <p>Maksimum 30 dənə</p>
+                    </div>
+
+
+                    <div class="add_buisness_photo_add ">
+                        <div class="add_photodesc">
+                            Bir dəfəli zaqruzka 10 dənə maksimum
+                        </div>
+                    </div>
+                </div>
+
+                <!---Добавление изображения-->
+                <div class="add_buisness__element add_buisness__element_image" >
+                    <div class="add_buisness__element-desc">
+                        Verifikaciya sekilleri elave et<br>
+                    </div>
+
+
+                    <div class="add_buisness_photo_add">
+                        <div class="add_photodesc">
+                            Bir dəfəli zaqruzka 10 dənə maksimum
+                        </div>
+                    </div>
+                </div>
+                <div class="add_buisness__accept">
+                    <label class="container">Нажимая это я подтверждаю что кроме администрации файлы подтверждающие мой бизнес увидят другие пользователи
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <!---INfo text--->
+                <div class="add_buisness_container_text">
+                    *Elan yerlesdirerek, Siz saytin Istifadeci razilasmasi ile razi oldugunuzu tesdig edirsiz.
+                </div>
             </div>
             <!--submit-->
             <div class="add_buisness_container-button">

@@ -282,10 +282,11 @@ h6 {
 
 .search__wrapper_float .search_container {
   bottom: initial;
-  top: 26%;
+  top: 2%;
 }
 .search__wrapper_float .search__image__block {
   border-radius: 0px;
+  top: 9%;
 }
 .search__wrapper_float .search__background_image {
 
@@ -303,12 +304,7 @@ h6 {
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .search__wrapper_float .search__wrapper {
-    width: 100%;
-    height: 56.3vh;
-  }
-}
+
 @media only screen and (max-width: 767px) {
   .search__wrapper_float .search__background_image {
     width: initial;
@@ -317,5 +313,15 @@ h6 {
 
   .search__wrapper_float .main__wrapper {
     margin-top: 0px;
+  }
+  .search__wrapper_float {
+    width: 100%;
+    height: 49.3vh;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .search__wrapper_float .search__wrapper {
+    width: 100%;
+    height: 56.3vh;
   }
 }

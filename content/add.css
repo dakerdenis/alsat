@@ -697,6 +697,18 @@
 .add_buisness__element {
   margin-top: 29px;margin-bottom: 15px;
 }
+.add_buisness_bottom_block{
+  width: 93%;
+  margin: 0 auto;
+}
+.add_buisness__element_image{
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+.add_buisness_container_text{
+  margin-top: 33px;
+  font-weight: 600;
+}
   @media only screen and (max-width: 1201px){
     .add_buisness__element-input{
       width: 70%;
