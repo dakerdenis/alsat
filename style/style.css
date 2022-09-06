@@ -291,6 +291,104 @@ h6 {
 .search__wrapper_float .search__background_image {
 
 }
+
+/*******************FOOTER STYLES**************************/
+/*********************FOOTER STYLES***********************/
+.footer__wrapper {
+  width: 100%;
+  margin-top: 40px;
+}
+.footer__container {
+  width: 80%;
+  margin: 0 auto;
+
+  overflow: hidden;
+  height: 22.875em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__element {
+  width: 29%;
+}
+.footer__element-logo {
+  width: 150px;
+  height: 50px
+}
+.footer__element-logo-img {
+  width: 100%;
+}
+.footer__element-contact {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer__element-contact-img {
+}
+
+
+.footer__element_districkt {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.footer__element_catdis_wrapper{
+  max-height: 18em;
+}
+.footer__element_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__element_list-p {
+  width: 50%;
+  margin-top: 19px;
+}
+.footer__element_category {
+  font-size: 19px;
+  font-weight: 500;
+}
+.footer__element-contact-p {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.footer__element_list-a {
+  color: #081534;
+  text-decoration: none;
+}
+.footer__bottom_container {
+  height: 60px;
+  background-color: #081534;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__other__information_wrapper{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer__element_rest-info {
+  width: 40%;
+  font-size: 17px;
+  margin-top: 17px;
+}
+.footer__element_rest-info  a {
+  color: #081534;
+}
+.footer__element_rest-info  a:hover {
+  color: #47A8E5;
+}
+.footer__element_list-a:hover{
+  color: #47A8E5;
+}
+
+/******************************************/
+/****************************************/
 @media only screen and (max-width: 1380px) {
   .search__wrapper_float .search_container {
     top: 29%;
@@ -305,7 +403,7 @@ h6 {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
   .search__wrapper_float .search__background_image {
     width: initial;
     height: 100%;
@@ -318,6 +416,26 @@ h6 {
     width: 100%;
     height: 49.3vh;
   }
+  .footer__container {
+    flex-direction: column;
+    height: 100%;
+}
+.footer__element_catdis_wrapper{
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+.footer__element{
+    
+    width: 100%;
+}
+.footer__element:last-child{
+    margin-bottom: 25px;
+}
+.footer__element_rest-info {
+    width: 50%;
+    font-size: 16px;
+    margin-top: 27px;
+}
 }
 @media only screen and (max-width: 375px) {
   .search__wrapper_float .search__wrapper {
