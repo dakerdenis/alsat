@@ -272,28 +272,6 @@ h6 {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/**! СТИЛИ ОТДЕЛЬНОЙ СТРАНИЦЫ*********************/
-/**! СТИЛИ ОТДЕЛЬНОЙ СТРАНИЦЫ*********************/
-/**! СТИЛИ ОТДЕЛЬНОЙ СТРАНИЦЫ*********************/
-.search__wrapper_float {
-  width: 100%;
-  height: 49.3vh;
-}
-
-.search__wrapper_float .search_container {
-  bottom: initial;
-  top: 31%;
-}
-.search__wrapper_float .search__image__block {
-  border-radius: 0px;
-  top: 9%;
-}
-.search__wrapper_float .search__background_image {
-
-}
-
-
-
 
 
 
@@ -1500,6 +1478,29 @@ input[type="number"] {
   height: 500px;
   width: 100%;
 }
+
+/**! СТИЛИ ОТДЕЛЬНОЙ СТРАНИЦЫ*********************/
+/**! СТИЛИ ОТДЕЛЬНОЙ СТРАНИЦЫ*********************/
+/**! СТИЛИ ОТДЕЛЬНОЙ СТРАНИЦЫ*********************/
+.search__wrapper_float {
+  width: 100%;
+  height: 49.3vh;
+}
+
+.search__wrapper_float .search_container {
+  bottom: initial;
+  top: 31%;
+}
+.search__wrapper_float .search__image__block {
+  border-radius: 0px;
+  top: 9%;
+}
+.search__wrapper_float .search__background_image {
+  width: 100%;
+}
+
+
+
 @media only screen and (max-width: 1601px) {
   .search__square__min {
     padding-right: 18px;
@@ -2195,6 +2196,9 @@ input[type="number"] {
 .search__promotext_text{
   font-size: 30px;
   line-height: 40px;
+}
+.search__wrapper_float .search__background_image {
+  height: 100%;
 }
 }
 @media only screen and (max-width: 450px){
