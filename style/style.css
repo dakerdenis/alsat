@@ -192,11 +192,24 @@ h6 {
 /*the container must be positioned relative:*/
 .custom-select {
   position: relative;
-
   border-radius: 30px;
   width: 100%;
   height: 100%;
   border: 2px solid #47a8e5;
+}
+
+.custom-select.disabled {
+    border-color: grey;
+    cursor: not-allowed;
+}
+
+.custom-select.disabled .select-selected {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.custom-select.disabled .select-selected::after {
+    border-color: grey transparent transparent transparent;
 }
 
 .custom-select select {
@@ -337,7 +350,7 @@ body._lock{
   border-radius: 25px;
   padding: 0px 25px 0px 25px;
   font-size: 18px;
-  color: white; 
+  color: white;
 }
 
 .header__form_registration {
@@ -352,7 +365,7 @@ body._lock{
   border-radius: 25px;
   padding: 0px 25px 0px 25px;
   font-size: 18px;
-  color: #fff; 
+  color: #fff;
 }
 .header__form_login {
   height: 40px;
@@ -367,7 +380,7 @@ body._lock{
   border-radius: 25px;
   padding: 0px 25px 0px 25px;
   font-size: 18px;
-  color: #fff; 
+  color: #fff;
 }
 
 
@@ -412,6 +425,10 @@ body._lock{
 .dropbtn_language::after{
   margin-left: 5px;
   content: url(../style/imgs/language.svg);
+}
+
+.dropbtn_language.active::after{
+    transform: rotateX(180deg);
 }
 .dropbtn_language img{
   margin-left: 6px;
@@ -570,7 +587,7 @@ body._lock{
   margin-bottom: 20px;
 }
 /* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,   
+input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
@@ -1406,7 +1423,7 @@ input[type="number"] {
 /*******СТИЛИ ПОПАПА КАРТЫ***********/
 /*******СТИЛИ ПОПАПА КАРТЫ***********/
 /*******СТИЛИ ПОПАПА КАРТЫ***********/
-.search__wrapper .popup {
+ .popup {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -1420,16 +1437,16 @@ input[type="number"] {
   transition: all 0.3s ease 0s;
   z-index: 98;
 }
-.search__wrapper .popup.open {
+ .popup.open {
   opacity: 1;
   visibility: visible;
 }
-.search__wrapper  .popup.open .popup__content {
+  .popup.open .popup__content {
   transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
   opacity: 1;
 }
 
-.search__wrapper .popup__area {
+ .popup__area {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1437,7 +1454,7 @@ input[type="number"] {
   left: 0;
 }
 
-.search__wrapper .popup__body {
+.popup__body {
   min-height: 100%;
   display: flex;
   align-items: center;
@@ -1446,7 +1463,7 @@ input[type="number"] {
   transition: all 0.8s ease 0s;
 
 }
-.search__wrapper .popup__content {
+ .popup__content {
   background-color: #fff;
   color: #000;
   width: 60%;
@@ -1457,15 +1474,15 @@ input[type="number"] {
   transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
   border-radius: 18px;
 }
-.search__wrapper.popup__content_image {
+.popup__content_image {
   padding: 0;
 }
-.search__wrapper .popup__image img {
+.popup__image img {
   max-width: 100%;
   vertical-align: top;
 }
 
-.search__wrapper .popup__close {
+.popup__close {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -1473,7 +1490,7 @@ input[type="number"] {
   color: #000;
   text-decoration: none;
 }
-.search__wrapper .popup__map_container{
+ .popup__map_container{
   background-color: red;
   height: 500px;
   width: 100%;
@@ -1494,6 +1511,7 @@ input[type="number"] {
 .search__wrapper_float .search__image__block {
   border-radius: 0px;
   top: 9%;
+    margin-top: 15px;
 }
 .search__wrapper_float .search__background_image {
   width: 100%;
@@ -1797,7 +1815,7 @@ input[type="number"] {
     margin-bottom: 55px;
 }
 .footer__element{
-    
+
     width: 100%;
 }
 .footer__element:last-child{
@@ -1987,12 +2005,12 @@ input[type="number"] {
   color: #fff;
 }
 .header__desc_block img {
-  height: 20px;        
+  height: 20px;
 }
 .header__desc_block-new{
   background-color: #09CA57;
   border-radius: 8px;
-  padding: 8px 0px 8px 15px; 
+  padding: 8px 0px 8px 15px;
 }
 .header__desc_block-account{
   display: flex;
@@ -2043,12 +2061,8 @@ input[type="number"] {
 .search_container {
   width: 90%;
   bottom: initial;
-<<<<<<< Updated upstream
   top: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-=======
-  top: 31%;
->>>>>>> Stashed changes
 }
 .additional_show__image {
   width: 15px;
@@ -2177,7 +2191,9 @@ input[type="number"] {
 }
 .status__container__wrapper {
   width: 60%;
-}.search__wrapper .popup__content {
+}
+
+.popup__content {
   background-color: #fff;
   color: #000;
   width: 80%;
@@ -2230,7 +2246,6 @@ input[type="number"] {
 
   }
 
-<<<<<<< Updated upstream
   /***************/
   /***************/
   /***************/
@@ -2269,12 +2284,6 @@ input[type="number"] {
   }
   .show__search .search__block__price{
     width: 100%;
-=======
-@media only screen and (max-width: 780px) {
-  .search__wrapper_float .search__background_image {
-    width: initial;
-    height: 100%;
->>>>>>> Stashed changes
   }
   .show__search .search__block__active{
     width: 100%;
@@ -2316,7 +2325,7 @@ input[type="number"] {
     margin-top: 20px;
     width: 100%;
   }
-  .search__wrapper .popup__content {
+.popup__content {
     background-color: #fff;
     color: #000;
     width: 95%;
@@ -2345,7 +2354,7 @@ input[type="number"] {
   .search__promo_button_buy{
     font-size: 18px;
     line-height: 22px;
-    padding: 5px 15px; 
+    padding: 5px 15px;
     display: block;
   }
   .search__block__button button{
