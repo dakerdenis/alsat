@@ -2190,7 +2190,7 @@ input[type="number"] {
   top: 13px;
 }
 .status__container__wrapper {
-  width: 60%;
+  width: 50%;
 }
 
 .popup__content {
@@ -2219,6 +2219,15 @@ input[type="number"] {
 }
 .search__wrapper_float .search__background_image {
   height: 100%;
+}
+.select-selected {
+  font-size: 17px;
+}
+.search__block__button button {
+  font-size: 15px;
+}
+.search__block__map p {
+  font-size: 15px;
 }
 }
 @media only screen and (max-width: 450px){
@@ -2288,6 +2297,7 @@ input[type="number"] {
   .show__search .search__block__active{
     width: 100%;
     margin-top: 10px;
+    justify-content: space-between;
   }
   .search_name_desc{
     font-size: 16px;
