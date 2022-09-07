@@ -2329,7 +2329,7 @@ input[type="number"] {
     background-color: #fff;
     color: #000;
     width: 95%;
-    padding: 30px;
+    padding: 33px 10px 10px 10px;
     position: relative;
     transition: all 0.8s ease 0s;
     opacity: 0;
@@ -2337,7 +2337,9 @@ input[type="number"] {
     border-radius: 18px;
   }
   .search__wrapper .popup__close{
-    font-size: 25px;
+    font-size: 18px;
+    right: 9.5px;
+    top: 9.5px;
   }
   .search__promotext_block{
     width: 100%;
@@ -2365,6 +2367,9 @@ input[type="number"] {
   }
   .search__block__map_button{
     align-items: center;
+  }
+  .popup__map_container {
+    border-radius: 0px 0px 10px 10px;
   }
 }
 @media only screen and (max-width: 375px) {
