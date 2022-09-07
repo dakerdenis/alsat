@@ -2043,8 +2043,12 @@ input[type="number"] {
 .search_container {
   width: 90%;
   bottom: initial;
+<<<<<<< Updated upstream
   top: 50%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+=======
+  top: 31%;
+>>>>>>> Stashed changes
 }
 .additional_show__image {
   width: 15px;
@@ -2226,6 +2230,7 @@ input[type="number"] {
 
   }
 
+<<<<<<< Updated upstream
   /***************/
   /***************/
   /***************/
@@ -2264,6 +2269,12 @@ input[type="number"] {
   }
   .show__search .search__block__price{
     width: 100%;
+=======
+@media only screen and (max-width: 780px) {
+  .search__wrapper_float .search__background_image {
+    width: initial;
+    height: 100%;
+>>>>>>> Stashed changes
   }
   .show__search .search__block__active{
     width: 100%;

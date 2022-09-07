@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-    <link rel="stylesheet" href="../style/style.css" />
+
     <!--header вход выход styles-->
     <link rel="stylesheet" href="../includes/header.css">
     <!--search styles форма поиска--->
@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!--text page2---->
     <link rel="stylesheet" href="./text_page.css">
+
+
+    <link rel="stylesheet" href="../style/style.css" />
     <!---Форма поиска на сайте---->
     <link rel="stylesheet" href="../includes/search.css">
 
