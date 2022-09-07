@@ -1,153 +1,205 @@
 
 .add_buisness_wrapper {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
+
 .add_buisness_name {
-    width: 100%;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 500;
-    color: #081534;
-    margin-bottom: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #081534;
+  margin-bottom: 25px;
 }
+
 .add_buisness_container {
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    border-radius: 25px;
-    padding: 30px 10px 30px 10px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 25px;
+  padding: 30px 10px 30px 10px;
 }
+
 .add_buisness_container form {
-    width: 100%;
+  width: 100%;
 }
+
 .add_buisness_container_wrapper {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
+
 .add_buisness_container_1 {
-    width: 45%;
+  width: 45%;
 
 }
+
 .add_buisness__element {
-    margin-bottom: 21px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-bottom: 21px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.add_buisness__element{
+
+.add_buisness__element {
 
 }
+
 .add_buisness__element-desc {
-    width:30%;
+  width: 30%;
 
-    font-size: 20px;
-    color: #081534;
-    font-weight: 500;
+  font-size: 20px;
+  color: #081534;
+  font-weight: 500;
 }
-.add_buisness__element-desc p{
+
+.add_buisness__element-desc p {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 400;
   color: #47A8E5;
 
 }
-.add_photodesc{
+
+.add_photodesc {
   font-size: 15px;
   font-weight: 400;
   color: #47A8E5;
 }
+
 .add_buisness__element-input {
-    width: 60%;
+  width: 60%;
 }
-.add_buisness__element-input input{
-    width: 100%;
-    border-radius: 30px;
-    height: 100%;
-    border: 2px solid #47A8E5;
-    font-size: 20px;
-    color: #081534;
-    background-color: #fff;
-    border: 2px solid #47A8E5;
-    padding: 8px 16px;
+
+.add_buisness__element-input input {
+  width: 100%;
+  border-radius: 30px;
+  height: 100%;
+  border: 2px solid #47A8E5;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47A8E5;
+  padding: 8px 16px;
 }
-.add_buisness__element-mapblock{
-    align-items: flex-start;
+
+.add_buisness__element-mapblock {
+  align-items: flex-start;
 }
-.add_buisness__element-map{
-    border-radius: 18px;
-    height: 180px;
-    width: 60%;
-    background-color: blue;
+
+.add_buisness__element-mapblock .add_buisness__element-desc {
+  margin-top: 10px;
 }
-.add_buisness__element-input textarea{
-    max-width: 100%;
-    min-width: 100%;
-    border: 2px solid #47A8E5;
-    font-size: 16px;
-    padding: 5px;
-    border-radius: 18px;
-    height: 180px;
+
+.map_wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.add_buisness_container_1:last-child .add_buisness__element:last-child{
-    align-items: flex-start;
+
+.map_button {
+  display: inline-block;
+  padding: 10px 14px;
+  background: #47A8E5;
+  border: 1px solid #47A8E5;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
 }
+
+.add_buisness__element-map {
+  border-radius: 18px;
+  height: 180px;
+  width: 100%;
+  background-color: blue;
+}
+
+.add_buisness__element-input textarea {
+  max-width: 100%;
+  min-width: 100%;
+  border: 2px solid #47A8E5;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 18px;
+  height: 180px;
+}
+
+.add_buisness_container_1:last-child .add_buisness__element:last-child {
+  align-items: flex-start;
+}
+
 .custom-select_city {
 }
 .add_buisness_photo_add{
-    width: 60%;
-    display: flex;
+  width: 100%;
 }
+
 .add_buisness_photo_add1{
-    width: 25%;
-    position: relative;
+  width: 25%;
+  position: relative;
 }
-.add_buisness_photo_add1 img{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: none;
+
+.add_buisness_photo_add1 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
 }
-.add_buisness_photo_add-input{
-    display: block;
-    width: 99.9%;
-    height: 80px;
-    background-image: url('./style/imgs/add.svg');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: none;
-    border: none;
-    color: rgba(0, 0, 0, 0);
-    appearance: initial;
-    text-indent: -999em;
-        outline: none;
+
+.add_buisness_photo_add-input {
+  display: block;
+  width: 99.9%;
+  height: 80px;
+  background-image: url('./style/imgs/add.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: none;
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  appearance: initial;
+  text-indent: -999em;
+  outline: none;
 }
+
 .custom-select_goal {
 }
+
 .custom-select_category {
 }
+
 .custom-select_fealliet {
 }
-.add_buisness_container-button{
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
+
+.add_buisness_container-button {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
-.add_buisness_container_text{
-    font-weight: 500;
+
+.add_buisness_container_text {
+  font-weight: 500;
 }
-.add_buisness_container-button button{
-    background-color: #FFDE5A;
-    height: 100%; 
-    font-size: 20px;   
-    padding: 9px 65px 9px 65px;
-    border-radius: 30px;
-    font-weight: 500;
-    
+
+.add_buisness_container-button button {
+  background-color: #FFDE5A;
+  height: 100%;
+  font-size: 20px;
+  padding: 9px 65px 9px 65px;
+  border-radius: 30px;
+  font-weight: 500;
+
 }
+
 /**************Стили варианта выбора города*****************/
 /**************Стили варианта выбора города*****************/
 /**************Стили варианта выбора города*****************/
@@ -221,7 +273,7 @@
   z-index: 99;
   font-size: 18px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 15px;
 }
 
@@ -234,6 +286,7 @@
 .same-as-selected5 {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 /**************Стили цели продажи******************/
 /**************Стили цели продажи******************/
 /**************Стили цели продажи******************/
@@ -241,85 +294,85 @@
 /**************Стили цели продажи******************/
 /*the container must be positioned relative:*/
 .custom-select_goal {
-    position: relative;
-    font-family: Arial;
-        border-radius: 30px;
-        width: 100%;
-        height: 100%;
-        border: 2px solid #47A8E5;
-  }
-  
-  .custom-select_goal select {
-    display: none; /*hide original SELECT element:*/
-      border-radius: 30px;
-      border: 2px solid #47A8E5;
+  position: relative;
+  font-family: Arial;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #47A8E5;
+}
 
-  }
-  
-  .select-selected_goal {
+.custom-select_goal select {
+  display: none; /*hide original SELECT element:*/
+  border-radius: 30px;
+  border: 2px solid #47A8E5;
 
-      border-radius: 30px;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 20px;
-      color: #081534;
-      background-color: #fff;
-      border: 2px solid #47A8E5;
-  }
-  
-  /*style the arrow inside the select element:*/
-  .select-selected_goal:after {
-    position: absolute;
-    content: "";
-    top: 19px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #081534 transparent transparent transparent;
-  }
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  .select-selected_goal.select-arrow-active_goal:after {
-    border-color: transparent transparent #081534 transparent;
-    top: 13px;
-  }
-  
-  /*style the items (options), including the selected item:*/
-  .select-items_goal div,.select-selected_goal {
+}
 
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  /*style items (options):*/
-  .select-items_goal {
-    position: absolute;
-    background-color: #fff;
-    color: #081534;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    font-size: 18px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 15px;
-  }
-  
-  /*hide the items when the select box is closed:*/
-  .select-hide_goal {
-    display: none;
-  }
-  
-  .select-items_goal div:hover, .same-as-selected_goal {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+.select-selected_goal {
+
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47A8E5;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected_goal:after {
+  position: absolute;
+  content: "";
+  top: 19px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #081534 transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected_goal.select-arrow-active_goal:after {
+  border-color: transparent transparent #081534 transparent;
+  top: 13px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items_goal div, .select-selected_goal {
+
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items_goal {
+  position: absolute;
+  background-color: #fff;
+  color: #081534;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide_goal {
+  display: none;
+}
+
+.select-items_goal div:hover, .same-as-selected_goal {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 /**************Стили categories******************/
 /**************Стили categories******************/
@@ -330,31 +383,31 @@
 .custom-select_cats {
   position: relative;
   font-family: Arial;
-      border-radius: 30px;
-      width: 100%;
-      height: 100%;
-      border: 2px solid #47A8E5;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #47A8E5;
 }
 
 .custom-select_cats select {
   display: none; /*hide original SELECT element:*/
-    border-radius: 30px;
-    border: 2px solid #47A8E5;
+  border-radius: 30px;
+  border: 2px solid #47A8E5;
 
 }
 
 .select-selected_cats {
 
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    color: #081534;
-    background-color: #fff;
-    border: 2px solid #47A8E5;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47A8E5;
 }
 
 /*style the arrow inside the select element:*/
@@ -376,7 +429,7 @@
 }
 
 /*style the items (options), including the selected item:*/
-.select-items_cats div,.select-selected_cats {
+.select-items_cats div, .select-selected_cats {
 
   padding: 8px 16px;
   border: 1px solid transparent;
@@ -417,31 +470,31 @@
 .custom-select_feat {
   position: relative;
   font-family: Arial;
-      border-radius: 30px;
-      width: 100%;
-      height: 100%;
-      border: 2px solid #47A8E5;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #47A8E5;
 }
 
 .custom-select_feat select {
   display: none; /*hide original SELECT element:*/
-    border-radius: 30px;
-    border: 2px solid #47A8E5;
+  border-radius: 30px;
+  border: 2px solid #47A8E5;
 
 }
 
 .select-selected_feat {
 
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    color: #081534;
-    background-color: #fff;
-    border: 2px solid #47A8E5;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47A8E5;
 }
 
 /*style the arrow inside the select element:*/
@@ -463,7 +516,7 @@
 }
 
 /*style the items (options), including the selected item:*/
-.select-items_feat div,.select-selected_feat {
+.select-items_feat div, .select-selected_feat {
 
   padding: 8px 16px;
   border: 1px solid transparent;
@@ -494,6 +547,7 @@
 .select-items_feat div:hover, .same-as-selected_feat {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
 /**************Стили ******************/
 /**************Стили ******************/
 /**************Стили ******************/
@@ -503,30 +557,30 @@
 .custom-select {
   position: relative;
   font-family: Arial;
-      border-radius: 30px;
-      width: 100%;
-      height: 100%;
-      border: 2px solid #47A8E5;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #47A8E5;
 }
 
 .custom-select select {
   display: none; /*hide original SELECT element:*/
-    border-radius: 30px;
-    border: 2px solid #47A8E5;
+  border-radius: 30px;
+  border: 2px solid #47A8E5;
 
 }
 
 .select-selected {
-    border-radius: 30px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    color: #081534;
-    background-color: #fff;
-    border: 2px solid #47A8E5;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: #081534;
+  background-color: #fff;
+  border: 2px solid #47A8E5;
 }
 
 /*style the arrow inside the select element:*/
@@ -548,11 +602,11 @@
 }
 
 /*style the items (options), including the selected item:*/
-.select-items div,.select-selected {
+.select-items div, .select-selected {
 
   padding: 8px 16px;
   border: 1px solid transparent;
- 
+
   cursor: pointer;
   user-select: none;
 }
@@ -581,40 +635,26 @@
 }
 
 
+.add__buisness_text_area__maxsymbols {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #c0c0c0;
+}
 
+.add_buisness__accept-desc {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 25px 0 p 15px 0px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  .add__buisness_text_area__maxsymbols{
-    font-size: 14px;
-    margin-top: 4px;
-    color: #c0c0c0;
-  }
-  .add_buisness__accept-desc{
-    font-size: 16px;
-    line-height: 23px;
-    margin: 25px 0p 15px 0px;
-  }
 /*********Стили галочки чекбокса****************/
 /*********Стили галочки чекбокса****************/
 /*********Стили галочки чекбокса****************/
-.add_buisness__accept{
+.add_buisness__accept {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .container {
   display: block;
   position: relative;
@@ -683,99 +723,126 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.add_buisness__element-input{
+
+.add_buisness__element-input {
   position: relative;
 }
-.required__field_login{
+
+.required__field_login {
   position: absolute;
   margin-top: 7px;
-    width: 100%;
-    text-align: center;
-    color: red;
-    font-size: 15px;
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 15px;
 }
+
 .add_buisness__element {
-  margin-top: 29px;margin-bottom: 15px;
+  margin-top: 29px;
+  margin-bottom: 15px;
 }
-.add_buisness_bottom_block{
+
+.add_buisness_bottom_block {
   width: 93%;
   margin: 0 auto;
 }
-.add_buisness__element_image{
+
+.add_buisness__element_image {
   margin-top: 0px;
   margin-bottom: 28px;
+  justify-content: start;
+  margin-top: 40px;
 }
-.add_buisness_container_text{
+
+.add_buisness_container_text {
   margin-top: 33px;
   font-weight: 600;
 }
-  @media only screen and (max-width: 1201px){
-    .add_buisness__element-input{
+
+@media only screen and (max-width: 1201px) {
+  .add_buisness__element-input {
       width: 70%;
-    }
   }
-  @media only screen and (max-width: 1001px){
-    .add_buisness_container{
+}
+
+@media only screen and (max-width: 1001px) {
+  .add_buisness_container {
       padding: 15px 10px 15px 10px;
-    }
   }
-  @media only screen and (max-width: 769px){
-    .add_buisness_wrapper{
+}
+
+@media only screen and (max-width: 769px) {
+  .add_buisness_wrapper {
       width: 95%;
-    }
-    .add_buisness__element-desc{
+  }
+
+  .add_buisness__element-desc {
       font-size: 18px;
-    }
-    .add_buisness_container{
+  }
+
+  .add_buisness_container {
       padding: 15px 10px 15px 10px;
-    }
-    .add_buisness__element-map{
+  }
+
+  .add_buisness__element-map {
       width: 70%;
-    }
-    .add_buisness_container_text{
+  }
+
+  .add_buisness_container_text {
       margin-bottom: 15px;
-    }
-    .add_buisness_container_wrapper{
+  }
+
+  .add_buisness_container_wrapper {
       flex-direction: column-reverse;
-    }
-    .add_buisness_container_1{
+  }
+
+  .add_buisness_container_1 {
       width: 90%;
       margin: 0 auto;
-    }
-    .add_buisness_container_1:first-child{
-      order: 2;
-    }
-
   }
-  @media only screen and (max-width: 426px){
-    .add_buisness_container_1{
+
+  .add_buisness_container_1:first-child {
+      order: 2;
+  }
+
+}
+
+@media only screen and (max-width: 426px) {
+  .add_buisness_container_1 {
       width: 100%;
 
-    }
-    .add_buisness_container{
+  }
+
+  .add_buisness_container {
       padding: 20px 15px 20px 15px;
-    }
-    .add_buisness__element{
+  }
+
+  .add_buisness__element {
       flex-direction: column;
-    }
-    .add_buisness__element-desc{
+  }
+
+  .add_buisness__element-desc {
       margin-bottom: 7px;
       width: 100%;
       text-align: left;
-    }
-    .add_buisness__element-input{
-      width: 100%;
-    }
-    .add_buisness__element-map{
-      width: 100%;
-    }
   }
-  @media only screen and (max-width: 326px){
-    .add_buisness__element-desc{
-      font-size: 16px;
-    }
-    .custom-select_category option{
-      font-size: 16px;
-    }
 
+  .add_buisness__element-input {
+      width: 100%;
   }
+
+  .add_buisness__element-map {
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  .add_buisness__element-desc {
+      font-size: 16px;
+  }
+
+  .custom-select_category option {
+      font-size: 16px;
+  }
+
+}
