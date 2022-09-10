@@ -722,6 +722,7 @@ input[type="number"] {
   top: 0;
 
   object-fit: contain;
+  width: 100%;
 }
 /**********************/
 .search__background__container{
@@ -1616,6 +1617,13 @@ input[type="number"] {
   .custom-select3 {
     width: 50%;
   }
+  .search__promotext_block{
+    width: 70%;
+  }
+  .search__promotext_text{
+    font-size: 60px;
+    line-height: 75px;
+  }
 }
 @media only screen and (max-width: 1441px) {
   .search_name_desc{
@@ -1693,6 +1701,10 @@ input[type="number"] {
     }
     .select-selected3.select-arrow-active3:after{
       top: 9px;
+    }
+    .search__promotext_text{
+      font-size: 50px;
+      line-height: 70px;
     }
 }
 @media only screen and (max-width: 1380px) {
@@ -1785,6 +1797,14 @@ input[type="number"] {
   }
   .status__container__wrapper {
     width: 36%;
+  }
+  .search__promotext_block{
+    top: 83px;
+    width: 70%;
+  }
+  .search__promotext_text{
+    font-size: 50px;
+    line-height: 70px;
   }
 }
 @media only screen and (max-width: 1200px){
