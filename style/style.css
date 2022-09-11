@@ -1518,7 +1518,13 @@ input[type="number"] {
   width: 100%;
 }
 
-
+@media only screen and (max-width: 1825px){
+  .search__background_image {
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+}
+}
 
 @media only screen and (max-width: 1601px) {
   .search__square__min {
