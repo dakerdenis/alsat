@@ -6,7 +6,7 @@
 
 
 <div class="product__remark_wrapper">
-    <div class="product__remark_block product__remark_block-green">
+    <div class="product__remark_block ">
         <p>Неудачное объявление</p>
     </div>
 </div>
