@@ -148,6 +148,12 @@
 }
 
 /***********************************/
+@media only screen and (max-width:1680px){
+    .elelement__block{
+        width: 47%;
+    }
+
+}
 @media only screen and (max-width:1620px){
     .element_image{
         height: 17em;
