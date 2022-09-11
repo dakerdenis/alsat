@@ -3,6 +3,15 @@
 </style>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+<div class="product__remark_wrapper">
+    <div class="product__remark_block product__remark_block-green">
+        <p>Неудачное объявление</p>
+    </div>
+</div>
+
+
 <div class="product_wrapper">
     <!-- навигация и номер обьявления--->
     <div class="product__desc">
