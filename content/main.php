@@ -1,6 +1,7 @@
 <!--стили главной страницы-->
 <style>
-    <?php include './content/main.css'; ?><?php include './content/block.css'; ?>
+    <?php include './content/main.css'; ?>
+    <?php include './content/block.css'; ?>
 </style>
 <div class="filter__wrapper">
     <div class="filter__container">
@@ -43,39 +44,23 @@
 
 
 <div class="content__wrapper">
-    <!-- контейнер -->
-    <div class="content_wrapper_4elements">
-        <!-- 2 элемента контейнер -->
-        <div class="content_wrapper_2elements">
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-        </div>
-        <div class="content_wrapper_2elements">
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-        </div>
-    </div>
 
-    <div class="content_wrapper_4elements">
-        <!-- 2 элемента контейнер -->
-        <div class="content_wrapper_2elements">
             <!--element block -->
             <?php include './content/block.php'; ?>
-            <!--element block -->
+                        <!--element block -->
+                        <?php include './content/block.php'; ?>
+                                    <!--element block -->
             <?php include './content/block.php'; ?>
-        </div>
-        <!-- 2 элемента контейнер -->
-        <div class="content_wrapper_2elements">
-            <!--element block -->
+                        <!--element block -->
+                        <?php include './content/block.php'; ?>
+                                    <!--element block -->
             <?php include './content/block.php'; ?>
-            <!--element block -->
+                        <!--element block -->
+                        <?php include './content/block.php'; ?>
+                                    <!--element block -->
             <?php include './content/block.php'; ?>
-        </div>
-    </div>
+                        <!--element block -->
+                        <?php include './content/block.php'; ?>
 
 </div>
 
