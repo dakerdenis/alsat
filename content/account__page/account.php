@@ -357,6 +357,13 @@
                 </div>
             </div>
             <!-- my elements wrapper -->
+            <!--Блок для пользователя если он ещё ничего не добавил--->
+            <div class="add__element_block">
+                <div>
+                    <p>Добавьте своё первое объявление !</p>
+                    <a href="#">Добавить объявление</a>
+                </div>
+            </div>
             <div class="account__elements__wrapper lock-padding">
                 <!----Верифицированный блок  одобренный----->
                 <?php include './content/account__page/account_block_verified.php' ?>
