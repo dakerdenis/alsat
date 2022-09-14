@@ -11,7 +11,7 @@
       <!--navigation element-->
       <div class="header_nav_element">
         <img src="./style/imgs/franceise.svg" alt="" srcset="">
-        <a href="./index.php?source=main&content=avadanliq">Francayzinqler</a>
+        <a href="./index.php?source=main&content=avadanliq">Françayzinqlər</a>
       </div>
       <!--navigation element-->
       <div class="header_nav_element">
@@ -93,7 +93,7 @@
                 <select id="my_select">
                   <option defaultSelected value="0">Kategoriyalar</option>
                   <option value="0">Kategoriyalar</option>
-                  <option value="1">Restoran</option>
+                  <option value="1">Образовательный центр даунов</option>
                   <option value="2">Kafe</option>
                   <option value="3">Studia</option>
                   <option value="4">Zavod</option>

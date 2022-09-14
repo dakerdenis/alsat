@@ -781,7 +781,7 @@ input[type="number"] {
 .search__block_block {
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 48%;
 }
 .search__block__square {
   width: 100%;
@@ -833,7 +833,7 @@ input[type="number"] {
 }
 
 .search__block_block2 {
-  width: 68%;
+  width: 50%;
 
   border: 2px solid #47a8e5;
   border-radius: 30px;
@@ -1417,8 +1417,11 @@ input[type="number"] {
 .status__container__wrapper{
   width: 30%;
 }
-.search__how_tobuy{
-  width: 48%;
+.search__block_block .search__how_tobuy:first-child{
+  width: 30%;
+}
+.search__block_block .search__how_tobuy:last-child{
+  width: 60%;
 }
 
 /*******СТИЛИ ПОПАПА КАРТЫ***********/
@@ -1553,9 +1556,12 @@ input[type="number"] {
     object-fit: cover;
     height: 100%;
 }
-}
 
-@media only screen and (max-width: 1601px) {
+}
+@media only screen and (max-width: 1620px){
+  
+}
+@media only screen and (max-width: 1650px) {
   .search__square__min {
     padding-right: 18px;
     border: none;
@@ -1631,13 +1637,28 @@ input[type="number"] {
     width: 60%;
 
   }
+  .search__block_block{
+    width: 49%;
+  }
+  .search__block_block2{
+    width: 50%;
+  }
+  .search__block_block .search__how_tobuy:first-child{
+    width: 29%;
+  }
+  .search__block_block .search__how_tobuy:last-child{
+    width: 69%;
+  }
+  .search__block__price{
+    width: 49%;
+  }
 }
 @media only screen and (max-width: 1530px) {
   .search__block__button button {
     padding: 0px 25px 0px 25px;
   }
   .search__block_block {
-    width: 40%;
+    width: 49%;
   }
   .search__block_block2 {
     width: 50%;
@@ -1658,6 +1679,15 @@ input[type="number"] {
   .search__promotext_text{
     font-size: 60px;
     line-height: 75px;
+  }
+  .search__block_block .search__how_tobuy:first-child{
+    width: 25%;
+  }
+  .search__block_block .search__how_tobuy:last-child{
+    width: 74%;
+  }
+  .search__block__price{
+    width: 49%;
   }
 }
 @media only screen and (max-width: 1441px) {
@@ -1740,6 +1770,15 @@ input[type="number"] {
     .search__promotext_text{
       font-size: 50px;
       line-height: 70px;
+    }
+    .search__block_block .search__how_tobuy:first-child{
+      width: 29%;
+    }
+    .search__block_block .search__how_tobuy:last-child{
+      width: 69%;
+    }
+    .search__block__price{
+      width: 49%;
     }
 }
 @media only screen and (max-width: 1380px) {
@@ -1828,7 +1867,7 @@ input[type="number"] {
     font-size: 17px;
   }
   .search__block_block{
-    width: 44%;
+    width: 49%;
   }
   .status__container__wrapper {
     width: 36%;
@@ -1841,7 +1880,20 @@ input[type="number"] {
     font-size: 50px;
     line-height: 70px;
   }
+  .search__block_block .search__how_tobuy:first-child{
+    width: 25%;
+  }
+  .search__block_block .search__how_tobuy:last-child{
+    width: 74%;
+  }
+  .search__block__price{
+    width: 49%;
+  }
+  .select-items div, .select-selected{
+    font-size: 17px;
+  }
 }
+
 @media only screen and (max-width: 1200px){
   .header__form{
       width: 70%;
