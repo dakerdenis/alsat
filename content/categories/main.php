@@ -5,7 +5,7 @@
 
 
             <!-- 2 элемента контейнер -->
-            <div>
+            <div class="elements_buisness_container">
                 <!--Block name -->
                 <div class="four__block_buisness__name">
                     <img src="https://placehold.jp/3d4070/ffffff/28x28.png" alt="" class="four__block_buisness__name-img">
@@ -27,7 +27,7 @@
 
 
             <!-- 2 элемента контейнер -->
-            <div >
+            <div class="elements_buisness_container">
                 <!--Block name -->
                 <div class="four__block_buisness__name">
                     <img src="https://placehold.jp/3d4070/ffffff/28x28.png" alt="" class="four__block_buisness__name-img">
@@ -52,7 +52,7 @@
 
 
             <!-- 2 элемента контейнер -->
-            <div >
+            <div class="elements_buisness_container">
                 <!--Block name -->
                 <div class="four__block_buisness__name">
                     <img src="https://placehold.jp/3d4070/ffffff/28x28.png" alt="" class="four__block_buisness__name-img">
@@ -74,7 +74,7 @@
 
 
             <!-- 2 элемента контейнер -->
-            <div >
+            <div class="elements_buisness_container">
                 <!--Block name -->
                 <div class="four__block_buisness__name">
                     <img src="https://placehold.jp/3d4070/ffffff/28x28.png" alt="" class="four__block_buisness__name-img">
