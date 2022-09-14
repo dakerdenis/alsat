@@ -1,7 +1,6 @@
 <!--стили главной страницы-->
 <style>
-    <?php include './content/main.css'; ?>
-    <?php include './content/block.css'; ?>
+    <?php include './content/main.css'; ?><?php include './content/block.css'; ?>
 </style>
 <div class="filter__wrapper">
     <div class="filter__container">
@@ -45,23 +44,35 @@
 
 <div class="content__wrapper">
 
-            <!--element block -->
-            <?php include './content/block.php'; ?>
-                        <!--element block -->
-                        <?php include './content/block.php'; ?>
-                                    <!--element block -->
-            <?php include './content/block.php'; ?>
-                        <!--element block -->
-                        <?php include './content/block.php'; ?>
-                                    <!--element block -->
-            <?php include './content/block.php'; ?>
-                        <!--element block -->
-                        <?php include './content/block.php'; ?>
-                                    <!--element block -->
-            <?php include './content/block.php'; ?>
-                        <!--element block -->
-                        <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
+    <!--element block -->
+    <?php include './content/block.php'; ?>
 
+</div>
+<div class="pagination__block">
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
 </div>
 
 <!--Advertisement block -->

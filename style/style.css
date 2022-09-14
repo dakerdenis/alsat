@@ -1518,6 +1518,35 @@ input[type="number"] {
   width: 100%;
 }
 
+.pagination__block{
+
+  margin-top: 35px;
+  padding-top: 35px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: rgba(227, 227, 227, 0.4);
+  transition: background-color .3s;
+}
+.pagination a:first-child{
+  background-color: rgba(227, 227, 227, 0.0);
+}
+.pagination a:last-child{
+  background-color: rgba(227, 227, 227, 0.0);
+}
+.pagination a.active {
+  background-color: #081534;
+  color: white;
+}
+
 @media only screen and (max-width: 1825px){
   .search__background_image {
     top: 0;
