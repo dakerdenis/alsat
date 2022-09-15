@@ -685,7 +685,7 @@ input[type="number"] {
 .dropdown-content1 {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 32px;
   right: 0;
   width: auto;
   background-color: #f1f0f0;
@@ -938,6 +938,7 @@ input[type="number"] {
   border-right: 2px solid #47a8e5;
   padding-right: 10px;
   padding-left: 10px;
+  align-items: center;
 }
 .search__price__min input {
   width: 100%;
@@ -948,6 +949,7 @@ input[type="number"] {
   color: #081534;
   width: 40%;
   padding-left: 10px;
+  align-items: center;
 }
 .search__price__max input {
   width: 100%;

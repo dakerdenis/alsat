@@ -4,25 +4,11 @@
 </style>
 <div class="filter__wrapper">
     <div class="filter__container">
-
+        <div class="filter__block">
+            
         <div class="filter__desc">
             Filtr:
         </div>
-        <!------ Фильтр убирается до лучших времён
-
-            <div class="filter__element">
-                Yasayis Binasinda: 150
-            </div>
-            <div class="filter__element">
-                Ayri Objekt: 150
-            </div>
-            <div class="filter__element">
-                Biznes Merkezinde: 150
-            </div>
-            <div class="filter__element">
-                Daha Cox
-            </div>
-            ---->
         <!--Сортировка по чему либо--->
 
         <div class="custom-select" style="width:100%;">
@@ -35,6 +21,7 @@
             </select>
         </div>
 
+        </div>
 
     </div>
 </div>
