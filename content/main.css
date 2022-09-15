@@ -180,15 +180,31 @@
     width: 80%;
     margin: 0 auto;
     color: #081534;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+
+
 }
 .filter__container {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+}
+.category__name {
+  display: flex;
+  align-items: center;
+
+
+}
+.four__block_buisness__name-img {
+}
+.four__block_buisness__name-p {
+}
+.filter__block {
+  display: flex;
+  align-items: center;
+  width: 34%;
 }
 .filter__desc {
     font-size: 18px;
@@ -208,9 +224,7 @@
   width: 20%;
   height: 40px;
 }
-.filter__container{
-  width: 40%;
-}
+
 .pagination a:hover:not(.active) {background-color: #ddd;}
 .elements_buisness_container{
   width: 47%;

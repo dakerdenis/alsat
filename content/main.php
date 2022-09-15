@@ -4,22 +4,32 @@
 </style>
 <div class="filter__wrapper">
     <div class="filter__container">
-        <div class="filter__block">
-            
-        <div class="filter__desc">
-            Filtr:
-        </div>
-        <!--Сортировка по чему либо--->
 
-        <div class="custom-select" style="width:100%;">
-            <select>
-                <option value="0">Select car:</option>
-                <option value="1">Audi</option>
-                <option value="2">BMW</option>
-                <option value="3">Citroen</option>
-                <option value="4">Ford</option>
-            </select>
+
+        <div class="category__name">
+            <div class="categories__name__and_types_name">
+            Biznes satışı / Restoranlar
+
+            </div>
         </div>
+
+
+        <div class="filter__block">
+
+            <div class="filter__desc">
+                Filtr:
+            </div>
+            <!--Сортировка по чему либо--->
+
+            <div class="custom-select" style="width:100%;">
+                <select>
+                    <option value="0">Select car:</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Citroen</option>
+                    <option value="4">Ford</option>
+                </select>
+            </div>
 
         </div>
 
