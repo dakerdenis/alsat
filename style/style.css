@@ -1416,15 +1416,7 @@ input[type="number"] {
   width: 30px;
   height: 30px;
 }
-.status__container__wrapper{
-  width: 30%;
-}
-.search__block_block .search__how_tobuy:first-child{
-  width: 30%;
-}
-.search__block_block .search__how_tobuy:last-child{
-  width: 60%;
-}
+
 
 /*******СТИЛИ ПОПАПА КАРТЫ***********/
 /*******СТИЛИ ПОПАПА КАРТЫ***********/
@@ -1551,18 +1543,20 @@ input[type="number"] {
   background-color: #081534;
   color: white;
 }
-.filter__container{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.status__container__wrapper{
+  width: 30%;
 }
-.category__name {
+.search__block_block .search__how_tobuy:first-child{
+  width: 49%;
 }
-.four__block_buisness__name-img {
+.search__block_block .search__how_tobuy:last-child{
+  width: 49%;
 }
-.four__block_buisness__name-p {
+.search__block_block2{
+  width: 40%;
 }
-.filter__block {
+.search__block_block{
+  width: 59%;
 }
 @media only screen and (max-width: 1825px){
   .search__background_image {
@@ -1572,9 +1566,7 @@ input[type="number"] {
 }
 
 }
-@media only screen and (max-width: 1620px){
-  
-}
+
 @media only screen and (max-width: 1650px) {
   .search__square__min {
     padding-right: 18px;
@@ -1666,6 +1658,23 @@ input[type="number"] {
   .search__block__price{
     width: 49%;
   }
+
+  .search__block_block .search__how_tobuy:first-child{
+    width: 49%;
+  }
+  .search__block_block .search__how_tobuy:last-child{
+    width: 49%;
+  }
+  .search__block_block2{
+    width: 30%;
+  }
+  .search__block_block{
+    width: 69%;
+  }
+  .select-items div, .select-selected{
+    font-size: 17px;
+  }
+
 }
 @media only screen and (max-width: 1530px) {
   .search__block__button button {
@@ -1785,14 +1794,25 @@ input[type="number"] {
       font-size: 50px;
       line-height: 70px;
     }
-    .search__block_block .search__how_tobuy:first-child{
-      width: 29%;
-    }
-    .search__block_block .search__how_tobuy:last-child{
-      width: 69%;
-    }
     .search__block__price{
       width: 49%;
+    }
+
+
+    .search__block_block .search__how_tobuy:first-child{
+      width: 49%;
+    }
+    .search__block_block .search__how_tobuy:last-child{
+      width: 49%;
+    }
+    .search__block_block2{
+      width: 29%;
+    }
+    .search__block_block{
+      width: 70%;
+    }
+    .select-items div, .select-selected{
+      font-size: 17px;
     }
 }
 @media only screen and (max-width: 1380px) {
@@ -1902,6 +1922,21 @@ input[type="number"] {
   }
   .search__block__price{
     width: 49%;
+  }
+  .select-items div, .select-selected{
+    font-size: 17px;
+  }
+  .search__block_block .search__how_tobuy:first-child{
+    width: 49%;
+  }
+  .search__block_block .search__how_tobuy:last-child{
+    width: 49%;
+  }
+  .search__block_block2{
+    width: 29%;
+  }
+  .search__block_block{
+    width: 70%;
   }
   .select-items div, .select-selected{
     font-size: 17px;

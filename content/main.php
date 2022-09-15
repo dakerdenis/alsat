@@ -8,7 +8,7 @@
 
         <div class="category__name">
             <div class="categories__name__and_types_name">
-            Biznes satışı / Restoranlar
+                Biznes satışı / Restoranlar
 
             </div>
         </div>

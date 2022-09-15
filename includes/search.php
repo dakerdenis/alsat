@@ -80,7 +80,7 @@
                 <select id="">
                   <option defaultSelected value="0">Almaq</option>
                   <option value="0">Almaq</option>
-                  <option value="0">Satmaq</option>
+                  <option value="0">Сдача помещений в аренду</option>
                   <option value="1">Arenda</option>
                   <option value="2">Snos</option>
                 </select>
