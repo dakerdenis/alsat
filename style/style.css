@@ -2541,6 +2541,27 @@ input[type="number"] {
     display: none;
     visibility: hidden;
   }
+  .status__container__wrapper{
+    width: 100%;
+  }
+  .search__block_block{
+    flex-direction: column;
+    width: 100%;
+  }
+  .search__block_block .search__how_tobuy:first-child {
+    width: 100%;
+}
+.search__block_block .search__how_tobuy:last-child {
+  width: 100%;
+}
+.search__block__map_button{
+  flex-direction: column;
+}
+.search__block__map{
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
 }
 @media only screen and (max-width: 375px) {
   .search__wrapper_float .search__wrapper {
