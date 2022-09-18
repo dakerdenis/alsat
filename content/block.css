@@ -4,7 +4,7 @@
 
 .elelement__block {
     margin-top: 45px;
-    height: 32.75em;
+
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 18px;
@@ -178,7 +178,7 @@
 /***********************************/
 @media only screen and (max-width:1680px) {
     .elelement__block {
-        width: 23%;
+        width: 100%;
     }
 
     .content__wrapper_2blocks .elelement__block {
@@ -195,8 +195,8 @@
     .elelement__block {
 
         margin-top: 55px;
-        height: calc(32.75em - 5%);
-        width: 23%;
+
+
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;
@@ -209,8 +209,8 @@
     .elelement__block {
 
         margin-top: 55px;
-        height: 90%;
-        width: 48%;
+
+
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;
@@ -287,8 +287,8 @@
     .elelement__block {
 
         margin-top: 45px;
-        height: calc(32.75em - 14%);
-        width: 23%;
+
+
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;
@@ -364,12 +364,11 @@
 @media only screen and (max-width: 769px) {
     .content__wrapper_2blocks .elelement__block {
         width: 40%;
-        height: 100%;
+
     }
     .elelement__block {
         margin-top: 25px;
 
-        width: 40%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;
@@ -527,7 +526,7 @@
 
 @media only screen and (max-width: 450px) {
     .elelement__block {
-        width: 48%;
+
     }
 
     .element__content_wrapper {
@@ -548,7 +547,7 @@
     .elelement__block {
 
         margin-top: 25px;
-        width: 48%;
+
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 18px;
         overflow: hidden;

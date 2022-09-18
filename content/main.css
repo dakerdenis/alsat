@@ -280,6 +280,11 @@ padding: 0 30px;
 }
 @media only screen and (max-width: 1285px) {
 }
+@media (max-width: 1199.98px) {
+  .content_catalog_col {
+    width: 33.33333333% /* при ширине браузера меньше 1200px будет по 3 блока в ряд */;
+  }
+}
 @media only screen and (max-width: 1090px){
   
   .filter__wrapper {
@@ -307,6 +312,7 @@ padding: 0 30px;
     width: 40%;
   }
 }
+
 @media only screen and (max-width: 769px) {
   .content__wrapper {
     width: 95%;
@@ -444,6 +450,9 @@ padding: 0 30px;
   }
   .elements_buisness_container{
     width: 100%;
+  }
+  .content_catalog_col {
+    width: 50%; /* при ширине браузера меньше 1200px будет по 3 блока в ряд */;
   }
 }
 @media only screen and (max-width: 480px){

@@ -47,27 +47,30 @@
             <div class="content_catalog_col">
                 <?php include './content/block.php'; ?>
             </div>
-                        <!--element block -->
-                        <div class="content_catalog_col">
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
                 <?php include './content/block.php'; ?>
             </div>
                         <!--element block -->
                         <div class="content_catalog_col">
                 <?php include './content/block.php'; ?>
             </div>
-                        <!--element block -->
-                        <div class="content_catalog_col">
-                <?php include './content/block.php'; ?>
-            </div>
-                        <!--element block -->
-                        <div class="content_catalog_col">
-                <?php include './content/block.php'; ?>
-            </div>
-                        <!--element block -->
-                        <div class="content_catalog_col">
-                <?php include './content/block.php'; ?>
-            </div>
-
 
         </div>
     </div>
