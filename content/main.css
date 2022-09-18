@@ -576,4 +576,7 @@ padding: 0 30px;
     flex-direction: column;
     justify-content: space-between;
   }
+  .sell_find_buisness_button a{
+    padding: 7px 25px;
+  }
 }
