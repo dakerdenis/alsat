@@ -315,35 +315,38 @@
 }
 .product__price__money {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
 }
+
+
 .product__openclose_block {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-right: 35px;
-
+    margin-top: 20px;
 
 }
 .product__monthincome_block {
-    width: 50%;
+    margin-top: 20px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-right: 35px;
 }
 .product__percentage {
-    width: 50%;
-    margin-top: 15px;
+    width: 100%;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     padding-right: 35px;
 }
 .product__price__money-div{
     font-weight: 500;
-    border-right: 2px solid #47a8e5;
+
     padding-right: 8px;
 }
 .product__desc__addstyle{
