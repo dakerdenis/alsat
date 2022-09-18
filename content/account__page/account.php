@@ -335,25 +335,27 @@
                 <p class="account__elements_desc-name">
                     Mənim elanlarım
                 </p>
-                <div class="account__elements_desc-bullet">
+                <div class="account_element_desc_wrapper">
+                    <div class="account__elements_desc-bullet">
 
-                    <div class="__elements_desc-bullet_img"></div>
-                    <p>Aktiv</p>
-                </div>
-                <div class="account__elements_desc-bullet">
+                        <div class="__elements_desc-bullet_img"></div>
+                        <p>Aktiv</p>
+                    </div>
+                    <div class="account__elements_desc-bullet">
 
-                    <div class="__elements_desc-bullet_img __elements_desc-bullet_img_gray"></div>
-                    <p>Passiv</p>
-                </div>
-                <div class="account__elements_desc-bullet">
+                        <div class="__elements_desc-bullet_img __elements_desc-bullet_img_gray"></div>
+                        <p>Passiv</p>
+                    </div>
+                    <div class="account__elements_desc-bullet">
 
-                    <div class="__elements_desc-bullet_img __elements_desc-bullet_img_yellow"></div>
-                    <p>Yoxlanılır</p>
-                </div>
-                <div class="account__elements_desc-bullet">
+                        <div class="__elements_desc-bullet_img __elements_desc-bullet_img_yellow"></div>
+                        <p>Yoxlanılır</p>
+                    </div>
+                    <div class="account__elements_desc-bullet">
 
-                    <div class="__elements_desc-bullet_img __elements_desc-bullet_img_red"></div>
-                    <p>Rədd olunub</p>
+                        <div class="__elements_desc-bullet_img __elements_desc-bullet_img_red"></div>
+                        <p>Rədd olunub</p>
+                    </div>
                 </div>
             </div>
             <!-- my elements wrapper -->
