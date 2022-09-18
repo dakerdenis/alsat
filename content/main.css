@@ -211,7 +211,7 @@ padding: 0 30px;
 .filter__block {
   display: flex;
   align-items: center;
-  width: 34%;
+  width: 50%;
 }
 .filter__desc {
     font-size: 18px;
@@ -414,7 +414,7 @@ padding: 0 30px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    align-items: start;
+    align-items: center;
   }
   .filter__desc {
     margin-top: 9px;
@@ -461,10 +461,14 @@ padding: 0 30px;
   }
   .filter__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+
     flex-wrap: nowrap;
+  }
+  .filter__block{
+    margin-top: 10px;
+    width: 80%;
   }
   .filter__desc {
     margin-top: 9px;
@@ -512,6 +516,13 @@ padding: 0 30px;
   .filter__container .select-items{
     font-size: 16px;
   }
+  .content_catalog_col {
+    width: 50%; /* при ширине браузера меньше 1200px будет по 3 блока в ряд */;
+    padding: 0 7px 1px;
+  }
+  .content__wrapper{
+    padding: 0px;
+  }
 }
 @media only screen and (max-width: 376px) {
 
@@ -551,7 +562,10 @@ padding: 0 30px;
 }
 @media only screen and (max-width: 355px) {
   .month_income_price {
-    font-size: 7px;
+    font-size: 13px;
+  }
+  .percentage_block_percent{
+    font-size: 13px;
   }
   .element__content_wrapper {
     width: 100%;

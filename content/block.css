@@ -128,10 +128,11 @@
     color: rgb(8, 21, 52);
     font-size: 20px;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .percentage_block {
-    width: 40%;
+    width: 50%;
     border-right: 2px solid rgb(71, 168, 229);
 }
 
@@ -687,7 +688,7 @@
 
 @media only screen and (max-width: 355px) {
     .month_income_price {
-        font-size: 7px;
+        font-size: 13px;
     }
 
     .element__content_wrapper {
@@ -711,5 +712,22 @@
 
     .top_img- {
         width: 80%;
+    }
+    .percentage__income{
+        flex-direction: column;
+    }
+    .percentage_block{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+    .month_income{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;  
     }
 }
