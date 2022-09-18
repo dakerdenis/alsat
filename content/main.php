@@ -41,22 +41,36 @@
 
 <div class="content__wrapper">
 
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
-    <!--element block -->
-    <?php include './content/block.php'; ?>
+    <div class="content_catalog">
+        <div class="content_catalog__flex">
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+                        <!--element block -->
+                        <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+                        <!--element block -->
+                        <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+                        <!--element block -->
+                        <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+                        <!--element block -->
+                        <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+                        <!--element block -->
+                        <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+
+
+        </div>
+    </div>
 
 </div>
 <div class="pagination__block">

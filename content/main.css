@@ -1,12 +1,19 @@
 /**********main container***********/
 .content__wrapper {
-  width: 80%;
+  max-width: 1400px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: 100%;
+
+padding: 0 30px;
   background-color: #fff;
+}
+.content_catalog__flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+}
+.content_catalog_col{
+  width: 25%;
+  padding: 0 15px 30px;
 }
 /***************Контейнера*******************/
 .content_wrapper_4elements {
