@@ -2537,6 +2537,10 @@ input[type="number"] {
   .popup__map_container {
     border-radius: 0px 0px 10px 10px;
   }
+  #search__block__active p{
+    display: none;
+    visibility: hidden;
+  }
 }
 @media only screen and (max-width: 375px) {
   .search__wrapper_float .search__wrapper {

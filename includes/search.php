@@ -134,7 +134,7 @@
               </div>
             </div>
             <!---Наличие --->
-            <div class="search__block__active">
+            <div class="search__block__active" id="search__block__active">
               <p>Status</p>
               <div class="status__container__wrapper">
                 <div class="custom-select">
