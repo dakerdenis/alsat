@@ -2637,4 +2637,25 @@ input[type="number"] {
       overflow:  auto;
       filter: blur(0px);
   }
+  .search__promotext_text{
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .search__price__max p {
+    display: none;
+    visibility: hidden;
+  }
+  .search__price__min p {
+    display: none;
+    visibility: hidden;
+  }
+  .search__price__min input{
+    font-size: 15px;
+  }
+  .search__price__max input{
+    font-size: 15px;
+  }
+  .search__block__price p{
+    font-size: 14px;
+  }
 }
