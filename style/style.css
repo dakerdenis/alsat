@@ -1878,6 +1878,7 @@ input[type="number"] {
   }
   .search__block__active {
     font-size: 17px;
+    justify-content: space-between;
   }
   .select-selected3 {
     font-size: 17px;
@@ -1904,7 +1905,7 @@ input[type="number"] {
     width: 49%;
   }
   .status__container__wrapper {
-    width: 36%;
+    width: 54%;
   }
   .search__promotext_block{
     top: 83px;
