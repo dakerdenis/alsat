@@ -1,5 +1,7 @@
 <style>
-    <?php include './content/block.css'; ?><?php include './content/element.css'; ?>
+    <?php include './content/block.css'; ?>
+    <?php include './content/element.css'; ?>
+    <?php include './content/main.css'; ?>
 </style>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -353,11 +355,26 @@ for (i = 0; i < acc.length; i++) {
     <div class="recomendation__block__text">
         Похожие публикации
     </div>
-    <div class="element__fourblocks__wrapper">
-        <?php include './content/block_avadanliq.php' ?>
-        <?php include './content/block.php' ?>
-        <?php include './content/block.php' ?>
-        <?php include './content/block.php' ?>
+    <div class="content_catalog">
+        <div class="content_catalog__flex">
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+            <!--element block -->
+            <div class="content_catalog_col">
+                <?php include './content/block.php'; ?>
+            </div>
+
+        </div>
     </div>
 </div>
 

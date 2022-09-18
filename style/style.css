@@ -2563,6 +2563,9 @@ input[type="number"] {
   margin: 0;
   margin-bottom: 10px;
 }
+.search__price__min input{
+  font-size: 16px;
+}
 }
 @media only screen and (max-width: 375px) {
   .search__wrapper_float .search__wrapper {
