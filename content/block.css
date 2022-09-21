@@ -4,9 +4,7 @@
 
 .elelement__block {
     margin-top: 45px;
-
-
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgb(0 0 0 / 35%) 0 0 3px;
     border-radius: 18px;
 
 }
@@ -53,7 +51,7 @@
 
 .element__content {
 
-    height: 13.1em;
+    height: 7.1em;
     width: 100%;
 }
 
@@ -732,6 +730,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border: none;  
+        border: none;
     }
 }
