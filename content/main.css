@@ -1,6 +1,6 @@
 /**********main container***********/
 .content__wrapper {
-  max-width: 1400px;
+  max-width: 1480px;
   margin: 0 auto;
 
 padding: 0 30px;
@@ -240,6 +240,14 @@ padding: 0 30px;
   width: 47%;
 }
 @media only screen and (max-width: 1690px) {
+  .content__wrapper {
+    max-width: 1320px;
+  }
+}
+@media only screen and (max-width: 1580px) {
+  .content__wrapper {
+    max-width: 1240px;
+  }
 }
 @media only screen and (max-width: 1450px) {
   .content_wrapper_2elements-buisness2 .elelement__block {
@@ -275,17 +283,28 @@ padding: 0 30px;
   .select-selectedfilter.select-arrow-activefilter:after{
     top: 7px;
   }
-
+  .content__wrapper {
+    max-width: 1140px;
+  }
 
 }
 @media only screen and (max-width: 1368px) {
-  
+  .content__wrapper {
+    max-width: 1080px;
+  }
 }
 @media only screen and (max-width: 1285px) {
+
+  .content__wrapper {
+    max-width: 1020px;
+  }
 }
 @media (max-width: 1199.98px) {
   .content_catalog_col {
     width: 33.33333333% /* при ширине браузера меньше 1200px будет по 3 блока в ряд */;
+  }
+  .content__wrapper {
+    max-width: 950px;
   }
 }
 @media only screen and (max-width: 1090px){
