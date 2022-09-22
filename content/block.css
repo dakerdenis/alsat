@@ -234,7 +234,7 @@
     }
 
     .element_image {
-        height: calc(19.625em - 15%);
+        height: 16em;
         overflow: hidden;
     }
 
@@ -312,7 +312,7 @@
     }
 
     .element_image {
-        height: calc(19.625em - 14%);
+        height: 15em;
         overflow: hidden;
     }
 
@@ -392,7 +392,7 @@
     }
 
     .element_image {
-
+        height: 12em;
         overflow: hidden;
     }
 
@@ -571,7 +571,7 @@
     }
 
     .element_image {
-        height: calc(19.625em - 40%);
+        height: 12em;
         overflow: hidden;
     }
 
