@@ -11,6 +11,13 @@
                             <img class="favorite__block__image_not" src="./style/imgs/fav_main.svg" alt="" srcset="">
                             <img class="favorite__block__image_yes"  src="./style/imgs/fav2.svg" alt="" srcset="">
                         </div>
+
+                        <!--То что выведено в топ как в bina az-->
+                        <div class="make_top_block">
+                            <div class="make_top_image">
+                                <img src="./style/imgs/top2.png" alt="">
+                            </div>
+                        </div>
                     </div>
                     <!--element content -->
                     <div class="element__content">
