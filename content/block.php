@@ -46,7 +46,7 @@
                                         </div>
                                         <!--Top -->
                                         <div class="top_img-">
-                                            <img src="./style/imgs/top.png" alt="">
+                                            <!--img src="./style/imgs/top.png" alt=""-->
                                         </div>
                                     </div>
                                 </div>

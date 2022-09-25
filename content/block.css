@@ -177,6 +177,27 @@
     width: 48%;
 }
 /***********************************/
+.make_top_block {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    right: 3%;
+    bottom: 29%;
+
+}
+.make_top_image {
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    padding: 3px 0px;
+    display: flex;
+}
+.make_top_image img {
+    padding: 0px 3px;
+    height: 100%;
+    object-fit: contain;
+}
 @media only screen and (max-width:1680px) {
     .elelement__block {
         width: 100%;
@@ -186,7 +207,15 @@
         width: 48%;
         height: 100%;
     }
-
+    .make_top_block {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        right: 3%;
+        bottom: 32%;
+    
+    }
 }
 
 @media only screen and (max-width:1620px) {
@@ -512,6 +541,15 @@
     .sell_find_buisness_button {
         padding-top: 38px;
     }
+    .make_top_block {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        right: 3%;
+        bottom: 36%;
+    
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -541,6 +579,15 @@
     .content__wrapper_2blocks .elelement__block {
         width: 48%;
         height: 100%;
+    }
+    .make_top_block {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        right: 3%;
+        bottom: 32%;
+    
     }
 }
 
@@ -685,6 +732,15 @@
         height: 22px;
         padding: 1px;
     }
+    .make_top_block {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        right: 3%;
+        bottom: 30%;
+    
+    }
 }
 
 @media only screen and (max-width: 355px) {
@@ -730,5 +786,14 @@
         flex-direction: row;
         justify-content: space-between;
         border: none;
+    }
+    .make_top_block {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        right: 3%;
+        bottom: 31%;
+    
     }
 }
