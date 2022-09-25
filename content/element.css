@@ -537,7 +537,9 @@
     color: rgb(0, 44, 0);
 
 }
-
+#zoom{
+    filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.99));
+}
 @media only screen and (max-device-width: 1680px){
     .element__block{
         width: 22%;
