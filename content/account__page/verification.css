@@ -149,13 +149,14 @@
 .popup__content__block_buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .popup__content__block-button {
     margin-top: 10px;
     
     background: linear-gradient( #f5ad19 ,#f1431d);
-    width: 30%;
+    width: 40%;
     height: 60px;
     color: #fff;
     border-radius: 15px;
