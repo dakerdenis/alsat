@@ -382,7 +382,7 @@ margin-bottom: 5px;
     justify-content: space-between;
 }
 .popup__content__block-button {
-    margin-top: 10px;
+
     
     background: linear-gradient( #f5ad19 ,#f1431d);
     width: 32%;
@@ -395,6 +395,7 @@ margin-bottom: 5px;
     justify-content: space-between;
     cursor: pointer;
     transition: ease-in-out 0.5s;
+    margin: 10px 4px 0px 4px;
 }
 .popup__content__block-button:hover{
     background: linear-gradient( #f1431d,#f5ad19 );
