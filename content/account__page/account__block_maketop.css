@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width:1600px){
     .elelement__block2{
-        transform: scale(0.8);
+        transform: scale(1);
     }
 }
 

@@ -515,7 +515,7 @@ margin-bottom: 5px;
 @media only screen and (max-width: 1368px){}
 @media only screen and (max-width: 769px){
     .popup__content{
-        padding: 10px 8px 10px 8px;
+        padding: 13px;
 
     }
     .popup .elelement__block  {
@@ -526,6 +526,7 @@ margin-bottom: 5px;
         text-align: center;
     
     }
+
        /****************************/
 /****************************/
 /****************************/
@@ -798,6 +799,9 @@ margin-bottom: 5px;
 }
 .popup__payment__info {
     font-size: 18px;
+}
+.popup__content__block-button {
+    width: 44%;
 }
 /****************************/
 /****************************/
