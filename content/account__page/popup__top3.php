@@ -36,7 +36,7 @@
                                     <!--кнопка-->
                                     <div class="popup__content__block-button">
                                         <p class="popup__content__block-daysp">x1 день</p>
-                                        <p class="popup__content__block-ammountp">5 fasf<span>AZN</span></p>
+                                        <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
                                     </div>
                                     <!--кнопка-->
                                     <div class="popup__content__block-button">

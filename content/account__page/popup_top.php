@@ -15,7 +15,7 @@
                         <div class="popup__content__block_container">
                             <!---иконка вывода в топ--->
                             <div class="popup__content__block-icon">
-                            <img src="./style/imgs/top.svg" alt="">
+                                <img src="./style/imgs/top.svg" alt="">
                             </div>
                             <!---контент с кнопками выбора--->
                             <div class="popup__content__block-block">
@@ -43,8 +43,8 @@
                                         <p class="popup__content__block-daysp">x1 день</p>
                                         <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
                                     </div>
-                                                                        <!--кнопка-->
-                                                                        <div class="popup__content__block-button">
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
                                         <p class="popup__content__block-daysp">x1 день</p>
                                         <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
                                     </div>
@@ -85,8 +85,8 @@
                                         <p class="popup__content__block-daysp">x1 день</p>
                                         <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
                                     </div>
-                                                                        <!--кнопка-->
-                                                                        <div class="popup__content__block-button">
+                                    <!--кнопка-->
+                                    <div class="popup__content__block-button">
                                         <p class="popup__content__block-daysp">x1 день</p>
                                         <p class="popup__content__block-ammountp">5 <span>AZN</span></p>
                                     </div>
