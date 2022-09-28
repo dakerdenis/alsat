@@ -307,7 +307,11 @@ margin-bottom: 5px;
 @media only screen and (max-width:1820px){
 
 }
-
+@media only screen and (max-width:1651px){
+    .popup__content {
+        width: 60%;
+    }
+}
 @media only screen and (max-width:1450px){
     .popup__payment__desc {
         width: 80%;
@@ -386,7 +390,7 @@ margin-bottom: 5px;
 
     
     background: linear-gradient( #f5ad19 ,#f1431d);
-    width: 32%;
+    width: 46%;
     height: 60px;
     color: #fff;
     border-radius: 15px;
@@ -504,7 +508,9 @@ margin-bottom: 5px;
 /****************************/
 /****************************/
 /****************************/
-
+.popup__content {
+    width: 60%;
+}
 }
 @media only screen and (max-width: 1368px){}
 @media only screen and (max-width: 769px){
