@@ -857,6 +857,12 @@ margin-bottom: 5px;
     .popup__content__block-button {
         width: 90%;
     }
+    .popup__content__block2 {
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
 }
 @media only screen and (max-width: 376px){
 
