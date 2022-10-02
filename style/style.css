@@ -2385,7 +2385,7 @@ input[type="number"] {
 }
 .search__block__map p {
   font-size: 15px;
-}  
+}
 }
 @media only screen and (max-width: 450px){
   .header__desc_block-small p {
@@ -2665,4 +2665,13 @@ input[type="number"] {
   .search__block__price p{
     font-size: 14px;
   }
+}
+
+/*MAP*/
+#fullMap {
+    height: 900px;
+}
+
+.gm-ui-hover-effect {
+    display: none !important;
 }
