@@ -149,13 +149,14 @@
 .popup__content__block_buttons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .popup__content__block-button {
     margin-top: 10px;
     
     background: linear-gradient( #f5ad19 ,#f1431d);
-    width: 30%;
+    width: 40%;
     height: 60px;
     color: #fff;
     border-radius: 15px;
@@ -306,7 +307,11 @@ margin-bottom: 5px;
 @media only screen and (max-width:1820px){
 
 }
-
+@media only screen and (max-width:1651px){
+    .popup__content {
+        width: 60%;
+    }
+}
 @media only screen and (max-width:1450px){
     .popup__payment__desc {
         width: 80%;
@@ -382,10 +387,10 @@ margin-bottom: 5px;
     justify-content: space-between;
 }
 .popup__content__block-button {
-    margin-top: 10px;
+
     
     background: linear-gradient( #f5ad19 ,#f1431d);
-    width: 32%;
+    width: 46%;
     height: 60px;
     color: #fff;
     border-radius: 15px;
@@ -395,6 +400,7 @@ margin-bottom: 5px;
     justify-content: space-between;
     cursor: pointer;
     transition: ease-in-out 0.5s;
+    margin: 10px 4px 0px 4px;
 }
 .popup__content__block-button:hover{
     background: linear-gradient( #f1431d,#f5ad19 );
@@ -502,12 +508,14 @@ margin-bottom: 5px;
 /****************************/
 /****************************/
 /****************************/
-
+.popup__content {
+    width: 60%;
+}
 }
 @media only screen and (max-width: 1368px){}
 @media only screen and (max-width: 769px){
     .popup__content{
-        padding: 10px 8px 10px 8px;
+        padding: 13px;
 
     }
     .popup .elelement__block  {
@@ -518,6 +526,7 @@ margin-bottom: 5px;
         text-align: center;
     
     }
+
        /****************************/
 /****************************/
 /****************************/
@@ -791,6 +800,9 @@ margin-bottom: 5px;
 .popup__payment__info {
     font-size: 18px;
 }
+.popup__content__block-button {
+    width: 44%;
+}
 /****************************/
 /****************************/
 /****************************/
@@ -841,6 +853,15 @@ margin-bottom: 5px;
     .form-input label{
         padding: 10px;
         font-size: 15px;
+    }
+    .popup__content__block-button {
+        width: 90%;
+    }
+    .popup__content__block2 {
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
     }
 }
 @media only screen and (max-width: 376px){

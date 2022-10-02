@@ -44,9 +44,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--percentage and month income -->
+                            <!--percentage and month income
                             <div class="percentage__income">
-                                <!--percentage-->
+
                                 <div class="percentage_block">
                                     <p class="percentage_block_type">
                                         Biznes %
@@ -55,7 +55,7 @@
                                         100%
                                     </p>
                                 </div>
-                                <!-- Ayliq income -->
+
                                 <div class="month_income">
                                     <p class="month_income_desc">
                                         Ayliq gəlir
@@ -65,6 +65,7 @@
                                     </p>
                                 </div>
                             </div>
+        -->
                         </div>
                         <?php include './content/account__page/verified.php' ?>
                     </div>
