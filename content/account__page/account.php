@@ -368,7 +368,7 @@
             </div>
             <div class="account__elements__wrapper lock-padding">
                 <!----Верифицированный блок  одобренный----->
-                <?php include './content/account__page/account_block_verified.php' ?>
+                <?php include './content/block.php' ?>
                 <!----Верифицированный блок  одобренный----->
                 <?php include './content/account__page/account_block_verified.php' ?>
 

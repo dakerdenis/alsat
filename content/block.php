@@ -16,6 +16,7 @@
                         <div class="make_top_block">
                             <div class="make_top_image">
                                 <img src="./style/imgs/top2.png" alt="">
+                                <img src="./style/imgs/top2.png" alt="">
                             </div>
                         </div>
                     </div>
