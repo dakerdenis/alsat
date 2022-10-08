@@ -321,6 +321,15 @@
                                 <img src="./style/imgs/etrafli.svg" alt="">
                                 <p>Hamısını</p>
                             </a>
+                            
+                        </div>
+                        <div class="_additional__files-block1">
+                            <a href="#" class="_additional__files-block-block">
+                                <img src="./style/imgs/etrafli.svg" alt="">
+                                <p>Partnyorlar haqqında</p>
+                            </a>
+
+                            
                         </div>
                     </div>
 

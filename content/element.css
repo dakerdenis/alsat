@@ -440,11 +440,12 @@
 ._additional__files-block1 {
     display: flex;
     justify-content: space-between;
-
+    margin-top: 18px;
+    margin-bottom: 18px;
 
 }
 ._additional__files-block1:nth-child(2){
-    margin-top: 18px;
+
 }
 ._additional__files-block-block {
     width: 48.5%;
