@@ -58,6 +58,7 @@
 .element__price {
     font-size: 24px;
     font-weight: 600;
+    color: #000;
 }
 .element__type {
     padding-top: 5px;
