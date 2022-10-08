@@ -1558,6 +1558,56 @@ input[type="number"] {
 .search__block_block{
   width: 59%;
 }
+
+
+
+
+/**********page 404***************/
+.page404__wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.page404__content {
+  margin: 0 auto;
+
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.9em;
+}
+.page404__content__back{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.page404__content__back span {
+  display: block;
+  color: #47A8E5;
+}
+.page404__content__back a {
+  display: block;
+  color: #BDBDBD;
+  text-decoration: none;
+}
+.page404__content__back a:hover{
+  color: #0f80c7;
+}
+.page404__404 {
+  margin-top: 1.5em;
+  font-size: 35px;
+  font-weight: 600;
+}
+.page404__text {
+  font-size: 26px;
+  color: #000;
+  margin-top: 1.3em;
+}
+.page404__text a {
+  color:#47A8E5;
+}
 @media only screen and (max-width: 1825px){
   .search__background_image {
     top: 0;
@@ -2396,6 +2446,13 @@ input[type="number"] {
   }
   .header__desc_block p {
       font-size: 20px;
+  }
+  .page404__wrapper {
+    width: 95%;
+  }
+  .page404__content{
+    max-width: 100%;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 426px) {

@@ -420,7 +420,7 @@
         <div class="page404__wrapper">
             <div class="page404__content">
                 <div class="page404__content__back">
-                    <p>на главную</p><span>/404</span>
+                    <a href="#">на главную &nbsp;/</a> <span> &nbsp; 404</span>
                 </div>
                 <div class="page404__404">
                     <p>404</p>
@@ -429,7 +429,7 @@
                     <p>Axtardığınız səhifə mövcud deyil</p>
                 </div>
                 <div class="page404__text">
-                    <p><a href="#">Əsas səhifəyə</a>keçmək</p>
+                    <p><a href="#">Əsas səhifəyə</a> keçmək</p>
                 </div>
                 <div class="page404__text">
                     <p><a href="#">Saytın xəritəsinə</a> keçmək</p>
