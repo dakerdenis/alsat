@@ -33,9 +33,9 @@
 <body>
     <!---забыл куда до этого пихал стили для отдельной страницы без больших надписей---->
     <style>
-        .header_nav_wrap{
-    padding-left: 10.5%;
-}
+        .header_nav_wrap {
+            padding-left: 10.5%;
+        }
     </style>
 
 
@@ -199,7 +199,7 @@
                     <div class="header__form_language">
                         <p onclick="language()" class="dropbtn_language">
                             AZ
-                            
+
                         </p>
                         <div id="myDropdown_language" class="dropdown-content_language">
                             <a href="#">RU</a>
@@ -420,7 +420,19 @@
         <div class="page404__wrapper">
             <div class="page404__content">
                 <div class="page404__content__back">
-                    <p>на главную</p>
+                    <p>на главную</p><span>/404</span>
+                </div>
+                <div class="page404__404">
+                    <p>404</p>
+                </div>
+                <div class="page404__text">
+                    <p>Axtardığınız səhifə mövcud deyil</p>
+                </div>
+                <div class="page404__text">
+                    <p><a href="#">Əsas səhifəyə</a>keçmək</p>
+                </div>
+                <div class="page404__text">
+                    <p><a href="#">Saytın xəritəsinə</a> keçmək</p>
                 </div>
             </div>
         </div>
