@@ -17,6 +17,7 @@
     justify-content: space-between;
 }
 .product__navigation {
+    color: #808080
 }
 .product__number {
     display: flex;
