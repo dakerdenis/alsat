@@ -2570,11 +2570,6 @@ input[type="number"] {
   }
   .search__promotext_buttons{
     width: 100%;
-        display: flex;
-    flex-direction: column;
-    align-items: left;
-    position: relative;
-    flex-wrap: wrap;
   }
   .search__promo_button_add{
     font-size: 18px;
@@ -2628,13 +2623,6 @@ input[type="number"] {
 .search__price__min input{
   font-size: 16px;
 }
-.header__logo{
-  margin-left: 1.5em;
-}
-.header__logo img{
-  max-height: 50px;
-  transform: scale(0.8);
-}
 }
 @media only screen and (max-width: 375px) {
   .search__wrapper_float .search__wrapper {
@@ -2658,7 +2646,7 @@ input[type="number"] {
   .search__promotext_buttons{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    margin-top: 20px;
     align-items: left;
     position: relative;
   }
