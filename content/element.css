@@ -19,6 +19,9 @@
 .product__navigation {
     color: #808080
 }
+.product__navigation a {
+    color: #081534;
+}
 .product__number {
     display: flex;
     align-items: center;
