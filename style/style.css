@@ -1608,6 +1608,11 @@ input[type="number"] {
 .page404__text a {
   color:#47A8E5;
 }
+.file-error{
+  color: rgb(231, 20, 20);
+  text-align: center;
+  width: 100%;
+}
 @media only screen and (max-width: 1825px){
   .search__background_image {
     top: 0;
