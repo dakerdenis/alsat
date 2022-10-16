@@ -560,7 +560,6 @@
 
 @media only screen and (max-width: 600px) {
     .element__bookmark {
-        background-color: red;
         position: absolute;
         top: 3%;
         right: 4%;
