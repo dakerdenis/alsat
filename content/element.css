@@ -296,6 +296,13 @@
     padding: 8px 0px 8px 0px;
     border-radius: 25px;
 }
+.product__contact__block a {
+    color: #081534;
+    text-decoration: none;
+}
+.product__contact__block a:visited{
+    color: #081534;
+}
 .product__desc__name {
     width: 49%;
     height: 100%;
